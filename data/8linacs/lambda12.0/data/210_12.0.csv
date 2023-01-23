@@ -1,0 +1,6485 @@
+Name;210_12.0
+K;8
+S;120
+Lambda;12.0
+T;80
+scope in days;110
+noSimulationDays;30
+current day;0
+no patients;706
+index;treatmentID;patID;careplan;priority;noSections;admissionDay;releaseDay;dueDay;duration;TWMin;TWMax
+0;858;912;ORL Larynx local avancé avec chimio;P3;1;-1;0;0;7;30;90
+1;1366;1465;ORL Larynx local avancé avec boost;P3;2;-1;0;0;8;90;120
+2;70;74;ORL Larynx local avancé avec boost;P3;4;-1;0;0;7;0;30
+3;768;817;ORL Oropharynx avec chimio RA;P3;2;-1;0;0;7;0;120
+4;460;497;ORL Oropharynx sans chimio;P3;3;-1;0;0;8;0;120
+5;1880;2075;PMN PMN gating chimio séquentielle;P4;4;-1;0;0;18;0;120
+6;3599;4010;PRO Loge prostatique (sans installation grains);P4;4;-1;0;0;5;0;30
+7;1365;1464;ORL Larynx local avancé avec boost;P3;6;-1;0;0;7;90;120
+8;636;682;ORL Oropharynx avec chimio RA;P3;5;-1;0;0;7;90;120
+9;58;62;ORL Cav. nas. sin. max. chimio;P3;8;-1;0;0;7;0;120
+10;2446;2731;DIG Anus;P3;6;-1;0;0;7;0;120
+11;687;737;ORL Oropharynx sans chimio RA;P3;6;-1;0;0;8;90;120
+12;1902;2098;PMN PMN non pt cell chimio-conco;P3;6;-1;0;0;8;0;120
+13;2177;2420;PMN PMN non pt cell chimio-conco;P3;6;-1;0;0;8;90;120
+14;4228;4688;NEU Gliome grade3 1p19qnégatif;P3;4;-1;0;0;5;0;30
+15;57;61;ORL Oreille;P4;7;-1;0;0;8;0;30
+16;584;628;ORL Cavité buccale sans chimio RA;P3;7;-1;0;0;8;0;120
+17;1364;1463;ORL Larynx stade précoce T2;P3;4;-1;0;0;8;0;30
+18;4217;4677;NEU GBM1PL30;P3;4;-1;0;0;7;90;120
+19;1124;1207;DIG Anus;P3;6;-1;0;0;8;0;120
+20;4428;4909;ORL Primaire inconnu sans chimio RA;P3;6;-1;0;0;8;0;120
+21;414;448;ORL Oropharynx sans chimio RA;P3;9;-1;0;0;8;0;120
+22;1314;1412;ORL Larynx local avancé avec boost;P3;12;-1;0;0;7;0;120
+23;4432;4913;ORL Primaire inconnu avec chimio RA;P3;10;-1;0;0;8;90;120
+24;806;855;ORL Nasopharynx RA;P3;10;-1;0;0;8;0;120
+25;1905;2101;PMN PMN Port;P4;4;-1;0;0;8;0;120
+26;4411;4893;NEU Hypophyse 30 fr;P4;7;-1;0;0;7;30;90
+27;1363;1462;ORL Larynx stade précoce T2;P3;6;-1;0;0;8;30;90
+28;1360;1459;ORL Larynx stade précoce T1;P3;5;-1;0;0;8;0;120
+29;1126;1210;DIG Anus;P3;10;-1;0;0;8;0;120
+30;1441;1550;PMN PMN non pt cell chimio-conco;P3;12;-1;0;0;6;0;30
+31;3309;3675;GYN Col pelvien 1pl + 5 HDR;P3;3;-1;0;0;7;30;90
+32;1039;1111;DIG Rectum;P3;7;-1;0;0;8;30;90
+33;3585;3996;PRO Loge prostatique (sans installation grains);P4;14;-1;0;0;5;90;120
+34;1879;2074;PMN PMN non pt cell chimio-conco;P3;15;-1;0;0;8;0;120
+35;813;864;ORL Nasopharynx RA;P3;15;-1;0;0;6;0;30
+36;157;174;SEI Sein axsc cmi TOMO;P4;7;-1;0;0;6;0;120
+37;3075;3433;SEI Sein abches 15;P4;2;-1;0;0;6;0;120
+38;3588;3999;PRO Loge prostatique (sans installation grains);P4;16;-1;0;0;5;30;90
+39;2560;2876;Paroi axsc cmi TOMO;P4;8;-1;0;0;6;0;120
+40;262;282;PRO Loge prostatique (sans installation grains);P4;16;-1;0;0;5;90;120
+41;817;869;ORL Nasopharynx RA;P3;16;-1;0;0;6;0;30
+42;409;443;ORL Oropharynx avec chimio RA;P3;16;-1;0;0;6;0;120
+43;855;909;ORL Larynx local avancé avec chimio;P3;18;-1;0;0;6;0;120
+44;1370;1469;ORL Larynx post op canule avec chimio RA;P3;16;-1;0;0;8;0;120
+45;2179;2424;PMN PMN non pt cell chimio-conco;P3;17;-1;0;0;6;30;90
+46;4159;4619;NEU Méningiome grade 1 TOMO;P4;14;-1;0;0;5;0;120
+47;3591;4002;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;4;-1;0;0;5;0;120
+48;255;275;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;4;-1;0;0;5;0;120
+49;3557;3968;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;4;-1;0;0;5;0;30
+50;2724;3052;SEI Sein 15;P4;3;-1;0;0;6;30;90
+51;2345;2617;ORL Cav. nas. sin. max. sans chimio RA;P3;17;-1;0;0;6;0;120
+52;3373;3747;GYN Endo lopel 2pl + 2 HDR;P4;17;-1;0;0;5;0;120
+53;405;439;ORL Cavité buccale chimio RA;P3;14;-1;0;0;6;0;30
+54;3577;3988;PRO Loge prostatique (sans installation grains);P4;18;-1;0;0;5;0;30
+55;2540;2854;PED Ped Abdo;P3;18;-1;0;0;11;0;30
+56;494;531;ORL Cavité buccale chimio RA;P3;15;-1;0;0;6;0;120
+57;2965;3323;SEI Sein 15;P4;4;-1;0;0;5;0;120
+58;3561;3972;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;5;-1;0;0;6;0;120
+59;3590;4001;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;5;-1;0;0;5;30;90
+60;3555;3966;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;5;-1;0;0;5;0;120
+61;2645;2965;SEI Sein axsc cmi TOMO;P4;10;-1;0;0;6;90;120
+62;1035;1107;DIG Rectum;P3;11;-1;0;0;6;0;120
+63;2732;3060;SEI Sein 15;P4;2;-1;0;0;8;0;120
+64;415;449;ORL Oropharynx sans chimio RA;P3;21;-1;0;0;8;0;120
+65;2276;2530;NEU Neuro Cranio-spinal (crâne + colonne);P3;7;-1;0;0;5;0;30
+66;4262;4724;NEU GBM1PL30;P3;17;-1;0;0;6;0;120
+67;3367;3738;Endo pelv  2pl;P4;12;-1;0;0;6;90;120
+68;2971;3329;SEI Sein 15;P4;3;-1;0;0;6;0;120
+69;3567;3978;PRO RECH Prostate 924 HDR - sans RM;P4;14;-1;0;0;5;0;30
+70;643;691;ORL Oropharynx sans chimio RA;P3;22;-1;0;0;6;0;30
+71;3581;3992;PRO Prostate risq intermédiaire HDR pré RTE - sans RM;P4;4;-1;0;0;5;0;30
+72;73;77;ORL Larynx stade précoce T2;P3;9;-1;0;0;8;0;120
+73;1284;1379;ORL Cav. nas. sin. max. sans chimio;P3;19;-1;0;0;6;90;120
+74;4429;4910;ORL Primaire inconnu sans chimio RA;P3;22;-1;0;0;8;0;120
+75;1362;1461;ORL Larynx stade précoce T1;P3;17;-1;0;0;6;0;30
+76;2837;3165;SEI Sein 15;P4;8;-1;0;0;6;0;120
+77;4421;4902;ORL Para ganglion;P3;14;-1;0;0;6;0;120
+78;4;6;ORL Cavité buccale sans chimio RA;P3;19;-1;0;0;5;0;30
+79;1038;1110;DIG Rectum;P3;15;-1;0;0;6;30;90
+80;1037;1109;DIG Rectum;P3;15;-1;0;0;6;0;120
+81;218;239;Endo pelv  2pl;P4;23;-1;0;0;6;30;90
+82;939;1001;HEM Lymphome estomac 4D;P3;5;-1;0;0;6;90;120
+83;759;809;ORL Larynx local avancé avec boost;P3;25;-1;0;0;6;0;120
+84;692;742;ORL Oropharynx avec chimio RA;P3;24;-1;0;0;6;0;120
+85;408;442;ORL Oropharynx avec chimio RA;P3;24;-1;0;0;6;0;30
+86;1117;1200;DIG Anus;P3;24;-1;0;0;6;0;30
+87;134;148;PMN PMN Crâne prophylaxique;P4;2;-1;0;0;6;90;120
+88;4231;4691;NEU Méningiome grade 2-3;P3;22;-1;0;0;6;0;120
+89;316;343;HEM Lymphome abdomen;P3;4;-1;0;0;5;0;120
+90;256;276;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;13;-1;0;0;5;0;120
+91;2812;3139;SEI Sein axsc;P4;22;-1;0;0;6;0;120
+92;3378;3752;GYN Endo lopel 2pl + 3 HDR;P4;16;-1;0;0;6;30;90
+93;1559;1712;PMN S PMN S CK Marqueur;P3;2;-1;0;0;18;0;120
+94;4431;4912;ORL Primaire inconnu avec chimio RA;P3;27;-1;0;0;6;90;120
+95;4245;4707;NEU GBM1PL30;P3;25;-1;0;0;6;0;120
+96;816;868;ORL Nasopharynx RA;P3;28;-1;0;0;6;0;120
+97;4437;4918;ORL Glandes salivaires;P4;29;-1;0;0;6;0;120
+98;1080;1163;DIG Rectum short course;P3;1;-1;0;0;6;90;120
+99;2725;3053;SEI Sein 15;P4;11;-1;0;0;6;0;120
+100;3596;4007;PRO Prostate haut risque + HDR (Bassin inclus) - sans RM;P4;13;-1;0;0;5;90;120
+101;2546;2861;SEI Sein 15;P4;16;-1;0;0;6;30;90
+102;2979;3337;SEI Sein 15;P4;12;-1;0;0;6;0;120
+103;2854;3182;SEI Sein 15;P4;12;-1;0;0;6;0;120
+104;2609;2927;SEI Sein 15;P4;12;-1;0;0;6;0;30
+105;2281;2535;ORL Cav. nas. sin. max. sans chimio;P3;28;-1;0;0;6;0;120
+106;640;688;ORL Oropharynx avec chimio RA;P3;31;-1;0;0;6;0;30
+107;3547;3958;DIG Rectum;P3;23;-1;0;0;6;0;120
+108;3280;3646;GYN Endo 1pl + 4 HDR;P3;21;-1;0;0;6;90;120
+109;595;640;ORL Glandes salivaires RA;P3;29;-1;0;0;6;90;120
+110;1956;2165;PMN S PMN S CK Test Xlung;P3;5;-1;0;0;18;0;120
+111;3325;3692;COL S Colonne t2 ad thx lomb sacré RA;P3;5;-1;0;0;15;0;120
+112;3571;3982;PRO S RECH Prostate CK (Hypo 2);P4;4;-1;0;0;12;30;90
+113;2845;3173;SEI Sein 15;P4;14;-1;0;0;6;0;120
+114;3564;3975;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;19;-1;0;0;5;0;120
+115;2794;3122;SEI Sein axsc cmi;P4;28;-1;0;0;6;0;120
+116;2730;3058;SEI Sein partiel OPAR;P4;5;-1;0;0;6;0;30
+117;160;177;Sein axsc;P4;25;-1;1;1;15;90;120
+118;220;241;GYN Endo lopel 1pl + 3 HDR;P4;22;-1;1;1;6;90;120
+119;118;130;PMN S PMN S RA sans compression;P3;3;-1;2;2;9;90;120
+120;1561;1714;PMN S PMN S CK Marqueur;P3;5;-1;3;3;21;30;90
+121;642;690;ORL Oropharynx avec chimio RA;P3;33;-1;2;2;6;30;90
+122;410;444;ORL Oropharynx avec chimio RA;P3;33;-1;2;2;6;30;90
+123;1439;1548;PMN PMN non pt cell chimio-conco TEP;P3;33;-1;2;2;6;90;120
+124;4272;4734;NEU Neuro Cranio-spinal (crâne + colonne);P3;33;-1;2;2;9;0;120
+125;4212;4672;NEU Neuro Cranio-spinal (crâne + colonne);P3;33;-1;3;3;9;0;120
+126;950;1014;DIG S Dig S CK / RA + test clips;P3;3;-1;4;4;18;0;120
+127;1212;1302;DIG S Dig S RA compression;P3;3;-1;3;3;9;0;30
+128;550;591;ORL Cavité buccale chimio RA;P3;30;-1;4;4;6;0;30
+129;1900;2096;PMN PMN non pt cell chimio-conco;P3;30;-1;4;4;6;0;120
+130;506;543;ORL Cavité buccale chimio RA;P3;33;-1;4;4;6;0;120
+131;564;607;ORL Cavité buccale sans chimio RA;P3;30;-1;4;4;6;0;120
+132;1390;1490;ORL Larynx local avancé avec boost;P3;38;-1;4;4;6;90;120
+133;579;622;ORL Cavité buccale sans chimio RA;P3;33;-1;4;4;6;90;120
+134;4412;4894;NEU Hypophyse 30 fr;P4;27;-1;2;2;5;0;120
+135;3600;4011;PRO Loge prostatique (sans installation grains);P4;33;-1;4;4;6;0;120
+136;297;321;THY Thyr RTE CURATIF;P4;33;-1;4;4;6;30;90
+137;1268;1361;ORL Cav. nas. sin. max. sans chimio avec bolus RA;P3;30;-1;4;4;6;0;120
+138;3019;3377;SEI Paroi axsc cmi abches;P4;25;-1;4;4;6;0;120
+139;261;281;PRO Loge prostatique (sans installation grains);P4;25;-1;4;4;5;90;120
+140;1241;1334;DIG Pancréas pré op;P3;5;-1;4;4;6;0;120
+141;115;126;PMN S PMN S CK Marqueur;P3;3;-1;5;5;18;30;90
+142;75;79;PMN S PMN S CK Marqueur;P3;3;-1;5;5;18;0;120
+143;178;195;PMN S PMN S RA sans compression;P3;5;-1;4;4;9;90;120
+144;3412;3787;GYN Endo pelv 1pl + 2 HDR;P4;25;-1;5;5;5;0;120
+145;4473;4958;HEM Lymphome Axillaire;P3;5;-1;5;5;6;0;120
+146;1094;1177;DIG S Dig S CK marqueurs;P3;3;-1;6;6;18;0;120
+147;840;893;ORL Larynx local avancé avec boost;P3;35;-1;5;5;6;90;120
+148;814;865;ORL Nasopharynx RA;P3;33;-1;5;5;6;0;30
+149;2473;2769;PEA Peau Électron;P4;25;-1;5;5;8;90;120
+150;639;687;ORL Oropharynx avec chimio RA;P3;33;-1;5;5;6;90;120
+151;4379;4860;PED Ped Abdo;P3;12;-1;5;5;9;0;120
+152;3592;4003;PRO Prostate haut risq (Bassin inclus) Hypo - sans RM;P4;25;-1;6;6;5;0;120
+153;2962;3320;SEI Sein 15;P4;15;-1;6;6;6;0;30
+154;3573;3984;RECH Prostate 924 HDR - sans RM;P4;25;-1;6;6;6;30;90
+155;158;175;SEI Sein 25;P4;25;-1;6;6;6;90;120
+156;2948;3306;DIG S Dig S RA compression;P3;3;-1;6;6;9;0;120
+157;4352;4823;THY Thyr RTE CURATIF;P4;33;-1;6;6;6;0;120
+158;563;606;ORL Oropharynx sans chimio RA;P3;33;-1;6;6;6;0;30
+159;637;683;ORL Oropharynx avec chimio RA;P3;33;-1;6;6;6;0;120
+160;4344;4811;COL S Colonne cerv ad t2 RA;P3;2;-1;7;7;9;0;120
+161;3595;4006;PRO Prostate haut risque + HDR (Bassin inclus) - sans RM;P4;22;-1;7;7;5;0;120
+162;3575;3986;PRO S RECH Prostate CK (Hypo 2);P4;5;-1;7;7;12;30;90
+163;80;84;PMN S CK Marqueur;P3;3;-1;8;8;18;0;120
+164;3260;3626;GYN Vulve 3pl 37;P3;27;-1;7;7;6;30;90
+165;3288;3654;GYN Col pelvien 1pl + 5 HDR;P3;22;-1;7;7;6;0;120
+166;2292;2546;PED Ped Thorax;P3;10;-1;7;7;5;90;120
+167;2368;2646;PEA Cu Peau Ortho;P4;10;-1;7;7;9;90;120
+168;755;805;ORL Oropharynx sans chimio RA;P3;33;-1;7;7;6;0;120
+169;3278;3644;GYN Vagin;P3;33;-1;8;8;6;30;90
+170;4242;4704;NEU GBM1PL30;P3;30;-1;8;8;6;0;120
+171;2891;3224;COL S Colonne t2 ad thx lomb sacré RA;P3;10;-1;8;8;7;0;120
+172;4158;4618;NEU Méningiome grade 1 TOMO;P4;30;-1;7;7;5;0;30
+173;1558;1711;PMN S PMN S CK Marqueur;P3;3;-1;8;8;18;90;120
+174;1532;1678;COL S Colonne t2 ad thx lomb sacré RA;P3;3;-1;8;8;9;0;120
+175;4433;4914;ORL Primaire inconnu avec chimio RA;P3;5;-1;8;8;6;90;120
+176;1410;1510;ORL Larynx post op canule sans chimio RA;P3;30;-1;8;8;6;30;90
+177;2366;2644;PEA Peau IMRT;P4;12;-1;9;9;6;0;120
+178;3312;3678;GYN Col lombo pelvien 3pl + 5 HDR;P3;39;-1;9;9;6;0;120
+179;1903;2099;PMN PMN non pt cell sans chimio-conco;P3;15;-1;9;9;9;90;120
+180;95;101;PMN S PMN S RA avec compression;P3;3;-1;9;9;9;0;120
+181;769;818;ORL Oropharynx avec chimio RA;P3;33;-1;9;9;6;30;90
+182;3279;3645;GYN Vagin;P3;29;-1;9;9;6;30;90
+183;911;970;DIG Oesophage moyen distal;P3;23;-1;9;9;6;90;120
+184;3580;3991;PRO Prostate risq intermédiaire HDR pré RTE - sans RM;P4;15;-1;9;9;5;0;120
+185;206;227;Endo pelv 1pl + 3 HDR;P4;22;-1;9;9;6;0;30
+186;1346;1445;ORL Larynx local avancé avec boost;P3;35;-1;9;9;6;0;120
+187;916;975;DIG Oesophage moyen distal;P3;23;-1;9;9;6;0;120
+188;3380;3754;GYN Col pelvien 1pl + 5 HDR;P3;22;-1;9;9;6;0;120
+189;3594;4005;PRO Prostate haut risque + HDR (Bassin inclus) - sans RM;P4;22;-1;10;10;5;0;30
+190;4308;4774;NEU S Neurinome ck;P4;1;-1;2;2;9;90;120
+191;3558;3969;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;20;-1;10;10;6;30;90
+192;1178;1266;DIG S Dig S RA compression;P3;5;-1;10;10;9;0;120
+193;1374;1473;ORL Larynx local avancé avec boost;P3;35;-1;10;10;6;0;120
+194;1036;1108;DIG Rectum;P3;25;-1;10;10;6;0;120
+195;756;806;ORL Oropharynx sans chimio RA;P3;33;-1;11;11;6;0;120
+196;3563;3974;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;39;-1;11;11;6;0;30
+197;4226;4686;NEU GBM1PL15;P3;10;-1;11;11;6;0;120
+198;3333;3700;GYN Endo pelv  2pl;P4;25;-1;10;10;5;0;30
+199;4229;4689;NEU Gliome grade3 1p19qnégatif;P3;33;-1;11;11;6;0;120
+200;936;998;DIG Estomac post op;P4;25;-1;11;11;5;0;120
+201;2819;3146;SEI Sein 15;P4;19;-1;11;11;6;0;120
+202;3299;3665;GYN Col pelvien 2 pl + 5 HDR;P3;27;-1;11;11;5;0;30
+203;2297;2556;PED Ped Thorax;P3;13;-1;11;11;6;90;120
+204;2297;2557;COL S Colonne t2 ad thx lomb sacré RA;P3;26;-1;11;11;5;0;120
+205;2199;2444;PMN S PMN S RA avec compression;P3;5;-1;12;12;9;0;120
+206;581;625;ORL Cavité buccale sans chimio RA;P3;30;-1;12;12;6;90;120
+207;2697;3025;SEI Paroi axsc cmi TOMO;P4;25;-1;12;12;6;0;30
+208;3582;3993;PRO Prostate risq intermédiaire HDR pré RTE - sans RM;P4;15;-1;12;12;5;0;120
+209;203;224;GYN Endo lopel 2pl + 3 HDR;P4;33;-1;12;12;5;90;120
+210;679;727;ORL Oropharynx avec chimio RA;P3;33;-1;12;12;6;0;120
+211;1908;2104;PMN PMN non pt cell chimio-conco;P3;33;-1;12;12;6;0;120
+212;527;565;ORL Larynx local avancé avec chimio;P3;35;-1;12;12;5;30;90
+213;4430;4911;ORL Primaire inconnu avec chimio RA;P3;33;-1;12;12;6;0;120
+214;691;741;ORL Oropharynx avec chimio RA;P3;33;-1;13;13;6;90;120
+215;251;271;PRO S RECH Prostate CK (Hypo 2);P4;5;-1;14;14;12;90;120
+216;4427;4908;ORL Oropharynx avec chimio RA;P3;33;-1;14;14;6;0;120
+217;185;203;NEU S Neuro meta CK;P2;1;-1;0;0;24;0;120
+218;1229;1323;DIG Pancréas pré op;P3;30;-1;14;14;6;0;30
+219;1578;1734;PAL S Pal SBRT;P3;3;-1;14;14;9;90;120
+220;3570;3981;PRO S RECH Prostate CK (Hypo 2);P4;5;-1;15;15;12;0;30
+221;1034;1106;DIG Rectum;P3;25;-1;14;14;6;0;120
+222;1963;2174;PMN S PMN S CK Marqueur;P3;3;-1;16;16;18;90;120
+223;3011;3369;SEI Paroi axsc cmi TOMO;P4;25;-1;15;15;6;30;90
+224;3973;4406;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;20;-1;14;14;5;0;120
+225;1434;1541;PMN PMN non pt cell sans chimio-conco;P3;22;-1;15;15;6;0;120
+226;4380;4862;COL S Colonne t2 ad thx lomb sacré RA;P3;3;-1;15;15;9;0;120
+227;2050;2272;PMN S PMN S RA avec ceinture;P3;3;-1;16;16;9;0;120
+228;2049;2270;PMN S PMN S RA avec ceinture;P3;5;-1;16;16;9;0;120
+229;500;537;ORL Cavité buccale sans chimio RA;P3;30;-1;15;15;6;30;90
+230;3399;3773;GYN Endo pelv pré op sans chimio;P3;22;-1;16;16;6;90;120
+231;2369;2647;PEA Cu Peau Ortho;P4;9;-1;17;17;9;0;30
+232;3550;3961;PRO RECH Prostate 924 (Bassin inclus);P4;44;-1;17;17;6;90;120
+233;522;560;ORL Cavité buccale chimio RA;P3;33;-1;16;16;5;0;120
+234;2379;2657;ORL Cavité buccale sans chimio RA;P3;33;-1;17;17;6;0;30
+235;121;133;PMN S PMN S RA sans compression;P3;5;-1;17;17;11;90;120
+236;2349;2621;ORL Oreille RA;P3;22;-1;17;17;6;0;120
+237;3549;3960;PRO RECH Prostate 924 (Bassin inclus);P4;44;-1;17;17;5;0;30
+238;1227;1321;DIG Pancréas pré op;P3;28;-1;17;17;6;90;120
+239;3569;3980;PRO S RECH Prostate CK (Hypo 2);P4;5;-1;17;17;12;30;90
+240;78;82;PMN S PMN S RA sans compression;P3;5;-1;17;17;9;0;120
+241;216;237;GYN Endo lopel  2pl;P4;25;-1;18;18;6;0;120
+242;4160;4620;NEU Méningiome grade 1 IMRT;P4;30;-1;18;18;5;90;120
+243;163;180;SEI Sein axsc;P4;25;-1;18;18;6;0;120
+244;2847;3175;SEI Sein 15;P4;19;-1;18;18;6;0;30
+245;2612;2930;SEI Sein 15;P4;15;-1;18;18;6;30;90
+246;1966;2180;PMN S PMN S CK Marqueur;P3;3;-1;19;19;18;0;120
+247;4338;4804;NEU S Méningiome grade 1 CK;P4;1;-1;13;13;9;0;120
+248;2720;3048;SEI Sein 15;P4;19;-1;18;18;6;0;120
+249;2647;2967;SEI Sein abches 15;P4;20;-1;18;18;6;0;30
+250;1964;2175;PMN S PMN S CK Marqueur;P3;5;-1;19;19;18;30;90
+251;730;780;ORL Oropharynx avec chimio;P3;33;-1;19;19;6;90;120
+252;4434;4915;ORL Oropharynx avec chimio RA;P3;33;-1;19;19;6;0;120
+253;453;490;ORL Oropharynx avec chimio RA;P3;33;-1;19;19;6;0;120
+254;1375;1474;ORL Larynx local avancé avec boost;P3;35;-1;20;20;6;0;120
+255;45;49;PMN S PMN S CK Marqueur;P3;3;-1;21;21;18;0;30
+256;2698;3026;SEI Sein 15;P4;19;-1;21;21;6;90;120
+257;2422;2702;ORL Glandes salivaires;P4;33;-1;21;21;6;30;90
+258;2525;2836;SAR Sarcome thorax 4D;P3;25;-1;21;21;5;0;120
+259;1577;1733;PAL S Pal SBRT;P3;3;-1;22;22;11;0;120
+260;4354;4824;THY Thyr RTE CURATIF;P4;30;-1;21;21;6;90;120
+261;2670;2998;SEI Sein abches 15;P4;19;-1;22;22;11;0;120
+262;4503;4988;COL S Colonne t2 ad thx lomb sacré RA;P3;15;-1;22;22;6;0;120
+263;4413;4895;NEU Hypophyse 30 fr;P4;30;-1;22;22;6;0;30
+264;3976;4409;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;20;-1;22;22;6;0;30
+265;3556;3967;PRO Prostate risq intermédiaire hypofr. - sans RM;P4;5;-1;22;22;6;0;30
+266;2808;3135;SEI Sein axsc;P4;29;-1;22;22;6;90;120
+267;2807;3134;SEI Sein axsc;P4;25;-1;22;22;6;0;120
+268;1143;1227;DIG S Dig S CK marqueurs;P3;3;-1;24;24;18;90;120
+269;2154;2389;NEU Meta pancranien 10 fr;P2;6;-1;0;0;6;0;120
+270;2640;2960;SEI Sein 15;P4;15;-1;22;22;6;0;120
+271;3009;3367;SEI Paroi sc;P4;25;-1;21;21;5;90;120
+272;2722;3050;SEI Sein 15;P4;19;-1;22;22;6;30;90
+273;167;184;SEI Sein 15;P4;19;-1;23;23;6;30;90
+274;2669;2997;SEI Sein abches 15;P4;15;-1;24;24;11;0;120
+275;2728;3056;SEI Sein 15;P4;15;-1;23;23;6;0;120
+276;2859;3187;SEI Sein partiel OPAR;P4;5;-1;23;23;6;0;120
+277;2950;3308;SEI Sein 15;P4;15;-1;24;24;6;30;90
+278;1671;1844;PAL Pal 30en10 IMRT;P2;7;-1;0;0;6;0;120
+279;457;494;ORL Oropharynx sans chimio RA;P3;30;-1;24;24;6;0;30
+280;638;686;ORL Oropharynx avec chimio RA;P3;33;-1;24;24;6;0;120
+281;822;875;ORL Nasopharynx RA;P3;33;-1;24;24;6;0;120
+282;454;491;ORL Oropharynx avec chimio RA;P3;33;-1;24;24;6;30;90
+283;586;630;ORL Cavité buccale sans chimio RA;P3;30;-1;24;24;6;0;120
+284;2137;2370;NEU S Neuro meta CK;P2;1;-1;0;0;12;0;30
+285;4472;4957;PAL Pal 20en5 RA;P2;2;-1;0;0;6;0;120
+286;4422;4903;ORL Para ganglion;P3;25;-1;24;24;6;0;120
+287;2868;3198;COL S Colonne cerv ad t2 RA;P3;2;-1;25;25;9;0;120
+288;2827;3154;SEI Paroi axsc cmi TOMO;P4;25;-1;25;25;6;0;120
+289;2310;2572;PAL Pal 20en5 RA;P2;8;-1;0;0;7;90;120
+290;4081;4536;PAL Pal 0721RA;P2;1;-1;0;0;6;30;90
+291;110;120;PMN S PMN S RA sans compression;P3;5;-1;25;25;9;0;120
+292;452;489;ORL Oropharynx avec chimio RA;P3;33;-1;26;26;6;30;90
+293;4010;4443;PAL Pal 20en5 RA;P2;3;-1;0;0;6;0;120
+294;1168;1256;DIG S Dig S CK test clips;P3;3;-1;26;26;18;90;120
+295;113;123;PMN S PMN S CK Marqueur;P3;3;-1;27;27;18;0;120
+296;1433;1540;PMN PMN non pt cell chimio-conco;P3;33;-1;26;26;6;0;120
+297;3551;3962;PRO RECH Prostate 924 HDR;P4;25;-1;27;27;6;90;120
+298;1954;2163;PMN S PMN S CK Test Xlung;P3;3;-1;29;29;18;30;90
+299;3415;3790;GYN RECH Lunchbox Endo pelv  2pl;P4;25;-1;27;27;7;0;30
+300;125;137;PAL Pal 20en5 RA;P2;1;-1;0;0;5;90;120
+301;925;985;DIG Oesophage moyen distal;P3;25;-1;27;27;6;0;120
+302;720;769;ORL Oropharynx sans chimio RA;P3;33;-1;27;27;6;0;120
+303;1957;2166;PMN S PMN S CK Marqueur;P3;3;-1;29;29;18;30;90
+304;400;434;NEU S Hypophyse CK;P4;1;-1;28;28;9;0;30
+305;178;196;PEA Peau Électron;P4;5;-1;28;28;6;90;120
+306;458;495;ORL Oropharynx sans chimio RA;P3;33;-1;28;28;6;0;120
+307;717;766;ORL Oropharynx avec chimio RA;P3;33;-1;28;28;6;0;120
+308;3311;3677;GYN Col lombo pelvien 3pl + 5 HDR;P3;30;-1;29;29;5;0;120
+309;450;485;ORL Oropharynx avec chimio RA;P3;33;-1;29;29;6;90;120
+310;401;435;PMN PMN Pall basse dose;P3;2;-1;29;29;7;0;120
+311;852;906;ORL Larynx local avancé avec chimio;P3;35;-1;29;29;6;0;120
+312;3314;3680;GYN Col lombo pelvien 3pl + 5 HDR;P3;30;-1;29;29;5;0;120
+313;544;585;ORL ORL Palliatif IMRT;P2;4;-1;0;0;6;0;30
+314;3501;3884;PAL S Pal SBRT;P3;4;-1;30;30;9;90;120
+315;3323;3689;GYN Col lombo pelvien 2pl + 5 HDR;P3;27;-1;30;30;6;0;30
+316;1912;2108;NEU Meta pancranien 5 fr;P2;3;-1;0;0;6;90;120
+317;1353;1452;ORL Larynx stade précoce T1;P3;28;-1;30;30;6;0;30
+318;1955;2164;PMN S PMN S CK Marqueur;P3;5;-1;31;31;18;0;120
+319;4387;4869;NEU S Hypophyse CK;P4;1;-1;30;30;9;0;120
+320;598;644;PAL Pal 20en5 IMRT;P2;3;-1;0;0;6;0;120
+321;2649;2969;SEI Sein partiel OPAR;P4;5;-1;30;30;6;0;120
+322;2843;3171;SEI Sein 15;P4;15;-1;30;30;6;0;120
+323;526;564;ORL Cavité buccale sans chimio RA;P3;30;-1;30;30;6;0;120
+324;2729;3057;SEI Sein 15;P4;19;-1;31;31;6;0;120
+325;685;735;NEU Meta pancranien 5 fr;P2;5;-1;1;1;5;0;120
+326;4274;4736;NEU Gliome grade 2 1p19q positif;P4;30;-1;27;27;4;0;120
+327;4379;4861;PED Ped Abdo;P3;8;-1;31;31;8;90;120
+328;2296;2554;PAL Pall Compression CONF;P1;1;-1;0;0;6;0;120
+329;1151;1236;DIG S Dig S CK marqueurs;P3;3;-1;32;32;18;0;120
+330;1173;1261;DIG S Dig S RA compression;P3;3;-1;31;31;9;90;120
+331;797;847;ORL Oropharynx avec chimio RA;P3;33;-1;31;31;6;0;30
+332;1537;1684;PAL Pal 20en5 IMRT;P2;5;-1;0;0;6;0;120
+333;1489;1620;NEU S Neuro meta CK;P2;2;-1;0;0;15;0;120
+334;1407;1507;ORL Larynx local avancé avec boost;P3;35;-1;31;31;5;0;30
+335;4019;4456;COL S Colonne t2 ad thx lomb sacré RA;P3;7;-1;32;32;9;90;120
+336;1032;1103;DIG Rectum;P3;25;-1;32;32;6;0;120
+337;1358;1457;ORL Larynx stade précoce T2;P3;20;-1;32;32;6;0;120
+338;2786;3114;SEI Sein 15;P4;19;-1;32;32;6;0;120
+339;3076;3434;SEI Sein axsc;P4;25;-1;32;32;6;90;120
+340;921;981;DIG Estomac;P3;25;-1;33;33;6;0;120
+341;2905;3247;NEU S Neuro meta CK;P2;2;-1;0;0;18;0;120
+342;1549;1700;PMN S PMN S CK Marqueur;P3;3;-1;34;34;18;0;30
+343;2534;2846;SAR Sarcome thorax 4D;P3;25;-1;33;33;5;0;30
+344;3015;3373;SEI Paroi axsc cmi TOMO;P4;25;-1;34;34;6;0;120
+345;2155;2391;NEU Meta pancranien 5 fr;P2;5;-1;1;1;6;0;120
+346;1899;2095;PMN PMN non pt cell chimio-conco;P3;33;0;8;10;6;0;30
+347;3016;3374;SEI Paroi axsc cmi TOMO;P4;25;0;5;20;6;0;30
+348;3079;3437;SEI Sein abches 15;P4;19;0;5;20;6;90;120
+349;4005;4438;PAL Pal 800 IMRT;P2;2;0;1;2;6;0;120
+350;2818;3145;SEI Sein 15;P4;19;0;6;20;6;0;120
+351;543;584;ORL ORL Palliatif IMRT;P2;5;0;0;2;6;0;30
+352;4161;4621;NEU Méningiome grade 1 IMRT;P4;30;0;8;20;6;0;120
+353;3611;4022;PRO Prostate risq intermédiaire hypofr.;P4;20;0;5;20;6;0;30
+354;3617;4028;PRO Prostate risq intermédiaire hypofr.;P4;28;0;7;20;6;0;120
+355;238;258;Prostate risq intermédiaire;P4;20;0;6;20;6;0;30
+356;3602;4013;PRO Loge prostatique (sans installation grains);P4;25;1;7;21;6;0;120
+357;3484;3864;GYN Endo pelv 1pl + 3 HDR;P4;22;1;7;21;6;0;30
+358;3601;4012;PRO Loge prostatique (sans installation grains);P4;33;1;9;21;6;0;120
+359;4221;4681;NEU GBM1PL30;P3;30;1;6;11;5;0;30
+360;1529;1669;NEU S Neuro meta CK;P2;2;1;2;3;21;0;30
+361;1495;1628;NEU S Neuro meta CK;P2;1;1;1;3;9;0;30
+362;1657;1828;PMN S PMN S PL CKxlung et RA avec ceinture de compression;P3;3;1;5;11;9;0;120
+363;396;430;NEU S MAV CK;P4;1;1;6;21;12;0;120
+364;2448;2733;DIG Anus;P3;30;1;6;11;6;0;30
+365;1033;1105;DIG Rectum;P3;25;1;9;11;6;90;120
+366;815;866;ORL Nasopharynx RA;P3;33;1;8;11;6;0;120
+367;2636;2956;SEI Sein 15;P4;19;1;9;21;6;0;30
+368;1313;1411;ORL Larynx local avancé avec boost;P3;35;1;7;11;6;0;120
+369;1372;1471;ORL Larynx local avancé avec boost;P3;35;1;5;11;6;30;90
+370;2166;2405;PAL Pal 800 3D;P2;2;1;1;3;6;0;120
+371;1377;1476;ORL ORL Palliatif IMRT;P2;5;2;2;4;5;90;120
+372;2490;2788;NEU S Neuro meta CK;P2;1;2;4;4;9;0;30
+373;4177;4637;NEU S Méningiome grade 1 CK;P4;1;2;7;22;12;0;30
+374;803;852;ORL Nasopharynx;P3;33;2;8;12;6;0;120
+375;2947;3305;PAL Pal 20en5 IMRT;P2;5;2;4;4;7;0;30
+376;4452;4935;HEM Lymphome med non BH;P3;2;2;8;12;7;30;90
+377;1246;1339;DIG S Dig S CK marqueurs;P3;5;2;10;12;18;0;120
+378;4086;4542;PAL Pal 20en5 IMRT;P2;6;2;2;4;6;0;120
+379;1517;1650;NEU S Neuro meta CK;P2;1;2;3;4;12;0;30
+380;2002;2222;PMN S PMN S RA avec ceinture de compression;P3;3;2;6;12;10;0;120
+381;4534;5024;NEU S Neuro meta CK;P2;3;2;4;4;9;0;120
+382;309;334;PAL Pal 800 RA;P2;1;2;3;4;7;0;120
+383;2940;3298;PAL Pal 800 IMRT;P2;1;2;3;4;6;0;120
+384;4034;4481;DIG S Dig S RA  sans compression;P3;5;2;6;12;10;90;120
+385;1604;1764;PAL Pal 20en5 IMRT;P2;5;2;4;4;7;0;30
+386;2350;2622;PEA Cu Peau Ortho;P4;9;3;10;23;9;30;90
+387;4117;4577;NEU S Neuro meta CK;P2;5;3;5;5;6;90;120
+388;1552;1703;PMN S PMN S RA sans compression;P3;5;3;10;13;10;0;120
+389;3360;3732;PAL Pal 0721 IMRT;P2;3;3;5;5;10;30;90
+390;289;314;PED Ped cranio spinal;P3;36;3;10;13;13;90;120
+391;3290;3656;GYN Col pelvien 1pl + 5 HDR;P3;22;3;8;13;6;90;120
+392;2588;2906;SEI Sein axsc;P4;29;3;11;23;6;0;120
+393;1430;1536;PMN PMN Crâne prophylaxique;P4;10;3;10;23;7;30;90
+394;949;1013;PAL Pal 20en5 RA;P2;5;3;3;5;6;30;90
+395;3258;3624;GYN Vulve 3pl 37;P3;36;3;9;13;6;0;120
+396;1082;1165;DIG Rectum short course;P3;5;3;9;13;7;30;90
+397;3598;4009;PRO Loge prostatique (sans installation grains);P4;33;3;9;23;6;90;120
+398;152;169;PAL Pal 800 IMRT;P2;1;3;5;5;7;90;120
+399;2865;3194;PAL Pal 20en5 IMRT;P2;5;3;5;5;7;0;120
+400;222;243;PAL Pal 800 IMRT;P2;1;3;5;5;7;0;120
+401;2916;3263;NEU Meta pancranien 5 fr;P2;5;4;5;6;7;0;120
+402;4009;4442;PAL Pal 800 IMRT;P2;1;4;6;6;6;30;90
+403;2367;2645;PEA Peau IMRT;P4;7;4;10;24;7;90;120
+404;4243;4705;NEU GBM1PL30;P3;30;4;11;14;6;0;30
+405;3322;3688;GYN Col pelvien 1pl + 5 HDR;P3;25;4;8;14;6;0;120
+406;3625;4036;PRO Prostate haut risque (Bassin inclus);P4;39;4;11;24;5;0;120
+407;1074;1151;PAL Pal 800 3D;P2;1;4;5;6;7;30;90
+408;1933;2136;NEU S Neuro meta CK;P2;1;4;5;6;9;0;120
+409;2542;2856;SAR Sarcome abdo;P3;25;5;11;15;7;0;120
+410;2613;2931;SEI Sein 15;P4;19;5;11;25;6;0;120
+411;2611;2929;SEI Sein 15;P4;19;5;10;25;6;90;120
+412;1456;1567;NEU Meta pancranien 5 fr;P2;6;5;6;7;5;0;120
+413;2527;2838;PAL Pal 20en5 IMRT;P2;5;5;7;7;9;90;120
+414;2434;2714;NEU S Neuro meta CK;P2;1;5;7;7;9;0;120
+415;4030;4475;NEU S Neuro meta CK;P2;1;5;5;7;9;0;120
+416;3532;3935;PAL Pal 800 IMRT;P2;1;5;6;7;6;0;120
+417;571;614;ORL Oropharynx sans chimio RA;P3;33;5;13;15;6;0;30
+418;2900;3241;NEU Meta pancranien 5 fr;P2;6;5;7;7;5;0;30
+419;3313;3679;GYN Col lombo pelvien 3pl + 5 HDR;P3;33;6;12;16;6;30;90
+420;2610;2928;SEI Sein 15;P4;19;6;11;26;6;0;120
+421;2734;3062;SEI Sein 15;P4;5;6;11;26;6;0;120
+422;2855;3183;SEI Sein 15;P4;19;6;13;26;6;90;120
+423;1941;2148;PMN PMN Pall basse dose;P3;5;6;11;16;7;0;30
+424;4519;5009;PAL Pall Compression CONF;P1;1;6;6;6;6;0;30
+425;1444;1553;NEU Meta pancranien 5 fr;P2;5;6;6;8;6;0;120
+426;1247;1340;PAL Pal 800 IMRT;P2;5;6;6;8;6;0;120
+427;2931;3284;PAL Pal 20en5 RA;P2;5;6;8;8;6;0;120
+428;3535;3940;PAL Pal 800 IMRT;P2;2;6;8;8;6;0;120
+429;2357;2630;ORL Glandes salivaires RA;P3;30;6;12;16;6;0;120
+430;4016;4453;COL S Colonne t2 ad thx lomb sacré RA;P3;5;7;11;17;9;90;120
+431;1354;1453;ORL Larynx stade précoce T1;P3;28;7;11;17;6;0;120
+432;4231;4692;NEU S Méningiome grade 1 CK;P4;1;7;12;27;9;0;120
+433;2936;3292;PAL Pal 800 RA;P2;1;7;8;9;6;0;120
+434;2131;2362;NEU S Neuro meta CK;P2;1;7;7;9;12;0;120
+435;1098;1180;NEU S Neuro meta CK;P2;1;7;7;9;12;30;90
+436;2910;3255;NEU S Neuro meta CK;P2;4;7;7;9;12;0;120
+437;3368;3742;GYN Endo lopel  2pl;P4;30;7;15;27;6;0;120
+438;1277;1371;ORL Cav. nas. sin. max. sans chimio RA;P3;30;7;12;17;6;30;90
+439;727;777;ORL Oropharynx avec chimio RA;P3;33;7;14;17;6;0;30
+440;451;486;ORL Oropharynx avec chimio RA;P3;33;8;14;18;6;90;120
+441;2171;2412;PAL Pal 20en5 IMRT;P2;5;8;8;10;7;0;30
+442;433;467;ORL Oropharynx avec chimio;P3;9;8;12;18;6;0;120
+443;1461;1574;NEU Meta pancranien 10 fr;P2;10;8;10;10;7;0;120
+444;1115;1198;DIG Rectum short course;P3;5;8;13;18;7;0;120
+445;3539;3944;PAL Pal 800 IMRT;P2;6;8;10;10;6;90;120
+446;675;723;ORL ORL Palliatif IMRT;P2;5;8;8;10;6;0;30
+447;885;943;DIG Oesophage moyen distal;P3;23;8;16;18;5;0;120
+448;4343;4810;COL S Colonne t2 ad thx lomb sacré RA;P3;2;8;13;18;9;0;120
+449;2928;3280;PAL Pal 20en5 IMRT;P2;1;8;10;10;7;0;120
+450;2718;3046;SEI Sein 15;P4;19;8;15;28;6;30;90
+451;3633;4044;PRO Prostate risq intermédiaire HDR pré RTE;P4;15;9;15;29;6;0;120
+452;2692;3020;SEI Paroi 15;P4;19;9;17;29;5;0;120
+453;3589;4000;PRO Loge prostatique (sans installation grains);P4;33;9;17;29;6;0;120
+454;2806;3133;SEI Sein 25;P4;29;9;16;29;6;0;120
+455;2695;3023;SEI Paroi axsc cmi TOMO;P4;25;9;16;29;6;0;120
+456;910;969;DIG Oesophage moyen distal;P3;23;9;14;19;5;0;120
+457;1491;1624;NEU S Neuro meta CK;P2;1;9;10;11;15;0;120
+458;3064;3422;SEI Sein axsc cmi TOMO;P4;29;9;17;29;6;0;120
+459;126;140;PAL Pal 800 RA;P2;2;9;9;11;6;90;120
+460;3566;3977;PRO RECH Atlas - Prostate haut risque (Bassin inclus);P4;39;9;15;29;6;0;30
+461;2170;2411;PAL Pal 20en5 IMRT;P2;2;10;10;12;6;90;120
+462;1961;2171;PMN S PMN S CK Marqueur;P3;5;10;17;20;18;0;120
+463;4222;4682;NEU GBM1PL30;P3;30;10;16;20;6;0;120
+464;4223;4683;NEU GBM1PL30;P3;30;10;15;20;4;0;30
+465;2737;3065;SEI Sein 15;P4;15;10;16;30;6;0;30
+466;3523;3919;PAL Pal 800 IMRT;P2;1;10;10;12;7;0;120
+467;182;200;PAL Pal 800 IMRT;P2;1;10;10;12;7;0;120
+468;263;283;PAL Pal 800 IMRT;P2;5;10;11;12;6;0;120
+469;3529;3930;PAL Pal 800 RA;P2;1;10;11;12;7;0;30
+470;1563;1716;PMN S PMN S CK Marqueur;P3;5;10;17;20;18;0;30
+471;3329;3696;GYN Endo pelv  2pl;P4;30;10;18;30;6;90;120
+472;2533;2845;SAR Sarcome colonne dorsale;P3;25;10;16;20;6;0;30
+473;2660;2982;NEU S Neuro meta CK;P2;1;10;10;12;9;0;120
+474;1950;2159;PMN S PMN S RA sans compression;P3;3;11;19;21;12;0;120
+475;3579;3990;PRO Loge prostatique (sans installation grains);P4;33;11;19;31;6;90;120
+476;3067;3425;SEI Sein axsc;P4;19;11;18;31;5;90;120
+477;2154;2390;PAL Pal 800 IMRT;P2;2;11;13;13;6;90;120
+478;1221;1315;DIG Pancréas post op;P4;30;11;18;31;6;90;120
+479;3533;3937;PAL Pal 800 IMRT;P2;1;11;12;13;7;0;30
+480;2378;2656;PEA Cu Peau Ortho;P4;5;11;16;31;9;90;120
+481;4241;4703;NEU GBM1PL15;P3;15;11;15;21;4;0;30
+482;320;347;NEU S Neuro meta CK;P2;1;11;12;13;12;0;30
+483;1576;1732;PAL Pal 800 IMRT;P2;2;11;11;13;6;0;30
+484;1556;1709;PMN S PMN S RA sans compression;P3;5;12;20;22;9;0;120
+485;3543;3950;PAL Pal 20en5 IMRT;P2;5;12;12;14;6;0;120
+486;3267;3633;PAL Pal 20en5 RA;P2;5;12;13;14;6;0;120
+487;1283;1378;ORL Cav. nas. sin. max. sans chimio RA;P3;33;12;16;22;6;0;120
+488;2531;2844;SAR Sarcome membre sup/inf;P3;33;12;20;22;6;0;120
+489;365;395;NEU S Trijumeau CK;P2;1;12;14;14;12;0;120
+490;366;396;NEU S Trijumeau CK;P2;1;12;12;14;12;0;120
+491;353;382;NEU S Trijumeau CK;P2;1;12;13;14;12;90;120
+492;1078;1160;DIG Rectum short course;P3;5;12;17;22;7;0;120
+493;2475;2772;PAL Pal 20en5 IMRT;P2;1;12;12;14;6;0;120
+494;3397;3771;GYN Endo pelv  2pl;P4;35;12;18;32;5;0;120
+495;684;733;COL S Colonne t2 ad thx lomb sacré RA;P3;2;12;19;22;9;0;120
+496;3250;3615;GYN Vulve 2-3pl 30;P3;34;13;17;23;6;0;120
+497;3593;4004;PRO Prostate haut risque (Bassin inclus) - sans RM;P4;39;13;21;33;6;0;120
+498;1944;2153;PMN PMN Pall basse dose;P3;5;13;21;23;5;0;120
+499;552;593;PAL Pal 800 IMRT;P2;1;13;13;15;6;0;120
+500;796;846;ORL Oropharynx avec chimio RA;P3;33;13;17;23;6;0;120
+501;724;774;ORL Oropharynx avec chimio RA;P3;33;13;21;23;6;0;120
+502;728;778;ORL Oropharynx avec chimio RA;P3;33;13;18;23;5;0;120
+503;1904;2100;PMN PMN pt cell chimio-conco TEP;P3;33;13;17;23;6;0;120
+504;2869;3199;SEI Sein partiel OPAR;P4;5;13;21;33;6;30;90
+505;2591;2909;SEI Sein partiel;P4;5;14;22;34;6;0;120
+506;3612;4023;PRO Prostate risq intermédiaire hypofr.;P4;39;14;20;34;6;90;120
+507;3618;4029;PRO Prostate risq intermédiaire hypofr.;P4;20;14;19;34;6;0;120
+508;2373;2651;PEA Peau IMRT;P4;30;14;19;34;6;0;120
+509;1522;1656;NEU S Neuro meta CK;P2;1;14;15;16;12;0;120
+510;3463;3841;NEU S Neuro meta CK;P2;1;14;15;16;9;90;120
+511;2590;2908;SEI Sein sc;P4;25;14;21;34;6;0;120
+512;2510;2818;SAR Sarcome abdo 4D;P3;35;14;18;24;5;90;120
+513;2932;3287;PAL Pal 800 3D;P2;1;14;16;16;7;0;120
+514;997;1068;DIG S Dig S RA compression;P3;6;14;21;24;9;30;90
+515;977;1045;DIG S Dig S RA compression;P3;3;14;19;24;10;90;120
+516;1133;1217;DIG Anus;P3;33;14;18;24;5;90;120
+517;923;983;DIG Oesophage moyen distal;P3;23;14;21;24;5;30;90
+518;3634;4045;PRO Prostate risq intermédiaire HDR pré RTE;P4;39;14;20;34;6;0;120
+519;3619;4030;PRO Prostate risq intermédiaire hypofr.;P4;20;15;22;35;5;90;120
+520;2830;3158;SEI Paroi 15;P4;20;15;20;35;5;0;30
+521;4375;4856;PAL Pal 20en5 IMRT;P2;6;15;17;17;7;0;30
+522;606;652;ORL Glandes salivaires;P4;33;15;22;35;6;0;120
+523;4125;4585;NEU S Mélanome oeil CK;P3;10;15;20;25;12;0;120
+524;2306;2569;HEM Lymphome abdomen;P3;2;15;21;25;6;0;120
+525;389;421;PEA Peau Électron;P4;10;15;20;35;6;0;120
+526;721;770;ORL Oropharynx avec chimio;P3;33;15;21;25;6;30;90
+527;3527;3927;PAL Pal 800 RA;P2;1;15;17;17;7;0;30
+528;986;1056;DIG Rectum short course;P3;5;16;21;26;5;0;120
+529;3407;3782;GYN Endo pelv 1pl + 3 HDR;P4;22;16;24;36;6;30;90
+530;83;88;PAL Pal IMRT;P2;2;16;18;18;7;0;120
+531;941;1003;PAL Pal 20en5 RA;P2;5;16;17;18;7;90;120
+532;3386;3760;GYN Endo pelv  2pl;P4;25;16;21;36;6;90;120
+533;2703;3031;SEI Sein 15;P4;15;16;22;36;6;90;120
+534;286;311;NEU Gliome grade 2 1p19q positif;P4;28;16;22;36;4;0;120
+535;1530;1672;NEU S Neuro meta CK;P2;10;16;18;18;7;0;30
+536;1999;2219;PMN S PMN S avec ceinture de compression / Tomo;P3;3;16;23;26;9;0;30
+537;4218;4678;NEU GBM1PL30;P3;30;16;22;26;6;90;120
+538;1355;1454;ORL Larynx stade précoce T1;P3;28;16;22;26;6;0;120
+539;3070;3428;SEI Sein axsc cmi TOMO;P4;25;16;23;36;6;90;120
+540;1376;1475;ORL ORL Palliatif IMRT;P2;1;17;17;19;6;0;120
+541;135;149;PAL Pal 30en10 RA;P2;10;17;18;19;7;0;120
+542;2141;2377;NEU S Neuro meta CK;P2;2;17;17;19;9;90;120
+543;3262;3628;GYN Vulve 3pl 37;P3;37;17;22;27;6;0;120
+544;2487;2784;PEA Peau Électron;P4;1;17;25;37;5;0;30
+545;1487;1617;NEU S Neuro meta CK;P2;1;17;19;19;9;0;120
+546;2795;3123;SEI Sein axsc cmi;P4;29;17;24;37;6;0;120
+547;3632;4043;PRO Prostate risq intermédiaire HDR pré RTE;P4;15;17;24;37;5;0;120
+548;2943;3301;PAL Pal 800 IMRT;P2;5;17;18;19;7;0;120
+549;4436;4917;ORL Oropharynx avec chimio RA;P3;33;17;23;27;6;0;30
+550;2676;3004;SEI Sein axsc cmi TOMO;P4;25;17;24;37;6;0;120
+551;1674;1848;PMN PMN non pt cell sans chimio-conco;P3;15;17;24;27;6;0;120
+552;1356;1455;ORL Larynx stade précoce T1;P3;28;17;23;27;6;90;120
+553;4518;5008;PAL Pal 800 RA;P2;1;17;18;19;6;0;30
+554;3398;3772;GYN Endo pelv  2pl;P4;25;17;24;37;6;90;120
+555;1675;1849;PMN S PMN S RA sans compression;P3;5;17;21;27;9;90;120
+556;46;50;PAL Pal 20en5 IMRT;P2;5;18;18;20;7;0;120
+557;4037;4484;PMN S PMN S RA avec coussin de compression;P3;3;18;25;28;10;0;120
+558;4383;4865;NEU S Neuro meta CK;P2;1;18;20;20;9;0;30
+559;2671;2999;SEI Sein abches 15;P4;15;18;23;38;9;90;120
+560;3042;3400;SEI Sein 15;P4;15;18;24;38;6;90;120
+561;169;186;SEI Paroi axsc cmi;P4;25;18;25;38;6;0;30
+562;3615;4026;PRO Prostate risq intermédiaire hypofr.;P4;25;18;26;38;5;0;30
+563;4403;4885;NEU Hypophyse 25 fr;P4;28;18;26;38;4;90;120
+564;4410;4892;NEU Méningiome grade 1 TOMO;P4;30;18;23;38;4;0;120
+565;726;776;ORL Oropharynx avec chimio RA;P3;33;18;24;28;6;0;120
+566;3077;3435;SEI Sein abches 15;P4;19;18;26;38;9;0;120
+567;1440;1549;PMN PMN non pt cell chimio-conco;P3;33;18;22;28;7;90;120
+568;3326;3694;PAL Pal 800 RA;P2;1;18;20;20;7;0;30
+569;1548;1699;PAL Pal 800 IMRT;P2;1;18;18;20;6;0;120
+570;380;410;PEA Cu Chéloide Ortho;P2;3;19;19;21;9;0;120
+571;4088;4545;PAL Pal 800 IMRT;P2;1;19;19;21;7;0;30
+572;104;112;NEU S Neuro meta CK;P2;1;19;20;21;9;90;120
+573;3014;3372;SEI Paroi axsc cmi TOMO;P4;25;19;27;39;6;30;90
+574;859;913;ORL Larynx local avancé avec chimio;P3;35;19;27;29;6;0;120
+575;4388;4870;NEU S Hypophyse CK;P4;1;19;26;39;9;90;120
+576;4078;4532;PAL Pal 800 RA;P2;1;19;21;21;7;0;120
+577;3475;3854;GYN Endo pelv  2pl;P4;32;19;25;39;6;90;120
+578;3578;3989;PRO Loge prostatique (sans installation grains);P4;33;19;25;39;6;0;120
+579;2527;2839;PAL Pal 800 IMRT;P2;1;19;20;21;10;0;120
+580;3622;4033;PRO Prostate risq intermédiaire HDR post RTE;P4;15;19;26;39;5;0;120
+581;3509;3900;PAL Pal 800 RA;P2;5;20;20;22;7;0;120
+582;1455;1566;NEU Meta pancranien 5 fr;P2;5;20;22;22;6;0;120
+583;2387;2665;ORL Glandes salivaires;P4;30;20;28;40;6;0;120
+584;3071;3429;SEI Sein axsc cmi TOMO;P4;25;20;25;40;6;0;120
+585;1076;1154;PAL Pal 800 RA;P2;1;20;20;22;6;0;120
+586;924;984;DIG Oesophage moyen distal;P3;23;20;27;30;6;90;120
+587;678;726;ORL Oropharynx avec chimio RA;P3;33;20;28;30;6;0;120
+588;2811;3138;SEI Sein axsc cmi;P4;29;20;27;40;6;0;30
+589;3526;3926;PAL Pal 800 RA;P2;1;20;22;22;7;90;120
+590;529;567;ORL ORL Palliatif IMRT;P2;5;20;22;22;7;0;120
+591;3517;3909;PAL Pal 800 IMRT;P2;1;20;20;22;7;0;120
+592;1153;1239;DIG S Dig S CK marqueurs;P3;6;20;24;30;18;0;30
+593;397;431;NEU S MAV CK;P4;1;21;27;41;12;0;30
+594;361;391;NEU S Trijumeau CK;P2;1;21;21;23;12;30;90
+595;166;183;SEI Sein axsccmi abches;P4;25;21;29;41;11;0;30
+596;3501;3885;COL S Colonne t2 ad thx lomb sacré RA;P3;1;21;27;31;9;0;30
+597;3540;3946;PAL Pal 800 IMRT;P2;1;21;22;23;7;0;120
+598;3466;3844;DIG S Dig S CK marqueurs;P3;5;21;28;31;18;0;120
+599;841;894;PAL Pal 0721 IMRT;P2;3;21;22;23;6;90;120
+600;1564;1717;PMN S PMN S CK Marqueur;P3;3;21;26;31;9;0;120
+601;4089;4546;PAL Pal 20en5 IMRT;P2;2;21;21;23;6;90;120
+602;1533;1679;HEM Lymphome med BH;P3;12;21;25;31;6;90;120
+603;125;138;PAL Pal 800 RA;P2;1;21;21;23;7;0;30
+604;1973;2188;PAL Pal 800 RA;P2;1;21;23;23;7;0;120
+605;2893;3229;PAL Pal 800 IMRT;P2;1;21;23;23;6;0;120
+606;4014;4451;COL S Colonne t2 ad thx lomb sacré RA;P3;2;21;29;31;9;0;120
+607;4496;4982;HEM Lymphome inguinal;P3;2;21;26;31;7;0;30
+608;722;771;ORL ORL Palliatif IMRT;P2;1;21;22;23;7;0;120
+609;1889;2085;PMN S PMN S RA sans compression;P3;5;21;28;31;9;0;120
+610;2905;3248;NEU S Neuro meta CK;P2;2;22;22;24;15;0;30
+611;542;583;ORL Cavité buccale chimio RA;P3;33;22;30;32;6;90;120
+612;3620;4031;PRO Prostate haut risque  HDR pré RTE  (Bassin inclus);P4;22;22;27;42;5;0;120
+613;676;724;ORL Oropharynx avec chimio;P3;33;22;28;32;6;90;120
+614;2314;2577;PAL Pal 800 IMRT;P2;1;22;22;24;6;0;120
+615;109;118;PMN S CK Marqueur;P3;4;22;28;32;18;90;120
+616;2920;3270;NEU Meta pancranien 10 fr;P2;10;22;24;24;7;0;120
+617;961;1027;PAL Pal 20en5 RA;P2;5;22;24;24;7;0;120
+618;2162;2400;PAL Pal 800 IMRT;P2;1;22;22;24;7;90;120
+619;1488;1618;NEU S Neuro meta CK;P2;1;22;23;24;9;90;120
+620;360;390;NEU S Trijumeau CK;P2;1;22;22;24;12;0;30
+621;1294;1388;PAL Pal 800 IMRT;P2;1;23;23;25;6;0;120
+622;3283;3649;PMN S PMN S RA sans compression;P3;5;23;27;33;10;0;30
+623;456;493;ORL Oropharynx avec chimio RA;P3;35;23;31;33;6;0;120
+624;1915;2114;NEU S Neuro meta CK;P2;1;23;24;25;21;30;90
+625;3504;3891;PAL Pal 20en5 IMRT;P2;5;23;25;25;7;0;120
+626;4022;4459;NEU S Neuro meta CK;P2;2;23;23;25;21;0;120
+627;1437;1547;PMN PMN non pt cell chimio-conco;P3;33;23;30;33;6;0;120
+628;1045;1117;DIG Rectum;P3;25;23;28;33;5;90;120
+629;1562;1715;PMN S PMN S CK Marqueur;P3;5;23;31;33;18;90;120
+630;1174;1262;DIG S Dig S RA compression;P3;3;23;31;33;10;0;120
+631;1520;1653;NEU S Neuro meta CK;P2;4;23;24;25;9;0;120
+632;2585;2902;SEI Sein axsc cmi TOMO;P4;29;23;31;43;6;0;120
+633;2585;2903;COL S Colonne t2 ad thx lomb sacré RA;P3;6;23;27;33;6;0;30
+634;3259;3625;GYN Vulve 3pl 37;P3;30;24;31;34;6;0;120
+635;1406;1506;ORL Larynx local avancé avec chimio;P3;35;24;29;34;6;0;30
+636;725;775;ORL Oropharynx avec chimio RA;P3;33;24;31;34;6;0;120
+637;3552;3963;PRO RECH Prostate 924 HDR (Bassin inclus);P4;25;24;30;44;5;30;90
+638;2726;3054;SEI Sein 15;P4;19;24;31;44;6;0;120
+639;2733;3061;SEI Sein 15;P4;19;24;30;44;6;0;120
+640;2907;3250;NEU S Neuro meta CK;P2;1;24;25;26;15;0;30
+641;3607;4018;PRO Prostate risq intermédiaire hypofr. sans grains;P4;20;24;32;44;5;90;120
+642;2142;2378;NEU S Neuro meta CK;P2;1;24;25;26;9;90;120
+643;2922;3274;NEU Meta pancranien 10 fr;P2;10;24;24;26;7;30;90
+644;1560;1713;PMN S PMN S CK Marqueur;P3;5;24;31;34;18;0;120
+645;1584;1744;PAL Pal 800 IMRT;P2;2;24;25;26;6;90;120
+646;2172;2413;PAL Pal 20en5 IMRT;P2;5;25;25;27;7;90;120
+647;2892;3226;PAL Pal 20en5 RA;P2;5;25;26;27;6;0;120
+648;1473;1594;NEU S Neuro meta CK;P2;1;25;27;27;9;0;120
+649;3532;3936;PAL Pal 800 IMRT;P2;1;25;25;27;7;0;30
+650;4359;4833;PAL Pal 800 IMRT;P2;1;25;26;27;6;90;120
+651;3565;3976;PRO RECH Atlas - Prostate haut risque (Bassin inclus);P4;39;25;31;45;5;0;30
+652;2364;2637;PAL Pal électrons direct salle TX;P2;1;25;25;27;3;0;120
+653;1408;1508;ORL Larynx local avancé avec boost;P3;35;25;31;35;6;30;90
+654;1254;1347;DIG S Dig S CK marqueurs;P3;3;25;30;35;18;0;120
+655;2167;2406;PAL Pal 800 IMRT;P2;1;25;25;27;7;0;120
+656;2690;3018;SEI Paroi axsc;P4;25;25;31;45;6;0;120
+657;714;763;ORL Oropharynx sans chimio RA;P3;33;25;30;35;6;90;120
+658;989;1059;DIG Rectum;P3;25;25;30;35;5;90;120
+659;4153;4613;NEU Méningiome grade 1 TOMO;P4;30;25;31;45;4;0;120
+660;3467;3845;GYN Endo lopel 3pl;P4;25;26;33;46;6;30;90
+661;2555;2870;SEI Sein axsc abches;P4;29;26;32;46;11;0;120
+662;323;350;PAL Pall Compression CONF;P1;5;26;26;26;6;0;120
+663;1144;1228;DIG S Dig S CK marqueurs;P3;5;26;32;36;18;0;30
+664;1236;1330;PAL Pal 800 RA;P2;1;26;26;28;6;90;120
+665;554;597;ORL Cavité buccale sans chimio RA;P3;33;27;33;37;6;0;120
+666;1628;1797;PMN S PMN S RA sans compression;P3;3;27;35;37;9;0;120
+667;4018;4455;COL S Colonne t2 ad thx lomb sacré RA;P3;5;27;32;37;10;30;90
+668;1152;1237;DIG S Dig S CK marqueurs;P3;5;27;34;37;18;0;30
+669;4464;4949;HEM Lymphome med cou BH;P3;20;27;34;37;12;0;120
+670;2663;2986;NEU Meta pancranien 5 fr;P2;5;27;27;29;5;90;120
+671;872;926;DIG Oesophage moyen distal;P3;23;27;34;37;6;0;120
+672;1413;1513;ORL Larynx stade précoce T1;P3;20;27;32;37;6;90;120
+673;1916;2116;NEU Meta pancranien 5 fr;P2;5;27;27;29;6;0;120
+674;2550;2865;SEI Paroi axsc cmi;P4;25;27;33;47;6;0;120
+675;1967;2181;PAL Pall Compression CONF;P1;5;27;27;27;6;0;120
+676;2848;3176;SEI Sein 15;P4;15;27;32;47;6;90;120
+677;681;729;ORL Oropharynx sans chimio RA;P3;33;27;35;37;6;0;30
+678;1255;1348;DIG Pancréas pré op;P3;5;28;33;38;5;0;30
+679;1373;1472;ORL Larynx local avancé avec chimio;P3;33;28;33;38;6;0;120
+680;1932;2135;NEU S Neuro meta CK;P2;1;28;29;30;9;0;120
+681;4007;4440;PAL Pal 800 RA;P2;1;28;30;30;6;90;120
+682;1128;1212;DIG Anus;P3;30;28;32;38;6;90;120
+683;1142;1226;DIG S Dig S CK marqueurs;P3;5;28;36;38;18;0;30
+684;3497;3877;PRO RECH Prostate PCS VI (Bassin inclus);P4;25;28;33;48;6;0;30
+685;3621;4032;PRO Prostate haut risque  HDR pré RTE  (Bassin inclus);P4;25;28;35;48;5;0;120
+686;3606;4017;PRO Prostate haut risq (Bassin inclus) Hypo sans grains;P4;25;28;36;48;5;90;120
+687;260;280;PRO Prostate risq intermédiaire hypofr.;P4;23;28;34;48;5;90;120
+688;3630;4041;PRO Prostate risq intermédiaire HDR pré RTE;P4;15;28;34;48;5;0;120
+689;4143;4603;NEU S Neuro meta CK;P2;1;28;30;30;9;0;30
+690;1431;1538;PAL Pal IMRT;P2;1;28;29;30;6;0;120
+691;4077;4530;PAL Pal 800 IMRT;P2;3;28;28;30;6;90;120
+692;4292;4755;NEU S Neuro meta CK;P2;5;28;28;30;9;90;120
+693;1627;1796;PMN S PMN S RA sans compression;P3;5;28;35;38;9;0;120
+694;3369;3743;GYN Endo lopel 1pl + 3 HDR;P4;22;28;35;48;6;90;120
+695;3503;3889;PAL Pal 20en5 IMRT;P2;5;28;30;30;7;0;120
+696;2930;3283;PAL Pal 20en5 RA;P2;5;28;28;30;7;0;120
+697;1218;1310;PAL Pal 20en5 IMRT;P2;5;28;28;30;5;0;120
+698;3502;3886;PAL Pal RA;P2;1;29;30;31;11;0;30
+699;3018;3376;SEI Paroi axsc cmi abches;P4;25;29;34;49;11;90;120
+700;2865;3195;PAL Pal 20en5 RA;P2;5;29;31;31;7;0;120
+701;4091;4550;PAL Pal 0721 IMRT;P2;3;29;29;31;6;90;120
+702;1875;2070;COL S Colonne t2 ad thx lomb sacré RA;P3;4;29;37;39;9;0;120
+703;374;405;PEA Cu Chéloide Ortho;P2;6;29;30;31;9;0;120
+704;98;105;NEU S Neuro meta CK;P2;1;29;31;31;12;0;120
+705;1936;2138;PAL Pal 20en5 IMRT;P2;5;29;29;31;7;30;90
+fixed appointment;5767
+day;linac;patientid;appointmenttime;
+0;0;0;0;6
+0;0;1;7;14
+0;0;2;15;21
+0;0;3;22;28
+0;0;4;29;36
+0;0;5;37;54
+0;0;6;55;59
+0;0;7;60;66
+0;0;8;67;73
+0;0;9;74;80
+0;0;10;81;87
+0;0;11;88;95
+0;0;12;96;103
+0;0;13;104;111
+0;0;14;112;116
+0;1;15;0;7
+0;1;16;8;15
+0;1;17;16;23
+0;1;18;24;30
+0;1;19;31;38
+0;1;20;39;46
+0;1;21;47;54
+0;1;22;55;61
+0;1;23;62;69
+0;1;24;70;77
+0;1;25;78;85
+0;1;26;86;92
+0;1;27;93;100
+0;1;28;101;108
+0;1;29;109;116
+0;2;30;0;5
+0;2;31;6;12
+0;2;32;13;20
+0;2;33;21;25
+0;2;34;26;33
+0;2;35;34;39
+0;2;36;40;45
+0;2;37;46;51
+0;2;38;52;56
+0;2;39;57;62
+0;2;40;63;67
+0;2;41;68;73
+0;2;42;74;79
+0;2;43;80;85
+0;2;44;86;93
+0;2;45;94;99
+0;2;46;100;104
+0;2;47;105;109
+0;2;48;110;114
+0;2;49;115;119
+0;3;50;0;5
+0;3;51;6;11
+0;3;52;12;16
+0;3;53;17;22
+0;3;54;23;27
+0;3;55;28;38
+0;3;56;39;44
+0;3;57;45;49
+0;3;58;50;55
+0;3;59;56;60
+0;3;60;61;65
+0;3;61;66;71
+0;3;62;72;77
+0;3;63;78;85
+0;3;64;86;93
+0;3;65;94;98
+0;3;66;99;104
+0;3;67;105;110
+0;3;68;111;116
+0;4;69;0;4
+0;4;70;5;10
+0;4;71;11;15
+0;4;72;16;23
+0;4;73;24;29
+0;4;74;30;37
+0;4;75;38;43
+0;4;76;44;49
+0;4;77;50;55
+0;4;78;56;60
+0;4;79;61;66
+0;4;80;67;72
+0;4;81;73;78
+0;4;82;79;84
+0;4;83;85;90
+0;4;84;91;96
+0;4;85;97;102
+0;4;86;103;108
+0;4;87;109;114
+0;5;88;0;5
+0;4;89;115;119
+0;5;90;6;10
+0;5;91;11;16
+0;5;92;17;22
+0;5;93;23;40
+0;5;94;41;46
+0;5;95;47;52
+0;5;96;53;58
+0;5;97;59;64
+0;5;98;65;70
+0;5;99;71;76
+0;5;100;77;81
+0;5;101;82;87
+0;5;102;88;93
+0;5;103;94;99
+0;5;104;100;105
+0;5;105;106;111
+0;5;106;112;117
+0;6;107;0;5
+0;6;108;6;11
+0;6;109;12;17
+0;6;110;18;35
+0;6;111;36;50
+0;6;112;51;62
+0;6;113;63;68
+0;6;114;69;73
+0;6;115;74;79
+0;6;116;80;85
+0;6;217;86;109
+0;6;269;110;115
+0;7;278;0;5
+0;7;284;6;17
+0;7;285;18;23
+0;7;289;24;30
+0;7;290;31;36
+0;7;293;37;42
+0;7;300;43;47
+0;7;313;48;53
+0;7;316;54;59
+0;7;320;60;65
+0;7;328;66;71
+0;7;332;72;77
+0;7;333;78;92
+0;7;341;93;110
+1;0;1;0;7
+1;0;2;8;14
+1;0;3;15;21
+1;0;4;22;29
+1;0;5;30;47
+1;0;6;48;52
+1;0;7;53;59
+1;0;8;60;66
+1;0;9;67;73
+1;0;10;74;80
+1;0;11;81;88
+1;0;12;89;96
+1;0;13;97;104
+1;0;14;105;109
+1;0;15;110;117
+1;1;16;0;7
+1;1;17;8;15
+1;1;18;16;22
+1;1;19;23;30
+1;1;20;31;38
+1;1;21;39;46
+1;1;22;47;53
+1;1;23;54;61
+1;1;24;62;69
+1;1;25;70;77
+1;1;26;78;84
+1;1;27;85;92
+1;1;28;93;100
+1;1;29;101;108
+1;1;30;109;114
+1;2;31;0;6
+1;2;32;7;14
+1;1;33;115;119
+1;2;34;15;22
+1;2;35;23;28
+1;2;36;29;34
+1;2;37;35;40
+1;2;38;41;45
+1;2;39;46;51
+1;2;40;52;56
+1;2;41;57;62
+1;2;42;63;68
+1;2;43;69;74
+1;2;44;75;82
+1;2;45;83;88
+1;2;46;89;93
+1;2;47;94;98
+1;2;48;99;103
+1;2;49;104;108
+1;2;50;109;114
+1;3;51;0;5
+1;2;52;115;119
+1;3;53;6;11
+1;3;54;12;16
+1;3;55;17;27
+1;3;56;28;33
+1;3;57;34;38
+1;3;58;39;44
+1;3;59;45;49
+1;3;60;50;54
+1;3;61;55;60
+1;3;62;61;66
+1;3;63;67;74
+1;3;64;75;82
+1;3;65;83;87
+1;3;66;88;93
+1;3;67;94;99
+1;3;68;100;105
+1;3;69;106;110
+1;3;70;111;116
+1;4;71;0;4
+1;4;72;5;12
+1;4;73;13;18
+1;4;74;19;26
+1;4;75;27;32
+1;4;76;33;38
+1;4;77;39;44
+1;4;78;45;49
+1;4;79;50;55
+1;4;80;56;61
+1;4;81;62;67
+1;4;82;68;73
+1;4;83;74;79
+1;4;84;80;85
+1;4;85;86;91
+1;4;86;92;97
+1;4;87;98;103
+1;4;88;104;109
+1;4;89;110;114
+1;4;90;115;119
+1;5;91;0;5
+1;5;92;6;11
+1;5;93;12;29
+1;5;94;30;35
+1;5;95;36;41
+1;5;96;42;47
+1;5;97;48;53
+1;5;99;54;59
+1;5;100;60;64
+1;5;101;65;70
+1;5;102;71;76
+1;5;103;77;82
+1;5;104;83;88
+1;5;105;89;94
+1;5;106;95;100
+1;5;107;101;106
+1;5;108;107;112
+1;5;109;113;118
+1;6;110;0;17
+1;6;111;18;32
+1;6;112;33;44
+1;6;113;45;50
+1;6;114;51;55
+1;6;115;56;61
+1;6;116;62;67
+1;6;117;68;82
+1;6;118;83;88
+1;6;269;89;94
+1;6;278;95;100
+1;6;285;101;106
+1;6;289;107;113
+1;6;293;114;119
+1;7;313;0;5
+1;7;316;6;11
+1;7;320;12;17
+1;7;325;18;22
+1;7;332;23;28
+1;7;333;29;43
+1;7;341;44;61
+1;7;345;62;67
+2;0;2;0;6
+2;0;4;7;14
+2;0;5;15;32
+2;0;6;33;37
+2;0;7;38;44
+2;0;8;45;51
+2;0;9;52;58
+2;0;10;59;65
+2;0;11;66;73
+2;0;12;74;81
+2;0;13;82;89
+2;0;14;90;94
+2;0;15;95;102
+2;0;16;103;110
+2;0;17;111;118
+2;1;18;0;6
+2;1;19;7;14
+2;1;20;15;22
+2;1;21;23;30
+2;1;22;31;37
+2;1;23;38;45
+2;1;24;46;53
+2;1;25;54;61
+2;1;26;62;68
+2;1;27;69;76
+2;1;28;77;84
+2;1;29;85;92
+2;1;30;93;98
+2;1;31;99;105
+2;1;32;106;113
+2;1;33;114;118
+2;2;34;0;7
+2;2;35;8;13
+2;2;36;14;19
+2;2;38;20;24
+2;2;39;25;30
+2;2;40;31;35
+2;2;41;36;41
+2;2;42;42;47
+2;2;43;48;53
+2;2;44;54;61
+2;2;45;62;67
+2;2;46;68;72
+2;2;47;73;77
+2;2;48;78;82
+2;2;49;83;87
+2;2;50;88;93
+2;2;51;94;99
+2;2;52;100;104
+2;2;53;105;110
+2;2;54;111;115
+2;3;55;0;10
+2;3;56;11;16
+2;3;57;17;21
+2;3;58;22;27
+2;3;59;28;32
+2;3;60;33;37
+2;3;61;38;43
+2;3;62;44;49
+2;3;64;50;57
+2;3;65;58;62
+2;3;66;63;68
+2;3;67;69;74
+2;3;68;75;80
+2;3;69;81;85
+2;3;70;86;91
+2;3;71;92;96
+2;3;72;97;104
+2;3;73;105;110
+2;3;74;111;118
+2;4;75;0;5
+2;4;76;6;11
+2;4;77;12;17
+2;4;78;18;22
+2;4;79;23;28
+2;4;80;29;34
+2;4;81;35;40
+2;4;82;41;46
+2;4;83;47;52
+2;4;84;53;58
+2;4;85;59;64
+2;4;86;65;70
+2;4;88;71;76
+2;4;89;77;81
+2;4;90;82;86
+2;4;91;87;92
+2;4;92;93;98
+2;4;94;99;104
+2;4;95;105;110
+2;4;96;111;116
+2;5;97;0;5
+2;5;99;6;11
+2;5;100;12;16
+2;5;101;17;22
+2;5;102;23;28
+2;5;103;29;34
+2;5;104;35;40
+2;5;105;41;46
+2;5;106;47;52
+2;5;107;53;58
+2;5;108;59;64
+2;5;109;65;70
+2;5;110;71;88
+2;5;111;89;103
+2;5;112;104;115
+2;6;113;0;5
+2;6;114;6;10
+2;6;115;11;16
+2;6;116;17;22
+2;6;117;23;37
+2;6;118;38;43
+2;6;119;44;52
+2;6;121;53;58
+2;6;122;59;64
+2;6;123;65;70
+2;6;124;71;79
+2;6;134;80;84
+2;6;190;85;93
+2;6;269;94;99
+2;6;278;100;105
+2;6;289;106;112
+2;6;293;113;118
+2;7;313;0;5
+2;7;316;6;11
+2;7;320;12;17
+2;7;325;18;22
+2;7;332;23;28
+2;7;345;29;34
+3;0;2;0;6
+3;0;5;7;24
+3;0;6;25;29
+3;0;7;30;36
+3;0;8;37;43
+3;0;9;44;50
+3;0;10;51;57
+3;0;11;58;65
+3;0;12;66;73
+3;0;13;74;81
+3;0;14;82;86
+3;0;15;87;94
+3;0;16;95;102
+3;0;17;103;110
+3;0;18;111;117
+3;1;19;0;7
+3;1;20;8;15
+3;1;21;16;23
+3;1;22;24;30
+3;1;23;31;38
+3;1;24;39;46
+3;1;25;47;54
+3;1;26;55;61
+3;1;27;62;69
+3;1;28;70;77
+3;1;29;78;85
+3;1;30;86;91
+3;1;32;92;99
+3;1;33;100;104
+3;1;34;105;112
+3;1;35;113;118
+3;2;36;0;5
+3;2;38;6;10
+3;2;39;11;16
+3;2;40;17;21
+3;2;41;22;27
+3;2;42;28;33
+3;2;43;34;39
+3;2;44;40;47
+3;2;45;48;53
+3;2;46;54;58
+3;2;47;59;63
+3;2;48;64;68
+3;2;49;69;73
+3;2;51;74;79
+3;2;52;80;84
+3;2;53;85;90
+3;2;54;91;95
+3;2;55;96;106
+3;2;56;107;112
+3;2;57;113;117
+3;3;58;0;5
+3;3;59;6;10
+3;3;60;11;15
+3;3;61;16;21
+3;3;62;22;27
+3;3;64;28;35
+3;3;65;36;40
+3;3;66;41;46
+3;3;67;47;52
+3;3;69;53;57
+3;3;70;58;63
+3;3;71;64;68
+3;3;72;69;76
+3;3;73;77;82
+3;3;74;83;90
+3;3;75;91;96
+3;3;76;97;102
+3;3;77;103;108
+3;3;78;109;113
+3;3;79;114;119
+3;4;80;0;5
+3;4;81;6;11
+3;4;82;12;17
+3;4;83;18;23
+3;4;84;24;29
+3;4;85;30;35
+3;4;86;36;41
+3;4;88;42;47
+3;4;89;48;52
+3;4;90;53;57
+3;4;91;58;63
+3;4;92;64;69
+3;4;94;70;75
+3;4;95;76;81
+3;4;96;82;87
+3;4;97;88;93
+3;4;99;94;99
+3;4;100;100;104
+3;4;101;105;110
+3;4;102;111;116
+3;5;103;0;5
+3;5;104;6;11
+3;5;105;12;17
+3;5;106;18;23
+3;5;107;24;29
+3;5;108;30;35
+3;5;109;36;41
+3;5;110;42;59
+3;5;111;60;74
+3;5;112;75;86
+3;5;113;87;92
+3;5;114;93;97
+3;5;115;98;103
+3;5;116;104;109
+3;6;117;0;14
+3;5;118;110;115
+3;6;119;15;23
+3;6;120;24;44
+3;6;121;45;50
+3;6;122;51;56
+3;6;123;57;62
+3;6;124;63;71
+3;6;125;72;80
+3;6;127;81;89
+3;6;134;90;94
+3;6;269;95;100
+3;6;278;101;106
+3;6;289;107;113
+3;6;313;114;119
+3;7;325;0;4
+3;7;332;5;10
+3;7;345;11;16
+4;0;7;0;6
+4;0;8;7;13
+4;0;9;14;20
+4;0;10;21;27
+4;0;11;28;35
+4;0;12;36;43
+4;0;13;44;51
+4;0;15;52;59
+4;0;16;60;67
+4;0;19;68;75
+4;0;20;76;83
+4;0;21;84;91
+4;0;22;92;98
+4;0;23;99;106
+4;0;24;107;114
+4;1;26;0;6
+4;1;27;7;14
+4;1;28;15;22
+4;1;29;23;30
+4;1;30;31;36
+4;1;32;37;44
+4;0;33;115;119
+4;1;34;45;52
+4;1;35;53;58
+4;1;36;59;64
+4;1;38;65;69
+4;1;39;70;75
+4;1;40;76;80
+4;1;41;81;86
+4;1;42;87;92
+4;1;43;93;98
+4;1;44;99;106
+4;1;45;107;112
+4;1;46;113;117
+4;2;51;0;5
+4;2;52;6;10
+4;2;53;11;16
+4;2;54;17;21
+4;2;55;22;32
+4;2;56;33;38
+4;2;58;39;44
+4;2;59;45;49
+4;2;60;50;54
+4;2;61;55;60
+4;2;62;61;66
+4;2;64;67;74
+4;2;65;75;79
+4;2;66;80;85
+4;2;67;86;91
+4;2;69;92;96
+4;2;70;97;102
+4;2;72;103;110
+4;2;73;111;116
+4;3;74;0;7
+4;3;75;8;13
+4;3;76;14;19
+4;3;77;20;25
+4;3;78;26;30
+4;3;79;31;36
+4;3;80;37;42
+4;3;81;43;48
+4;3;82;49;54
+4;3;83;55;60
+4;3;84;61;66
+4;3;85;67;72
+4;3;86;73;78
+4;3;88;79;84
+4;3;90;85;89
+4;3;91;90;95
+4;3;92;96;101
+4;3;94;102;107
+4;3;95;108;113
+4;3;96;114;119
+4;4;97;0;5
+4;4;99;6;11
+4;4;100;12;16
+4;4;101;17;22
+4;4;102;23;28
+4;4;103;29;34
+4;4;104;35;40
+4;4;105;41;46
+4;4;106;47;52
+4;4;107;53;58
+4;4;108;59;64
+4;4;109;65;70
+4;4;110;71;88
+4;4;111;89;103
+4;4;113;104;109
+4;4;114;110;114
+4;5;115;0;5
+4;5;116;6;11
+4;5;117;12;26
+4;5;118;27;32
+4;5;119;33;41
+4;5;120;42;62
+4;5;121;63;68
+4;5;122;69;74
+4;5;123;75;80
+4;5;124;81;89
+4;5;125;90;98
+4;5;126;99;116
+4;6;127;0;8
+4;6;128;9;14
+4;6;129;15;20
+4;6;130;21;26
+4;6;131;27;32
+4;6;132;33;38
+4;6;133;39;44
+4;4;134;115;119
+4;6;135;45;50
+4;6;136;51;56
+4;6;137;57;62
+4;6;138;63;68
+4;6;139;69;73
+4;6;140;74;79
+4;6;143;80;88
+4;6;269;89;94
+4;6;278;95;100
+4;6;289;101;107
+4;6;325;108;112
+4;6;332;113;118
+4;7;345;0;5
+5;0;7;0;6
+5;0;9;7;13
+5;0;10;14;20
+5;0;11;21;28
+5;0;12;29;36
+5;0;13;37;44
+5;0;15;45;52
+5;0;16;53;60
+5;0;19;61;68
+5;0;20;69;76
+5;0;21;77;84
+5;0;22;85;91
+5;0;23;92;99
+5;0;24;100;107
+5;0;26;108;114
+5;1;27;0;7
+5;1;29;8;15
+5;1;30;16;21
+5;1;32;22;29
+5;0;33;115;119
+5;1;34;30;37
+5;1;35;38;43
+5;1;36;44;49
+5;1;38;50;54
+5;1;39;55;60
+5;1;40;61;65
+5;1;41;66;71
+5;1;42;72;77
+5;1;43;78;83
+5;1;44;84;91
+5;1;45;92;97
+5;1;46;98;102
+5;1;51;103;108
+5;1;52;109;113
+5;1;53;114;119
+5;2;54;0;4
+5;2;55;5;15
+5;2;56;16;21
+5;2;61;22;27
+5;2;62;28;33
+5;2;64;34;41
+5;2;65;42;46
+5;2;66;47;52
+5;2;67;53;58
+5;2;69;59;63
+5;2;70;64;69
+5;2;72;70;77
+5;2;73;78;83
+5;2;74;84;91
+5;2;75;92;97
+5;2;76;98;103
+5;2;77;104;109
+5;2;78;110;114
+5;3;79;0;5
+5;3;80;6;11
+5;3;81;12;17
+5;3;83;18;23
+5;3;84;24;29
+5;3;85;30;35
+5;3;86;36;41
+5;3;88;42;47
+5;2;90;115;119
+5;3;91;48;53
+5;3;92;54;59
+5;3;94;60;65
+5;3;95;66;71
+5;3;96;72;77
+5;3;97;78;83
+5;3;99;84;89
+5;3;100;90;94
+5;3;101;95;100
+5;3;102;101;106
+5;3;103;107;112
+5;3;104;113;118
+5;4;105;0;5
+5;4;106;6;11
+5;4;107;12;17
+5;4;108;18;23
+5;4;109;24;29
+5;4;113;30;35
+5;4;114;36;40
+5;4;115;41;46
+5;4;117;47;61
+5;4;118;62;67
+5;4;120;68;88
+5;4;121;89;94
+5;4;122;95;100
+5;4;123;101;106
+5;4;124;107;115
+5;5;125;0;8
+5;5;126;9;26
+5;5;127;27;35
+5;5;128;36;41
+5;5;129;42;47
+5;5;130;48;53
+5;5;131;54;59
+5;5;132;60;65
+5;5;133;66;71
+5;5;134;72;76
+5;5;135;77;82
+5;5;136;83;88
+5;5;137;89;94
+5;5;138;95;100
+5;5;139;101;105
+5;5;140;106;111
+5;6;141;0;17
+5;6;142;18;35
+5;6;143;36;44
+5;5;144;112;116
+5;6;145;45;50
+5;6;147;51;56
+5;6;148;57;62
+5;6;149;63;70
+5;6;150;71;76
+5;6;151;77;85
+5;6;269;86;91
+5;6;278;92;97
+5;6;289;98;104
+5;6;325;105;109
+5;6;345;110;115
+6;0;9;0;6
+6;0;15;7;14
+6;0;16;15;22
+6;0;21;23;30
+6;0;22;31;37
+6;0;23;38;45
+6;0;24;46;53
+6;0;26;54;60
+6;0;29;61;68
+6;0;30;69;74
+6;0;32;75;82
+6;0;33;83;87
+6;0;34;88;95
+6;0;35;96;101
+6;0;36;102;107
+6;0;38;108;112
+6;0;39;113;118
+6;1;40;0;4
+6;1;41;5;10
+6;1;42;11;16
+6;1;43;17;22
+6;1;44;23;30
+6;1;45;31;36
+6;1;46;37;41
+6;1;51;42;47
+6;1;52;48;52
+6;1;53;53;58
+6;1;54;59;63
+6;1;55;64;74
+6;1;56;75;80
+6;1;61;81;86
+6;1;62;87;92
+6;1;64;93;100
+6;1;65;101;105
+6;1;66;106;111
+6;1;67;112;117
+6;2;69;0;4
+6;2;70;5;10
+6;2;72;11;18
+6;2;73;19;24
+6;2;74;25;32
+6;2;75;33;38
+6;2;76;39;44
+6;2;77;45;50
+6;2;78;51;55
+6;2;79;56;61
+6;2;80;62;67
+6;2;81;68;73
+6;2;83;74;79
+6;2;84;80;85
+6;2;85;86;91
+6;2;86;92;97
+6;2;88;98;103
+6;2;90;104;108
+6;2;91;109;114
+6;3;92;0;5
+6;3;94;6;11
+6;3;95;12;17
+6;3;96;18;23
+6;3;97;24;29
+6;3;99;30;35
+6;2;100;115;119
+6;3;101;36;41
+6;3;102;42;47
+6;3;103;48;53
+6;3;104;54;59
+6;3;105;60;65
+6;3;106;66;71
+6;3;107;72;77
+6;3;108;78;83
+6;3;109;84;89
+6;3;113;90;95
+6;3;114;96;100
+6;3;115;101;106
+6;4;117;0;14
+6;3;118;107;112
+6;4;120;15;35
+6;3;121;113;118
+6;4;122;36;41
+6;4;123;42;47
+6;4;124;48;56
+6;4;125;57;65
+6;4;126;66;83
+6;4;128;84;89
+6;4;129;90;95
+6;4;130;96;101
+6;4;131;102;107
+6;4;132;108;113
+6;4;133;114;119
+6;5;134;0;4
+6;5;135;5;10
+6;5;136;11;16
+6;5;137;17;22
+6;5;138;23;28
+6;5;139;29;33
+6;5;140;34;39
+6;5;141;40;57
+6;5;142;58;75
+6;5;143;76;84
+6;5;144;85;89
+6;5;145;90;95
+6;5;146;96;113
+6;5;147;114;119
+6;6;148;0;5
+6;6;149;6;13
+6;6;150;14;19
+6;6;151;20;28
+6;6;152;29;33
+6;6;153;34;39
+6;6;154;40;45
+6;6;155;46;51
+6;6;156;52;60
+6;6;157;61;66
+6;6;158;67;72
+6;6;159;73;78
+6;6;278;79;84
+6;6;289;85;91
+7;0;9;0;6
+7;0;21;7;14
+7;0;22;15;21
+7;0;23;22;29
+7;0;24;30;37
+7;0;29;38;45
+7;0;30;46;51
+7;0;33;52;56
+7;0;34;57;64
+7;0;35;65;70
+7;0;38;71;75
+7;0;39;76;81
+7;0;40;82;86
+7;0;41;87;92
+7;0;42;93;98
+7;0;43;99;104
+7;0;44;105;112
+7;0;45;113;118
+7;1;46;0;4
+7;1;51;5;10
+7;1;52;11;15
+7;1;53;16;21
+7;1;54;22;26
+7;1;55;27;37
+7;1;56;38;43
+7;1;61;44;49
+7;1;62;50;55
+7;1;64;56;63
+7;1;66;64;69
+7;1;67;70;75
+7;1;69;76;80
+7;1;70;81;86
+7;1;72;87;94
+7;1;73;95;100
+7;1;74;101;108
+7;1;75;109;114
+7;2;76;0;5
+7;2;77;6;11
+7;1;78;115;119
+7;2;79;12;17
+7;2;80;18;23
+7;2;81;24;29
+7;2;83;30;35
+7;2;84;36;41
+7;2;85;42;47
+7;2;86;48;53
+7;2;88;54;59
+7;2;90;60;64
+7;2;91;65;70
+7;2;92;71;76
+7;2;94;77;82
+7;2;95;83;88
+7;2;96;89;94
+7;2;97;95;100
+7;2;99;101;106
+7;2;100;107;111
+7;2;101;112;117
+7;3;102;0;5
+7;3;103;6;11
+7;3;104;12;17
+7;3;105;18;23
+7;3;106;24;29
+7;3;107;30;35
+7;3;108;36;41
+7;3;109;42;47
+7;3;113;48;53
+7;3;114;54;58
+7;3;115;59;64
+7;3;117;65;79
+7;3;118;80;85
+7;3;120;86;106
+7;3;121;107;112
+7;3;122;113;118
+7;4;123;0;5
+7;4;124;6;14
+7;4;125;15;23
+7;4;128;24;29
+7;4;129;30;35
+7;4;130;36;41
+7;4;131;42;47
+7;4;132;48;53
+7;4;133;54;59
+7;4;134;60;64
+7;4;135;65;70
+7;4;136;71;76
+7;4;137;77;82
+7;4;138;83;88
+7;4;139;89;93
+7;4;140;94;99
+7;4;141;100;117
+7;5;142;0;17
+7;5;143;18;26
+7;5;144;27;31
+7;5;145;32;37
+7;5;146;38;55
+7;5;147;56;61
+7;5;148;62;67
+7;5;149;68;75
+7;5;150;76;81
+7;5;151;82;90
+7;5;152;91;95
+7;5;153;96;101
+7;5;154;102;107
+7;5;155;108;113
+7;6;156;0;8
+7;5;157;114;119
+7;6;158;9;14
+7;6;159;15;20
+7;6;160;21;29
+7;6;161;30;34
+7;6;162;35;46
+7;6;164;47;52
+7;6;165;53;58
+7;6;166;59;63
+7;6;167;64;72
+7;6;168;73;78
+7;6;172;79;83
+7;6;289;84;90
+8;0;21;0;7
+8;0;22;8;14
+8;0;23;15;22
+8;0;24;23;30
+8;0;29;31;38
+8;0;30;39;44
+8;0;33;45;49
+8;0;34;50;57
+8;0;35;58;63
+8;0;38;64;68
+8;0;40;69;73
+8;0;41;74;79
+8;0;42;80;85
+8;0;43;86;91
+8;0;44;92;99
+8;0;45;100;105
+8;0;46;106;110
+8;0;51;111;116
+8;1;52;0;4
+8;1;53;5;10
+8;1;54;11;15
+8;1;55;16;26
+8;1;56;27;32
+8;1;61;33;38
+8;1;62;39;44
+8;1;64;45;52
+8;1;66;53;58
+8;1;67;59;64
+8;1;69;65;69
+8;1;70;70;75
+8;1;72;76;83
+8;1;73;84;89
+8;1;74;90;97
+8;1;75;98;103
+8;1;77;104;109
+8;1;78;110;114
+8;2;79;0;5
+8;2;80;6;11
+8;2;81;12;17
+8;2;83;18;23
+8;2;84;24;29
+8;2;85;30;35
+8;2;86;36;41
+8;2;88;42;47
+8;1;90;115;119
+8;2;91;48;53
+8;2;92;54;59
+8;2;94;60;65
+8;2;95;66;71
+8;2;96;72;77
+8;2;97;78;83
+8;2;99;84;89
+8;2;100;90;94
+8;2;101;95;100
+8;2;102;101;106
+8;2;103;107;112
+8;2;104;113;118
+8;3;105;0;5
+8;3;106;6;11
+8;3;107;12;17
+8;3;108;18;23
+8;3;109;24;29
+8;3;113;30;35
+8;3;114;36;40
+8;3;115;41;46
+8;3;117;47;61
+8;3;118;62;67
+8;3;121;68;73
+8;3;122;74;79
+8;3;123;80;85
+8;3;124;86;94
+8;3;125;95;103
+8;3;128;104;109
+8;3;129;110;115
+8;4;130;0;5
+8;4;131;6;11
+8;4;132;12;17
+8;4;133;18;23
+8;4;134;24;28
+8;4;135;29;34
+8;4;136;35;40
+8;4;137;41;46
+8;4;138;47;52
+8;4;139;53;57
+8;4;140;58;63
+8;4;143;64;72
+8;4;144;73;77
+8;4;145;78;83
+8;4;146;84;101
+8;4;147;102;107
+8;4;148;108;113
+8;5;149;0;7
+8;4;150;114;119
+8;5;151;8;16
+8;5;152;17;21
+8;5;153;22;27
+8;5;154;28;33
+8;5;155;34;39
+8;5;156;40;48
+8;5;157;49;54
+8;5;158;55;60
+8;5;159;61;66
+8;5;160;67;75
+8;5;161;76;80
+8;5;162;81;92
+8;5;163;93;110
+8;5;164;111;116
+8;6;165;0;5
+8;6;166;6;10
+8;6;167;11;19
+8;6;168;20;25
+8;6;169;26;31
+8;6;170;32;37
+8;6;171;38;44
+8;6;172;45;49
+8;6;173;50;67
+8;6;174;68;76
+8;6;175;77;82
+8;6;176;83;88
+9;0;22;0;6
+9;0;23;7;14
+9;0;24;15;22
+9;0;29;23;30
+9;0;30;31;36
+9;0;33;37;41
+9;0;34;42;49
+9;0;35;50;55
+9;0;38;56;60
+9;0;40;61;65
+9;0;41;66;71
+9;0;42;72;77
+9;0;43;78;83
+9;0;44;84;91
+9;0;45;92;97
+9;0;46;98;102
+9;0;51;103;108
+9;0;52;109;113
+9;0;53;114;119
+9;1;54;0;4
+9;1;55;5;15
+9;1;56;16;21
+9;1;61;22;27
+9;1;62;28;33
+9;1;64;34;41
+9;1;66;42;47
+9;1;67;48;53
+9;1;69;54;58
+9;1;70;59;64
+9;1;73;65;70
+9;1;74;71;78
+9;1;75;79;84
+9;1;77;85;90
+9;1;78;91;95
+9;1;79;96;101
+9;1;80;102;107
+9;1;81;108;113
+9;1;83;114;119
+9;2;84;0;5
+9;2;85;6;11
+9;2;86;12;17
+9;2;88;18;23
+9;2;90;24;28
+9;2;91;29;34
+9;2;92;35;40
+9;2;94;41;46
+9;2;95;47;52
+9;2;96;53;58
+9;2;97;59;64
+9;2;99;65;70
+9;2;100;71;75
+9;2;101;76;81
+9;2;102;82;87
+9;2;103;88;93
+9;2;104;94;99
+9;2;105;100;105
+9;2;106;106;111
+9;2;107;112;117
+9;3;108;0;5
+9;3;109;6;11
+9;3;113;12;17
+9;3;114;18;22
+9;3;115;23;28
+9;3;117;29;43
+9;3;118;44;49
+9;3;121;50;55
+9;3;122;56;61
+9;3;123;62;67
+9;3;124;68;76
+9;3;125;77;85
+9;3;128;86;91
+9;3;129;92;97
+9;3;130;98;103
+9;3;131;104;109
+9;3;132;110;115
+9;4;133;0;5
+9;4;134;6;10
+9;4;135;11;16
+9;4;136;17;22
+9;4;137;23;28
+9;4;138;29;34
+9;4;139;35;39
+9;4;144;40;44
+9;4;145;45;50
+9;4;147;51;56
+9;4;148;57;62
+9;4;149;63;70
+9;4;150;71;76
+9;4;151;77;85
+9;4;152;86;90
+9;4;153;91;96
+9;4;154;97;102
+9;4;155;103;108
+9;4;157;109;114
+9;5;158;0;5
+9;5;159;6;11
+9;4;161;115;119
+9;5;162;12;23
+9;5;163;24;41
+9;5;164;42;47
+9;5;165;48;53
+9;5;166;54;58
+9;5;167;59;67
+9;5;168;68;73
+9;5;169;74;79
+9;5;170;80;85
+9;5;171;86;92
+9;5;172;93;97
+9;5;173;98;115
+9;6;174;0;8
+9;6;175;9;14
+9;6;176;15;20
+9;6;177;21;26
+9;6;178;27;32
+9;6;179;33;41
+9;6;180;42;50
+9;6;181;51;56
+9;6;182;57;62
+9;6;183;63;68
+9;6;184;69;73
+9;6;185;74;79
+9;6;186;80;85
+9;6;187;86;91
+9;6;188;92;97
+10;0;22;0;6
+10;0;30;7;12
+10;0;33;13;17
+10;0;34;18;25
+10;0;35;26;31
+10;0;38;32;36
+10;0;40;37;41
+10;0;41;42;47
+10;0;42;48;53
+10;0;43;54;59
+10;0;44;60;67
+10;0;45;68;73
+10;0;46;74;78
+10;0;51;79;84
+10;0;52;85;89
+10;0;53;90;95
+10;0;54;96;100
+10;0;55;101;111
+10;0;56;112;117
+10;1;62;0;5
+10;1;64;6;13
+10;1;66;14;19
+10;1;67;20;25
+10;1;69;26;30
+10;1;70;31;36
+10;1;73;37;42
+10;1;74;43;50
+10;1;75;51;56
+10;1;77;57;62
+10;1;78;63;67
+10;1;79;68;73
+10;1;80;74;79
+10;1;81;80;85
+10;1;83;86;91
+10;1;84;92;97
+10;1;85;98;103
+10;1;86;104;109
+10;1;88;110;115
+10;2;90;0;4
+10;2;91;5;10
+10;2;92;11;16
+10;2;94;17;22
+10;2;95;23;28
+10;2;96;29;34
+10;2;97;35;40
+10;2;99;41;46
+10;2;100;47;51
+10;2;101;52;57
+10;2;102;58;63
+10;2;103;64;69
+10;2;104;70;75
+10;2;105;76;81
+10;2;106;82;87
+10;2;107;88;93
+10;2;108;94;99
+10;2;109;100;105
+10;2;113;106;111
+10;2;114;112;116
+10;3;115;0;5
+10;3;117;6;20
+10;3;118;21;26
+10;3;121;27;32
+10;3;122;33;38
+10;3;123;39;44
+10;3;124;45;53
+10;3;125;54;62
+10;3;128;63;68
+10;3;129;69;74
+10;3;130;75;80
+10;3;131;81;86
+10;3;132;87;92
+10;3;133;93;98
+10;3;134;99;103
+10;3;135;104;109
+10;3;136;110;115
+10;4;137;0;5
+10;4;138;6;11
+10;4;139;12;16
+10;4;144;17;21
+10;4;147;22;27
+10;4;148;28;33
+10;4;149;34;41
+10;4;150;42;47
+10;4;151;48;56
+10;4;152;57;61
+10;4;153;62;67
+10;4;154;68;73
+10;4;155;74;79
+10;4;157;80;85
+10;4;158;86;91
+10;4;159;92;97
+10;4;161;98;102
+10;4;162;103;114
+10;5;163;0;17
+10;5;164;18;23
+10;5;165;24;29
+10;4;166;115;119
+10;5;167;30;38
+10;5;168;39;44
+10;5;169;45;50
+10;5;170;51;56
+10;5;171;57;63
+10;5;172;64;68
+10;5;173;69;86
+10;5;174;87;95
+10;5;175;96;101
+10;5;176;102;107
+10;5;177;108;113
+10;5;178;114;119
+10;6;179;0;8
+10;6;180;9;17
+10;6;181;18;23
+10;6;182;24;29
+10;6;183;30;35
+10;6;184;36;40
+10;6;185;41;46
+10;6;186;47;52
+10;6;187;53;58
+10;6;188;59;64
+10;6;189;65;69
+10;6;191;70;75
+10;6;192;76;84
+10;6;193;85;90
+10;6;194;91;96
+10;6;198;97;101
+11;0;22;0;6
+11;0;30;7;12
+11;0;33;13;17
+11;0;34;18;25
+11;0;35;26;31
+11;0;38;32;36
+11;0;40;37;41
+11;0;41;42;47
+11;0;42;48;53
+11;0;43;54;59
+11;0;44;60;67
+11;0;45;68;73
+11;0;46;74;78
+11;0;51;79;84
+11;0;52;85;89
+11;0;53;90;95
+11;0;54;96;100
+11;0;55;101;111
+11;0;56;112;117
+11;1;64;0;7
+11;1;66;8;13
+11;1;67;14;19
+11;1;69;20;24
+11;1;70;25;30
+11;1;73;31;36
+11;1;74;37;44
+11;1;75;45;50
+11;1;77;51;56
+11;1;78;57;61
+11;1;79;62;67
+11;1;80;68;73
+11;1;81;74;79
+11;1;83;80;85
+11;1;84;86;91
+11;1;85;92;97
+11;1;86;98;103
+11;1;88;104;109
+11;1;90;110;114
+11;2;91;0;5
+11;2;92;6;11
+11;2;94;12;17
+11;2;95;18;23
+11;2;96;24;29
+11;2;97;30;35
+11;1;100;115;119
+11;2;101;36;41
+11;2;102;42;47
+11;2;103;48;53
+11;2;104;54;59
+11;2;105;60;65
+11;2;106;66;71
+11;2;107;72;77
+11;2;108;78;83
+11;2;109;84;89
+11;2;113;90;95
+11;2;114;96;100
+11;2;115;101;106
+11;3;117;0;14
+11;2;118;107;112
+11;2;121;113;118
+11;3;122;15;20
+11;3;123;21;26
+11;3;124;27;35
+11;3;125;36;44
+11;3;128;45;50
+11;3;129;51;56
+11;3;130;57;62
+11;3;131;63;68
+11;3;132;69;74
+11;3;133;75;80
+11;3;134;81;85
+11;3;135;86;91
+11;3;136;92;97
+11;3;137;98;103
+11;3;138;104;109
+11;3;139;110;114
+11;3;144;115;119
+11;4;147;0;5
+11;4;148;6;11
+11;4;149;12;19
+11;4;150;20;25
+11;4;151;26;34
+11;4;152;35;39
+11;4;153;40;45
+11;4;154;46;51
+11;4;155;52;57
+11;4;157;58;63
+11;4;158;64;69
+11;4;159;70;75
+11;4;161;76;80
+11;4;162;81;92
+11;4;164;93;98
+11;4;165;99;104
+11;4;166;105;109
+11;4;167;110;118
+11;5;168;0;5
+11;5;169;6;11
+11;5;170;12;17
+11;5;171;18;24
+11;5;172;25;29
+11;5;175;30;35
+11;5;176;36;41
+11;5;177;42;47
+11;5;178;48;53
+11;5;179;54;62
+11;5;180;63;71
+11;5;181;72;77
+11;5;182;78;83
+11;5;183;84;89
+11;5;184;90;94
+11;5;185;95;100
+11;5;186;101;106
+11;5;187;107;112
+11;5;188;113;118
+11;6;189;0;4
+11;6;191;5;10
+11;6;192;11;19
+11;6;193;20;25
+11;6;194;26;31
+11;6;195;32;37
+11;6;196;38;43
+11;6;197;44;49
+11;6;198;50;54
+11;6;199;55;60
+11;6;200;61;65
+11;6;201;66;71
+11;6;202;72;76
+11;6;203;77;82
+11;6;204;83;87
+12;0;33;0;4
+12;0;34;5;12
+12;0;35;13;18
+12;0;38;19;23
+12;0;40;24;28
+12;0;41;29;34
+12;0;42;35;40
+12;0;43;41;46
+12;0;44;47;54
+12;0;45;55;60
+12;0;46;61;65
+12;0;51;66;71
+12;0;52;72;76
+12;0;53;77;82
+12;0;54;83;87
+12;0;55;88;98
+12;0;56;99;104
+12;0;64;105;112
+12;0;66;113;118
+12;1;69;0;4
+12;1;70;5;10
+12;1;73;11;16
+12;1;74;17;24
+12;1;75;25;30
+12;1;77;31;36
+12;1;78;37;41
+12;1;79;42;47
+12;1;80;48;53
+12;1;81;54;59
+12;1;83;60;65
+12;1;84;66;71
+12;1;85;72;77
+12;1;86;78;83
+12;1;88;84;89
+12;1;90;90;94
+12;1;91;95;100
+12;1;92;101;106
+12;1;94;107;112
+12;1;95;113;118
+12;2;96;0;5
+12;2;97;6;11
+12;2;100;12;16
+12;2;101;17;22
+12;2;105;23;28
+12;2;106;29;34
+12;2;107;35;40
+12;2;108;41;46
+12;2;109;47;52
+12;2;113;53;58
+12;2;114;59;63
+12;2;115;64;69
+12;2;117;70;84
+12;2;118;85;90
+12;2;121;91;96
+12;2;122;97;102
+12;2;123;103;108
+12;2;124;109;117
+12;3;125;0;8
+12;3;128;9;14
+12;3;129;15;20
+12;3;130;21;26
+12;3;131;27;32
+12;3;132;33;38
+12;3;133;39;44
+12;3;134;45;49
+12;3;135;50;55
+12;3;136;56;61
+12;3;137;62;67
+12;3;138;68;73
+12;3;139;74;78
+12;3;144;79;83
+12;3;147;84;89
+12;3;148;90;95
+12;3;149;96;103
+12;3;150;104;109
+12;3;151;110;118
+12;4;152;0;4
+12;4;153;5;10
+12;4;154;11;16
+12;4;155;17;22
+12;4;157;23;28
+12;4;158;29;34
+12;4;159;35;40
+12;4;161;41;45
+12;4;164;46;51
+12;4;165;52;57
+12;4;166;58;62
+12;4;167;63;71
+12;4;168;72;77
+12;4;169;78;83
+12;4;170;84;89
+12;4;171;90;96
+12;4;172;97;101
+12;4;175;102;107
+12;4;176;108;113
+12;4;177;114;119
+12;5;178;0;5
+12;5;179;6;14
+12;5;181;15;20
+12;5;182;21;26
+12;5;183;27;32
+12;5;184;33;37
+12;5;185;38;43
+12;5;186;44;49
+12;5;187;50;55
+12;5;188;56;61
+12;5;189;62;66
+12;5;191;67;72
+12;5;192;73;81
+12;5;193;82;87
+12;5;194;88;93
+12;5;195;94;99
+12;5;196;100;105
+12;5;197;106;111
+12;5;198;112;116
+12;6;199;0;5
+12;6;200;6;10
+12;6;201;11;16
+12;6;202;17;21
+12;6;203;22;27
+12;6;204;28;32
+12;6;205;33;41
+12;6;206;42;47
+12;6;207;48;53
+12;6;208;54;58
+12;6;209;59;63
+12;6;210;64;69
+12;6;211;70;75
+12;6;212;76;80
+12;6;213;81;86
+13;0;33;0;4
+13;0;34;5;12
+13;0;35;13;18
+13;0;38;19;23
+13;0;40;24;28
+13;0;41;29;34
+13;0;42;35;40
+13;0;43;41;46
+13;0;44;47;54
+13;0;45;55;60
+13;0;46;61;65
+13;0;51;66;71
+13;0;52;72;76
+13;0;53;77;82
+13;0;54;83;87
+13;0;55;88;98
+13;0;56;99;104
+13;0;64;105;112
+13;0;66;113;118
+13;1;69;0;4
+13;1;70;5;10
+13;1;73;11;16
+13;1;74;17;24
+13;1;75;25;30
+13;1;77;31;36
+13;1;78;37;41
+13;1;79;42;47
+13;1;80;48;53
+13;1;81;54;59
+13;1;83;60;65
+13;1;84;66;71
+13;1;85;72;77
+13;1;86;78;83
+13;1;88;84;89
+13;1;91;90;95
+13;1;92;96;101
+13;1;94;102;107
+13;1;95;108;113
+13;1;96;114;119
+13;2;97;0;5
+13;2;101;6;11
+13;2;105;12;17
+13;2;106;18;23
+13;2;107;24;29
+13;2;108;30;35
+13;2;109;36;41
+13;2;113;42;47
+13;2;114;48;52
+13;2;115;53;58
+13;2;117;59;73
+13;2;118;74;79
+13;2;121;80;85
+13;2;122;86;91
+13;2;123;92;97
+13;2;124;98;106
+13;2;125;107;115
+13;3;128;0;5
+13;3;129;6;11
+13;3;130;12;17
+13;3;131;18;23
+13;3;132;24;29
+13;3;133;30;35
+13;3;134;36;40
+13;3;135;41;46
+13;3;136;47;52
+13;3;137;53;58
+13;3;138;59;64
+13;3;139;65;69
+13;3;144;70;74
+13;3;147;75;80
+13;3;148;81;86
+13;3;149;87;94
+13;3;150;95;100
+13;3;151;101;109
+13;3;152;110;114
+13;4;153;0;5
+13;4;154;6;11
+13;4;155;12;17
+13;4;157;18;23
+13;4;158;24;29
+13;4;159;30;35
+13;3;161;115;119
+13;4;164;36;41
+13;4;165;42;47
+13;4;166;48;52
+13;4;167;53;61
+13;4;168;62;67
+13;4;169;68;73
+13;4;170;74;79
+13;4;171;80;86
+13;4;172;87;91
+13;4;176;92;97
+13;4;177;98;103
+13;4;178;104;109
+13;4;179;110;118
+13;5;181;0;5
+13;5;182;6;11
+13;5;183;12;17
+13;5;184;18;22
+13;5;185;23;28
+13;5;186;29;34
+13;5;187;35;40
+13;5;188;41;46
+13;5;189;47;51
+13;5;191;52;57
+13;5;192;58;66
+13;5;193;67;72
+13;5;194;73;78
+13;5;195;79;84
+13;5;196;85;90
+13;5;197;91;96
+13;5;198;97;101
+13;5;199;102;107
+13;5;200;108;112
+13;5;201;113;118
+13;6;202;0;4
+13;6;203;5;10
+13;6;204;11;15
+13;6;205;16;24
+13;6;206;25;30
+13;6;207;31;36
+13;6;208;37;41
+13;6;209;42;46
+13;6;210;47;52
+13;6;211;53;58
+13;6;212;59;63
+13;6;213;64;69
+13;6;214;70;75
+13;6;247;76;84
+14;0;34;0;7
+14;0;35;8;13
+14;0;38;14;18
+14;0;40;19;23
+14;0;41;24;29
+14;0;42;30;35
+14;0;43;36;41
+14;0;44;42;49
+14;0;45;50;55
+14;0;51;56;61
+14;0;52;62;66
+14;0;54;67;71
+14;0;55;72;82
+14;0;56;83;88
+14;0;64;89;96
+14;0;66;97;102
+14;0;70;103;108
+14;0;73;109;114
+14;1;74;0;7
+14;1;75;8;13
+14;0;78;115;119
+14;1;79;14;19
+14;1;80;20;25
+14;1;81;26;31
+14;1;83;32;37
+14;1;84;38;43
+14;1;85;44;49
+14;1;86;50;55
+14;1;88;56;61
+14;1;91;62;67
+14;1;92;68;73
+14;1;94;74;79
+14;1;95;80;85
+14;1;96;86;91
+14;1;97;92;97
+14;1;101;98;103
+14;1;105;104;109
+14;1;106;110;115
+14;2;107;0;5
+14;2;108;6;11
+14;2;109;12;17
+14;2;114;18;22
+14;2;115;23;28
+14;2;117;29;43
+14;2;118;44;49
+14;2;121;50;55
+14;2;122;56;61
+14;2;123;62;67
+14;2;124;68;76
+14;2;125;77;85
+14;2;128;86;91
+14;2;129;92;97
+14;2;130;98;103
+14;2;131;104;109
+14;2;132;110;115
+14;3;133;0;5
+14;3;134;6;10
+14;3;135;11;16
+14;3;136;17;22
+14;3;137;23;28
+14;3;138;29;34
+14;3;139;35;39
+14;3;144;40;44
+14;3;147;45;50
+14;3;148;51;56
+14;3;149;57;64
+14;3;150;65;70
+14;3;151;71;79
+14;3;152;80;84
+14;3;153;85;90
+14;3;154;91;96
+14;3;155;97;102
+14;3;157;103;108
+14;3;158;109;114
+14;4;159;0;5
+14;3;161;115;119
+14;4;164;6;11
+14;4;165;12;17
+14;4;166;18;22
+14;4;167;23;31
+14;4;168;32;37
+14;4;169;38;43
+14;4;170;44;49
+14;4;171;50;56
+14;4;172;57;61
+14;4;176;62;67
+14;4;177;68;73
+14;4;178;74;79
+14;4;179;80;88
+14;4;181;89;94
+14;4;182;95;100
+14;4;183;101;106
+14;4;184;107;111
+14;4;185;112;117
+14;5;186;0;5
+14;5;187;6;11
+14;5;188;12;17
+14;5;189;18;22
+14;5;191;23;28
+14;5;192;29;37
+14;5;193;38;43
+14;5;194;44;49
+14;5;195;50;55
+14;5;196;56;61
+14;5;197;62;67
+14;5;198;68;72
+14;5;199;73;78
+14;5;200;79;83
+14;5;201;84;89
+14;5;202;90;94
+14;5;203;95;100
+14;5;204;101;105
+14;5;205;106;114
+14;6;206;0;5
+14;6;207;6;11
+14;5;208;115;119
+14;6;209;12;16
+14;6;210;17;22
+14;6;211;23;28
+14;6;212;29;33
+14;6;213;34;39
+14;6;214;40;45
+14;6;215;46;57
+14;6;216;58;63
+14;6;218;64;69
+14;6;219;70;78
+14;6;221;79;84
+14;6;224;85;89
+15;0;38;0;4
+15;0;40;5;9
+15;0;41;10;15
+15;0;42;16;21
+15;0;43;22;27
+15;0;44;28;35
+15;0;45;36;41
+15;0;51;42;47
+15;0;52;48;52
+15;0;54;53;57
+15;0;55;58;68
+15;0;64;69;76
+15;0;66;77;82
+15;0;70;83;88
+15;0;73;89;94
+15;0;74;95;102
+15;0;75;103;108
+15;0;78;109;113
+15;0;81;114;119
+15;1;83;0;5
+15;1;84;6;11
+15;1;85;12;17
+15;1;86;18;23
+15;1;88;24;29
+15;1;91;30;35
+15;1;92;36;41
+15;1;94;42;47
+15;1;95;48;53
+15;1;96;54;59
+15;1;97;60;65
+15;1;101;66;71
+15;1;105;72;77
+15;1;106;78;83
+15;1;107;84;89
+15;1;108;90;95
+15;1;109;96;101
+15;1;114;102;106
+15;1;115;107;112
+15;2;117;0;14
+15;1;118;113;118
+15;2;121;15;20
+15;2;122;21;26
+15;2;123;27;32
+15;2;124;33;41
+15;2;125;42;50
+15;2;128;51;56
+15;2;129;57;62
+15;2;130;63;68
+15;2;131;69;74
+15;2;132;75;80
+15;2;133;81;86
+15;2;134;87;91
+15;2;135;92;97
+15;2;136;98;103
+15;2;137;104;109
+15;2;138;110;115
+15;3;139;0;4
+15;3;144;5;9
+15;3;147;10;15
+15;3;148;16;21
+15;3;149;22;29
+15;3;150;30;35
+15;3;151;36;44
+15;3;152;45;49
+15;3;153;50;55
+15;3;154;56;61
+15;3;155;62;67
+15;3;157;68;73
+15;3;158;74;79
+15;3;159;80;85
+15;3;161;86;90
+15;3;164;91;96
+15;3;165;97;102
+15;3;166;103;107
+15;3;167;108;116
+15;4;168;0;5
+15;4;169;6;11
+15;4;170;12;17
+15;4;171;18;24
+15;4;172;25;29
+15;4;176;30;35
+15;4;177;36;41
+15;4;178;42;47
+15;4;179;48;56
+15;4;181;57;62
+15;4;182;63;68
+15;4;183;69;74
+15;4;184;75;79
+15;4;185;80;85
+15;4;186;86;91
+15;4;187;92;97
+15;4;188;98;103
+15;4;189;104;108
+15;4;191;109;114
+15;5;193;0;5
+15;5;194;6;11
+15;5;195;12;17
+15;5;196;18;23
+15;5;197;24;29
+15;4;198;115;119
+15;5;199;30;35
+15;5;200;36;40
+15;5;201;41;46
+15;5;202;47;51
+15;5;203;52;57
+15;5;204;58;62
+15;5;205;63;71
+15;5;206;72;77
+15;5;207;78;83
+15;5;208;84;88
+15;5;209;89;93
+15;5;210;94;99
+15;5;211;100;105
+15;5;212;106;110
+15;5;213;111;116
+15;6;214;0;5
+15;6;215;6;17
+15;6;216;18;23
+15;6;218;24;29
+15;6;219;30;38
+15;6;220;39;50
+15;6;221;51;56
+15;6;223;57;62
+15;6;224;63;67
+15;6;225;68;73
+15;6;226;74;82
+15;6;229;83;88
+16;0;43;0;5
+16;0;45;6;11
+16;0;51;12;17
+16;0;52;18;22
+16;0;54;23;27
+16;0;55;28;38
+16;0;64;39;46
+16;0;66;47;52
+16;0;70;53;58
+16;0;73;59;64
+16;0;74;65;72
+16;0;75;73;78
+16;0;78;79;83
+16;0;81;84;89
+16;0;83;90;95
+16;0;84;96;101
+16;0;85;102;107
+16;0;86;108;113
+16;0;88;114;119
+16;1;91;0;5
+16;1;94;6;11
+16;1;95;12;17
+16;1;96;18;23
+16;1;97;24;29
+16;1;105;30;35
+16;1;106;36;41
+16;1;107;42;47
+16;1;108;48;53
+16;1;109;54;59
+16;1;114;60;64
+16;1;115;65;70
+16;1;117;71;85
+16;1;118;86;91
+16;1;121;92;97
+16;1;122;98;103
+16;1;123;104;109
+16;1;124;110;118
+16;2;125;0;8
+16;2;128;9;14
+16;2;129;15;20
+16;2;130;21;26
+16;2;131;27;32
+16;2;132;33;38
+16;2;133;39;44
+16;2;134;45;49
+16;2;135;50;55
+16;2;136;56;61
+16;2;137;62;67
+16;2;138;68;73
+16;2;139;74;78
+16;2;144;79;83
+16;2;147;84;89
+16;2;148;90;95
+16;2;149;96;103
+16;2;150;104;109
+16;2;151;110;118
+16;3;152;0;4
+16;3;153;5;10
+16;3;154;11;16
+16;3;155;17;22
+16;3;157;23;28
+16;3;158;29;34
+16;3;159;35;40
+16;3;161;41;45
+16;3;164;46;51
+16;3;165;52;57
+16;3;166;58;62
+16;3;167;63;71
+16;3;168;72;77
+16;3;169;78;83
+16;3;170;84;89
+16;3;171;90;96
+16;3;172;97;101
+16;3;176;102;107
+16;3;177;108;113
+16;3;178;114;119
+16;4;179;0;8
+16;4;181;9;14
+16;4;182;15;20
+16;4;183;21;26
+16;4;184;27;31
+16;4;185;32;37
+16;4;186;38;43
+16;4;187;44;49
+16;4;188;50;55
+16;4;189;56;60
+16;4;191;61;66
+16;4;193;67;72
+16;4;194;73;78
+16;4;195;79;84
+16;4;196;85;90
+16;4;197;91;96
+16;4;198;97;101
+16;4;199;102;107
+16;4;200;108;112
+16;4;201;113;118
+16;5;202;0;4
+16;5;203;5;10
+16;5;204;11;15
+16;5;205;16;24
+16;5;206;25;30
+16;5;207;31;36
+16;5;208;37;41
+16;5;209;42;46
+16;5;210;47;52
+16;5;211;53;58
+16;5;212;59;63
+16;5;213;64;69
+16;5;214;70;75
+16;5;215;76;87
+16;5;216;88;93
+16;5;218;94;99
+16;5;219;100;108
+16;6;220;0;11
+16;5;221;109;114
+16;6;222;12;29
+16;6;223;30;35
+16;5;224;115;119
+16;6;225;36;41
+16;6;226;42;50
+16;6;227;51;59
+16;6;228;60;68
+16;6;229;69;74
+16;6;230;75;80
+16;6;233;81;85
+17;0;43;0;5
+17;0;54;6;10
+17;0;55;11;21
+17;0;64;22;29
+17;0;70;30;35
+17;0;73;36;41
+17;0;74;42;49
+17;0;78;50;54
+17;0;81;55;60
+17;0;83;61;66
+17;0;84;67;72
+17;0;85;73;78
+17;0;86;79;84
+17;0;88;85;90
+17;0;91;91;96
+17;0;94;97;102
+17;0;95;103;108
+17;0;96;109;114
+17;1;97;0;5
+17;1;105;6;11
+17;1;106;12;17
+17;1;107;18;23
+17;1;108;24;29
+17;1;109;30;35
+17;0;114;115;119
+17;1;115;36;41
+17;1;117;42;56
+17;1;118;57;62
+17;1;121;63;68
+17;1;122;69;74
+17;1;123;75;80
+17;1;124;81;89
+17;1;125;90;98
+17;1;128;99;104
+17;1;129;105;110
+17;1;130;111;116
+17;2;131;0;5
+17;2;132;6;11
+17;2;133;12;17
+17;2;134;18;22
+17;2;135;23;28
+17;2;136;29;34
+17;2;137;35;40
+17;2;138;41;46
+17;2;139;47;51
+17;2;144;52;56
+17;2;147;57;62
+17;2;148;63;68
+17;2;149;69;76
+17;2;150;77;82
+17;2;152;83;87
+17;2;153;88;93
+17;2;154;94;99
+17;2;155;100;105
+17;2;157;106;111
+17;2;158;112;117
+17;3;159;0;5
+17;3;161;6;10
+17;3;164;11;16
+17;3;165;17;22
+17;3;168;23;28
+17;3;169;29;34
+17;3;170;35;40
+17;3;171;41;47
+17;3;172;48;52
+17;3;176;53;58
+17;3;177;59;64
+17;3;178;65;70
+17;3;179;71;79
+17;3;181;80;85
+17;3;182;86;91
+17;3;183;92;97
+17;3;184;98;102
+17;3;185;103;108
+17;3;186;109;114
+17;4;187;0;5
+17;4;188;6;11
+17;3;189;115;119
+17;4;191;12;17
+17;4;193;18;23
+17;4;194;24;29
+17;4;195;30;35
+17;4;196;36;41
+17;4;197;42;47
+17;4;198;48;52
+17;4;199;53;58
+17;4;200;59;63
+17;4;201;64;69
+17;4;202;70;74
+17;4;203;75;80
+17;4;204;81;85
+17;4;206;86;91
+17;4;207;92;97
+17;4;208;98;102
+17;4;209;103;107
+17;4;210;108;113
+17;4;211;114;119
+17;5;212;0;4
+17;5;213;5;10
+17;5;214;11;16
+17;5;215;17;28
+17;5;216;29;34
+17;5;218;35;40
+17;5;220;41;52
+17;5;221;53;58
+17;5;222;59;76
+17;5;223;77;82
+17;5;224;83;87
+17;5;225;88;93
+17;5;226;94;102
+17;5;227;103;111
+17;6;228;0;8
+17;5;229;112;117
+17;6;230;9;14
+17;6;231;15;23
+17;6;232;24;29
+17;6;233;30;34
+17;6;234;35;40
+17;6;235;41;51
+17;6;236;52;57
+17;6;237;58;62
+17;6;238;63;68
+17;6;239;69;80
+17;6;240;81;89
+18;0;64;0;7
+18;0;70;8;13
+18;0;73;14;19
+18;0;74;20;27
+18;0;78;28;32
+18;0;81;33;38
+18;0;83;39;44
+18;0;84;45;50
+18;0;85;51;56
+18;0;86;57;62
+18;0;88;63;68
+18;0;91;69;74
+18;0;94;75;80
+18;0;95;81;86
+18;0;96;87;92
+18;0;97;93;98
+18;0;105;99;104
+18;0;106;105;110
+18;0;107;111;116
+18;1;108;0;5
+18;1;109;6;11
+18;1;114;12;16
+18;1;115;17;22
+18;1;117;23;37
+18;1;118;38;43
+18;1;121;44;49
+18;1;122;50;55
+18;1;123;56;61
+18;1;124;62;70
+18;1;125;71;79
+18;1;128;80;85
+18;1;129;86;91
+18;1;130;92;97
+18;1;131;98;103
+18;1;132;104;109
+18;1;133;110;115
+18;2;134;0;4
+18;2;135;5;10
+18;2;136;11;16
+18;2;137;17;22
+18;2;138;23;28
+18;2;139;29;33
+18;2;144;34;38
+18;2;147;39;44
+18;2;148;45;50
+18;2;149;51;58
+18;2;150;59;64
+18;2;152;65;69
+18;2;153;70;75
+18;2;154;76;81
+18;2;155;82;87
+18;2;157;88;93
+18;2;158;94;99
+18;2;159;100;105
+18;2;161;106;110
+18;2;164;111;116
+18;3;165;0;5
+18;3;168;6;11
+18;3;169;12;17
+18;3;170;18;23
+18;3;172;24;28
+18;3;176;29;34
+18;3;177;35;40
+18;3;178;41;46
+18;3;179;47;55
+18;3;181;56;61
+18;3;182;62;67
+18;3;183;68;73
+18;3;184;74;78
+18;3;185;79;84
+18;3;186;85;90
+18;3;187;91;96
+18;3;188;97;102
+18;3;189;103;107
+18;3;191;108;113
+18;3;193;114;119
+18;4;194;0;5
+18;4;195;6;11
+18;4;196;12;17
+18;4;197;18;23
+18;4;198;24;28
+18;4;199;29;34
+18;4;200;35;39
+18;4;201;40;45
+18;4;202;46;50
+18;4;203;51;56
+18;4;204;57;61
+18;4;206;62;67
+18;4;207;68;73
+18;4;208;74;78
+18;4;209;79;83
+18;4;210;84;89
+18;4;211;90;95
+18;4;212;96;100
+18;4;213;101;106
+18;4;214;107;112
+18;5;215;0;11
+18;4;216;113;118
+18;5;218;12;17
+18;5;220;18;29
+18;5;221;30;35
+18;5;222;36;53
+18;5;223;54;59
+18;5;224;60;64
+18;5;225;65;70
+18;5;227;71;79
+18;5;228;80;88
+18;5;229;89;94
+18;5;230;95;100
+18;5;231;101;109
+18;5;232;110;115
+18;6;233;0;4
+18;6;234;5;10
+18;6;235;11;21
+18;6;236;22;27
+18;6;237;28;32
+18;6;238;33;38
+18;6;239;39;50
+18;6;240;51;59
+18;6;241;60;65
+18;6;242;66;70
+18;6;243;71;76
+18;6;244;77;82
+18;6;245;83;88
+18;6;248;89;94
+18;6;249;95;100
+19;0;64;0;7
+19;0;70;8;13
+19;0;74;14;21
+19;0;81;22;27
+19;0;83;28;33
+19;0;84;34;39
+19;0;85;40;45
+19;0;86;46;51
+19;0;88;52;57
+19;0;91;58;63
+19;0;94;64;69
+19;0;95;70;75
+19;0;96;76;81
+19;0;97;82;87
+19;0;105;88;93
+19;0;106;94;99
+19;0;107;100;105
+19;0;108;106;111
+19;0;109;112;117
+19;1;115;0;5
+19;1;117;6;20
+19;1;118;21;26
+19;1;121;27;32
+19;1;122;33;38
+19;1;123;39;44
+19;1;124;45;53
+19;1;125;54;62
+19;1;128;63;68
+19;1;129;69;74
+19;1;130;75;80
+19;1;131;81;86
+19;1;132;87;92
+19;1;133;93;98
+19;1;134;99;103
+19;1;135;104;109
+19;1;136;110;115
+19;2;137;0;5
+19;2;138;6;11
+19;2;139;12;16
+19;2;144;17;21
+19;2;147;22;27
+19;2;148;28;33
+19;2;149;34;41
+19;2;150;42;47
+19;2;152;48;52
+19;2;153;53;58
+19;2;154;59;64
+19;2;155;65;70
+19;2;157;71;76
+19;2;158;77;82
+19;2;159;83;88
+19;2;161;89;93
+19;2;164;94;99
+19;2;165;100;105
+19;2;168;106;111
+19;2;169;112;117
+19;3;170;0;5
+19;3;172;6;10
+19;3;176;11;16
+19;3;177;17;22
+19;3;178;23;28
+19;3;179;29;37
+19;3;181;38;43
+19;3;182;44;49
+19;3;183;50;55
+19;3;184;56;60
+19;3;185;61;66
+19;3;186;67;72
+19;3;187;73;78
+19;3;188;79;84
+19;3;189;85;89
+19;3;191;90;95
+19;3;193;96;101
+19;3;194;102;107
+19;3;195;108;113
+19;3;196;114;119
+19;4;197;0;5
+19;4;198;6;10
+19;4;199;11;16
+19;4;200;17;21
+19;4;201;22;27
+19;4;202;28;32
+19;4;203;33;38
+19;4;204;39;43
+19;4;206;44;49
+19;4;207;50;55
+19;4;208;56;60
+19;4;209;61;65
+19;4;210;66;71
+19;4;211;72;77
+19;4;212;78;82
+19;4;213;83;88
+19;4;214;89;94
+19;4;216;95;100
+19;4;218;101;106
+19;4;220;107;118
+19;5;221;0;5
+19;5;223;6;11
+19;5;224;12;16
+19;5;225;17;22
+19;5;228;23;31
+19;5;229;32;37
+19;5;230;38;43
+19;5;231;44;52
+19;5;232;53;58
+19;5;233;59;63
+19;5;234;64;69
+19;5;235;70;80
+19;5;236;81;86
+19;5;237;87;91
+19;5;238;92;97
+19;5;239;98;109
+19;5;240;110;118
+19;6;241;0;5
+19;6;242;6;10
+19;6;243;11;16
+19;6;244;17;22
+19;6;245;23;28
+19;6;246;29;46
+19;6;248;47;52
+19;6;249;53;58
+19;6;250;59;76
+19;6;251;77;82
+19;6;252;83;88
+19;6;253;89;94
+20;0;64;0;7
+20;0;70;8;13
+20;0;74;14;21
+20;0;81;22;27
+20;0;83;28;33
+20;0;84;34;39
+20;0;85;40;45
+20;0;86;46;51
+20;0;88;52;57
+20;0;91;58;63
+20;0;94;64;69
+20;0;95;70;75
+20;0;96;76;81
+20;0;97;82;87
+20;0;105;88;93
+20;0;106;94;99
+20;0;107;100;105
+20;0;108;106;111
+20;0;109;112;117
+20;1;115;0;5
+20;1;117;6;20
+20;1;118;21;26
+20;1;121;27;32
+20;1;122;33;38
+20;1;123;39;44
+20;1;124;45;53
+20;1;125;54;62
+20;1;128;63;68
+20;1;129;69;74
+20;1;130;75;80
+20;1;131;81;86
+20;1;132;87;92
+20;1;133;93;98
+20;1;134;99;103
+20;1;135;104;109
+20;1;136;110;115
+20;2;137;0;5
+20;2;138;6;11
+20;2;139;12;16
+20;2;144;17;21
+20;2;147;22;27
+20;2;148;28;33
+20;2;149;34;41
+20;2;150;42;47
+20;2;152;48;52
+20;2;153;53;58
+20;2;154;59;64
+20;2;155;65;70
+20;2;157;71;76
+20;2;158;77;82
+20;2;159;83;88
+20;2;161;89;93
+20;2;164;94;99
+20;2;165;100;105
+20;2;168;106;111
+20;2;169;112;117
+20;3;170;0;5
+20;3;172;6;10
+20;3;176;11;16
+20;3;177;17;22
+20;3;178;23;28
+20;3;179;29;37
+20;3;181;38;43
+20;3;182;44;49
+20;3;183;50;55
+20;3;184;56;60
+20;3;185;61;66
+20;3;186;67;72
+20;3;187;73;78
+20;3;188;79;84
+20;3;189;85;89
+20;3;191;90;95
+20;3;193;96;101
+20;3;194;102;107
+20;3;195;108;113
+20;3;196;114;119
+20;4;197;0;5
+20;4;198;6;10
+20;4;199;11;16
+20;4;200;17;21
+20;4;201;22;27
+20;4;202;28;32
+20;4;203;33;38
+20;4;204;39;43
+20;4;206;44;49
+20;4;207;50;55
+20;4;208;56;60
+20;4;209;61;65
+20;4;210;66;71
+20;4;211;72;77
+20;4;212;78;82
+20;4;213;83;88
+20;4;214;89;94
+20;4;216;95;100
+20;4;218;101;106
+20;4;221;107;112
+20;4;223;113;118
+20;5;224;0;4
+20;5;225;5;10
+20;5;228;11;19
+20;5;229;20;25
+20;5;230;26;31
+20;5;231;32;40
+20;5;232;41;46
+20;5;233;47;51
+20;5;234;52;57
+20;5;235;58;68
+20;5;236;69;74
+20;5;237;75;79
+20;5;238;80;85
+20;5;239;86;97
+20;5;240;98;106
+20;5;241;107;112
+20;5;242;113;117
+20;6;243;0;5
+20;6;244;6;11
+20;6;245;12;17
+20;6;246;18;35
+20;6;248;36;41
+20;6;249;42;47
+20;6;250;48;65
+20;6;251;66;71
+20;6;252;72;77
+20;6;253;78;83
+20;6;254;84;89
+21;0;70;0;5
+21;0;74;6;13
+21;0;81;14;19
+21;0;83;20;25
+21;0;84;26;31
+21;0;85;32;37
+21;0;86;38;43
+21;0;88;44;49
+21;0;91;50;55
+21;0;94;56;61
+21;0;95;62;67
+21;0;96;68;73
+21;0;97;74;79
+21;0;105;80;85
+21;0;106;86;91
+21;0;107;92;97
+21;0;109;98;103
+21;0;115;104;109
+21;1;117;0;14
+21;0;118;110;115
+21;1;121;15;20
+21;1;122;21;26
+21;1;123;27;32
+21;1;124;33;41
+21;1;125;42;50
+21;1;128;51;56
+21;1;129;57;62
+21;1;130;63;68
+21;1;131;69;74
+21;1;132;75;80
+21;1;133;81;86
+21;1;134;87;91
+21;1;135;92;97
+21;1;136;98;103
+21;1;137;104;109
+21;1;138;110;115
+21;2;139;0;4
+21;2;144;5;9
+21;2;147;10;15
+21;2;148;16;21
+21;2;149;22;29
+21;2;150;30;35
+21;2;152;36;40
+21;2;154;41;46
+21;2;155;47;52
+21;2;157;53;58
+21;2;158;59;64
+21;2;159;65;70
+21;2;161;71;75
+21;2;164;76;81
+21;2;165;82;87
+21;2;168;88;93
+21;2;169;94;99
+21;2;170;100;105
+21;2;172;106;110
+21;2;176;111;116
+21;3;178;0;5
+21;3;179;6;14
+21;3;181;15;20
+21;3;182;21;26
+21;3;183;27;32
+21;3;184;33;37
+21;3;185;38;43
+21;3;186;44;49
+21;3;187;50;55
+21;3;188;56;61
+21;3;189;62;66
+21;3;191;67;72
+21;3;193;73;78
+21;3;194;79;84
+21;3;195;85;90
+21;3;196;91;96
+21;3;198;97;101
+21;3;199;102;107
+21;3;200;108;112
+21;3;201;113;118
+21;4;202;0;4
+21;4;203;5;10
+21;4;204;11;15
+21;4;206;16;21
+21;4;207;22;27
+21;4;208;28;32
+21;4;209;33;37
+21;4;210;38;43
+21;4;211;44;49
+21;4;212;50;54
+21;4;213;55;60
+21;4;214;61;66
+21;4;216;67;72
+21;4;218;73;78
+21;4;221;79;84
+21;4;223;85;90
+21;4;224;91;95
+21;4;225;96;101
+21;4;229;102;107
+21;4;230;108;113
+21;5;231;0;8
+21;4;232;114;119
+21;5;233;9;13
+21;5;234;14;19
+21;5;235;20;30
+21;5;236;31;36
+21;5;237;37;41
+21;5;238;42;47
+21;5;239;48;59
+21;5;240;60;68
+21;5;241;69;74
+21;5;242;75;79
+21;5;243;80;85
+21;5;244;86;91
+21;5;245;92;97
+21;5;246;98;115
+21;6;248;0;5
+21;6;249;6;11
+21;6;250;12;29
+21;6;251;30;35
+21;6;252;36;41
+21;6;253;42;47
+21;6;254;48;53
+21;6;255;54;71
+21;6;256;72;77
+21;6;257;78;83
+21;6;258;84;88
+21;6;260;89;94
+21;6;271;95;99
+22;0;81;0;5
+22;0;83;6;11
+22;0;84;12;17
+22;0;85;18;23
+22;0;86;24;29
+22;0;94;30;35
+22;0;95;36;41
+22;0;96;42;47
+22;0;97;48;53
+22;0;105;54;59
+22;0;106;60;65
+22;0;107;66;71
+22;0;109;72;77
+22;0;115;78;83
+22;0;117;84;98
+22;0;118;99;104
+22;0;121;105;110
+22;0;122;111;116
+22;1;123;0;5
+22;1;124;6;14
+22;1;125;15;23
+22;1;128;24;29
+22;1;129;30;35
+22;1;130;36;41
+22;1;131;42;47
+22;1;132;48;53
+22;1;133;54;59
+22;1;134;60;64
+22;1;135;65;70
+22;1;136;71;76
+22;1;137;77;82
+22;1;138;83;88
+22;1;139;89;93
+22;1;144;94;98
+22;1;147;99;104
+22;1;148;105;110
+22;1;149;111;118
+22;2;150;0;5
+22;2;152;6;10
+22;2;154;11;16
+22;2;155;17;22
+22;2;157;23;28
+22;2;158;29;34
+22;2;159;35;40
+22;2;161;41;45
+22;2;164;46;51
+22;2;165;52;57
+22;2;168;58;63
+22;2;169;64;69
+22;2;170;70;75
+22;2;172;76;80
+22;2;176;81;86
+22;2;178;87;92
+22;2;179;93;101
+22;2;181;102;107
+22;2;182;108;113
+22;2;183;114;119
+22;3;184;0;4
+22;3;185;5;10
+22;3;186;11;16
+22;3;187;17;22
+22;3;188;23;28
+22;3;189;29;33
+22;3;191;34;39
+22;3;193;40;45
+22;3;194;46;51
+22;3;195;52;57
+22;3;196;58;63
+22;3;198;64;68
+22;3;199;69;74
+22;3;200;75;79
+22;3;201;80;85
+22;3;202;86;90
+22;3;203;91;96
+22;3;204;97;101
+22;3;206;102;107
+22;3;207;108;113
+22;3;208;114;118
+22;4;209;0;4
+22;4;210;5;10
+22;4;211;11;16
+22;4;212;17;21
+22;4;213;22;27
+22;4;214;28;33
+22;4;216;34;39
+22;4;218;40;45
+22;4;221;46;51
+22;4;223;52;57
+22;4;224;58;62
+22;4;225;63;68
+22;4;229;69;74
+22;4;230;75;80
+22;4;231;81;89
+22;4;232;90;95
+22;4;233;96;100
+22;4;234;101;106
+22;4;236;107;112
+22;4;237;113;117
+22;5;238;0;5
+22;5;241;6;11
+22;5;242;12;16
+22;5;243;17;22
+22;5;244;23;28
+22;5;245;29;34
+22;5;248;35;40
+22;5;249;41;46
+22;5;250;47;64
+22;5;251;65;70
+22;5;252;71;76
+22;5;253;77;82
+22;5;254;83;88
+22;5;255;89;106
+22;5;256;107;112
+22;5;257;113;118
+22;6;258;0;4
+22;6;259;5;15
+22;6;260;16;21
+22;6;261;22;32
+22;6;262;33;38
+22;6;263;39;44
+22;6;264;45;50
+22;6;265;51;56
+22;6;266;57;62
+22;6;267;63;68
+22;6;270;69;74
+22;6;271;75;79
+22;6;272;80;85
+23;0;83;0;5
+23;0;84;6;11
+23;0;85;12;17
+23;0;86;18;23
+23;0;94;24;29
+23;0;95;30;35
+23;0;96;36;41
+23;0;97;42;47
+23;0;105;48;53
+23;0;106;54;59
+23;0;109;60;65
+23;0;115;66;71
+23;0;117;72;86
+23;0;121;87;92
+23;0;122;93;98
+23;0;123;99;104
+23;0;124;105;113
+23;1;125;0;8
+23;0;128;114;119
+23;1;129;9;14
+23;1;130;15;20
+23;1;131;21;26
+23;1;132;27;32
+23;1;133;33;38
+23;1;134;39;43
+23;1;135;44;49
+23;1;136;50;55
+23;1;137;56;61
+23;1;138;62;67
+23;1;139;68;72
+23;1;144;73;77
+23;1;147;78;83
+23;1;148;84;89
+23;1;149;90;97
+23;1;150;98;103
+23;1;152;104;108
+23;1;154;109;114
+23;2;155;0;5
+23;2;157;6;11
+23;2;158;12;17
+23;2;159;18;23
+23;1;161;115;119
+23;2;164;24;29
+23;2;165;30;35
+23;2;168;36;41
+23;2;169;42;47
+23;2;170;48;53
+23;2;172;54;58
+23;2;176;59;64
+23;2;178;65;70
+23;2;179;71;79
+23;2;181;80;85
+23;2;182;86;91
+23;2;183;92;97
+23;2;184;98;102
+23;2;185;103;108
+23;2;186;109;114
+23;3;187;0;5
+23;3;188;6;11
+23;2;189;115;119
+23;3;191;12;17
+23;3;193;18;23
+23;3;194;24;29
+23;3;195;30;35
+23;3;196;36;41
+23;3;198;42;46
+23;3;199;47;52
+23;3;200;53;57
+23;3;201;58;63
+23;3;202;64;68
+23;3;203;69;74
+23;3;204;75;79
+23;3;206;80;85
+23;3;207;86;91
+23;3;208;92;96
+23;3;209;97;101
+23;3;210;102;107
+23;3;211;108;113
+23;3;212;114;118
+23;4;213;0;5
+23;4;214;6;11
+23;4;216;12;17
+23;4;218;18;23
+23;4;221;24;29
+23;4;223;30;35
+23;4;224;36;40
+23;4;225;41;46
+23;4;229;47;52
+23;4;230;53;58
+23;4;231;59;67
+23;4;232;68;73
+23;4;233;74;78
+23;4;234;79;84
+23;4;236;85;90
+23;4;237;91;95
+23;4;238;96;101
+23;4;241;102;107
+23;4;242;108;112
+23;4;243;113;118
+23;5;244;0;5
+23;5;245;6;11
+23;5;248;12;17
+23;5;249;18;23
+23;5;250;24;41
+23;5;251;42;47
+23;5;252;48;53
+23;5;253;54;59
+23;5;254;60;65
+23;5;255;66;83
+23;5;256;84;89
+23;5;257;90;95
+23;5;258;96;100
+23;5;259;101;111
+23;5;260;112;117
+23;6;261;0;10
+23;6;262;11;16
+23;6;263;17;22
+23;6;264;23;28
+23;6;265;29;34
+23;6;266;35;40
+23;6;267;41;46
+23;6;270;47;52
+23;6;271;53;57
+23;6;272;58;63
+23;6;273;64;69
+23;6;275;70;75
+23;6;276;76;81
+24;0;83;0;5
+24;0;94;6;11
+24;0;95;12;17
+24;0;96;18;23
+24;0;97;24;29
+24;0;105;30;35
+24;0;106;36;41
+24;0;109;42;47
+24;0;115;48;53
+24;0;117;54;68
+24;0;121;69;74
+24;0;122;75;80
+24;0;123;81;86
+24;0;124;87;95
+24;0;125;96;104
+24;0;128;105;110
+24;0;129;111;116
+24;1;130;0;5
+24;1;131;6;11
+24;1;132;12;17
+24;1;133;18;23
+24;1;134;24;28
+24;1;135;29;34
+24;1;136;35;40
+24;1;137;41;46
+24;1;138;47;52
+24;1;139;53;57
+24;1;144;58;62
+24;1;147;63;68
+24;1;148;69;74
+24;1;149;75;82
+24;1;150;83;88
+24;1;152;89;93
+24;1;154;94;99
+24;1;155;100;105
+24;1;157;106;111
+24;1;158;112;117
+24;2;159;0;5
+24;2;161;6;10
+24;2;164;11;16
+24;2;165;17;22
+24;2;168;23;28
+24;2;169;29;34
+24;2;170;35;40
+24;2;172;41;45
+24;2;176;46;51
+24;2;178;52;57
+24;2;181;58;63
+24;2;182;64;69
+24;2;183;70;75
+24;2;185;76;81
+24;2;186;82;87
+24;2;187;88;93
+24;2;188;94;99
+24;2;189;100;104
+24;2;191;105;110
+24;2;193;111;116
+24;3;194;0;5
+24;3;195;6;11
+24;3;196;12;17
+24;3;198;18;22
+24;3;199;23;28
+24;3;200;29;33
+24;3;201;34;39
+24;3;202;40;44
+24;3;204;45;49
+24;3;206;50;55
+24;3;207;56;61
+24;3;208;62;66
+24;3;209;67;71
+24;3;210;72;77
+24;3;211;78;83
+24;3;212;84;88
+24;3;213;89;94
+24;3;214;95;100
+24;3;216;101;106
+24;3;218;107;112
+24;3;221;113;118
+24;4;223;0;5
+24;4;224;6;10
+24;4;225;11;16
+24;4;229;17;22
+24;4;230;23;28
+24;4;231;29;37
+24;4;232;38;43
+24;4;233;44;48
+24;4;234;49;54
+24;4;236;55;60
+24;4;237;61;65
+24;4;238;66;71
+24;4;241;72;77
+24;4;242;78;82
+24;4;243;83;88
+24;4;244;89;94
+24;4;245;95;100
+24;4;248;101;106
+24;4;249;107;112
+24;4;251;113;118
+24;5;252;0;5
+24;5;253;6;11
+24;5;254;12;17
+24;5;256;18;23
+24;5;257;24;29
+24;5;258;30;34
+24;5;259;35;45
+24;5;260;46;51
+24;5;261;52;62
+24;5;262;63;68
+24;5;263;69;74
+24;5;264;75;80
+24;5;265;81;86
+24;5;266;87;92
+24;5;267;93;98
+24;5;268;99;116
+24;6;270;0;5
+24;6;271;6;10
+24;6;272;11;16
+24;6;273;17;22
+24;6;274;23;33
+24;6;275;34;39
+24;6;276;40;45
+24;6;277;46;51
+24;6;279;52;57
+24;6;280;58;63
+24;6;281;64;69
+24;6;282;70;75
+24;6;283;76;81
+24;6;286;82;87
+25;0;94;0;5
+25;0;96;6;11
+25;0;97;12;17
+25;0;105;18;23
+25;0;106;24;29
+25;0;109;30;35
+25;0;115;36;41
+25;0;117;42;56
+25;0;121;57;62
+25;0;122;63;68
+25;0;123;69;74
+25;0;124;75;83
+25;0;125;84;92
+25;0;128;93;98
+25;0;129;99;104
+25;0;130;105;110
+25;0;131;111;116
+25;1;132;0;5
+25;1;133;6;11
+25;1;134;12;16
+25;1;135;17;22
+25;1;136;23;28
+25;1;137;29;34
+25;1;138;35;40
+25;1;139;41;45
+25;1;144;46;50
+25;1;147;51;56
+25;1;148;57;62
+25;1;149;63;70
+25;1;150;71;76
+25;1;152;77;81
+25;1;154;82;87
+25;1;155;88;93
+25;1;157;94;99
+25;1;158;100;105
+25;1;159;106;111
+25;1;161;112;116
+25;2;164;0;5
+25;2;165;6;11
+25;2;168;12;17
+25;2;169;18;23
+25;2;170;24;29
+25;2;172;30;34
+25;2;176;35;40
+25;2;178;41;46
+25;2;181;47;52
+25;2;182;53;58
+25;2;183;59;64
+25;2;185;65;70
+25;2;186;71;76
+25;2;187;77;82
+25;2;188;83;88
+25;2;189;89;93
+25;2;191;94;99
+25;2;193;100;105
+25;2;194;106;111
+25;2;195;112;117
+25;3;196;0;5
+25;3;198;6;10
+25;3;199;11;16
+25;3;200;17;21
+25;3;201;22;27
+25;3;202;28;32
+25;3;204;33;37
+25;3;206;38;43
+25;3;207;44;49
+25;3;208;50;54
+25;3;209;55;59
+25;3;210;60;65
+25;3;211;66;71
+25;3;212;72;76
+25;3;213;77;82
+25;3;214;83;88
+25;3;216;89;94
+25;3;218;95;100
+25;3;221;101;106
+25;3;223;107;112
+25;3;224;113;117
+25;4;225;0;5
+25;4;229;6;11
+25;4;230;12;17
+25;4;231;18;26
+25;4;232;27;32
+25;4;233;33;37
+25;4;234;38;43
+25;4;236;44;49
+25;4;237;50;54
+25;4;238;55;60
+25;4;241;61;66
+25;4;242;67;71
+25;4;243;72;77
+25;4;244;78;83
+25;4;245;84;89
+25;4;248;90;95
+25;4;249;96;101
+25;4;251;102;107
+25;4;252;108;113
+25;4;253;114;119
+25;5;254;0;5
+25;5;256;6;11
+25;5;257;12;17
+25;5;258;18;22
+25;5;260;23;28
+25;5;261;29;39
+25;5;262;40;45
+25;5;263;46;51
+25;5;264;52;57
+25;5;265;58;63
+25;5;266;64;69
+25;5;267;70;75
+25;5;268;76;93
+25;5;270;94;99
+25;5;271;100;104
+25;5;272;105;110
+25;5;273;111;116
+25;6;274;0;10
+25;6;275;11;16
+25;6;276;17;22
+25;6;277;23;28
+25;6;279;29;34
+25;6;280;35;40
+25;6;281;41;46
+25;6;282;47;52
+25;6;283;53;58
+25;6;286;59;64
+25;6;287;65;73
+25;6;288;74;79
+25;6;291;80;88
+26;0;94;0;5
+26;0;96;6;11
+26;0;97;12;17
+26;0;105;18;23
+26;0;106;24;29
+26;0;109;30;35
+26;0;115;36;41
+26;0;121;42;47
+26;0;122;48;53
+26;0;123;54;59
+26;0;124;60;68
+26;0;125;69;77
+26;0;128;78;83
+26;0;129;84;89
+26;0;130;90;95
+26;0;131;96;101
+26;0;132;102;107
+26;0;133;108;113
+26;0;134;114;118
+26;1;135;0;5
+26;1;136;6;11
+26;1;137;12;17
+26;1;138;18;23
+26;1;139;24;28
+26;1;144;29;33
+26;1;147;34;39
+26;1;148;40;45
+26;1;149;46;53
+26;1;150;54;59
+26;1;152;60;64
+26;1;154;65;70
+26;1;155;71;76
+26;1;157;77;82
+26;1;158;83;88
+26;1;159;89;94
+26;1;161;95;99
+26;1;164;100;105
+26;1;165;106;111
+26;1;168;112;117
+26;2;169;0;5
+26;2;170;6;11
+26;2;172;12;16
+26;2;176;17;22
+26;2;178;23;28
+26;2;181;29;34
+26;2;182;35;40
+26;2;183;41;46
+26;2;185;47;52
+26;2;186;53;58
+26;2;187;59;64
+26;2;188;65;70
+26;2;189;71;75
+26;2;191;76;81
+26;2;193;82;87
+26;2;194;88;93
+26;2;195;94;99
+26;2;196;100;105
+26;2;198;106;110
+26;2;199;111;116
+26;3;200;0;4
+26;3;201;5;10
+26;3;202;11;15
+26;3;204;16;20
+26;3;206;21;26
+26;3;207;27;32
+26;3;208;33;37
+26;3;209;38;42
+26;3;210;43;48
+26;3;211;49;54
+26;3;212;55;59
+26;3;213;60;65
+26;3;214;66;71
+26;3;216;72;77
+26;3;218;78;83
+26;3;221;84;89
+26;3;223;90;95
+26;3;224;96;100
+26;3;225;101;106
+26;3;229;107;112
+26;3;230;113;118
+26;4;232;0;5
+26;4;233;6;10
+26;4;234;11;16
+26;4;236;17;22
+26;4;237;23;27
+26;4;238;28;33
+26;4;241;34;39
+26;4;242;40;44
+26;4;243;45;50
+26;4;244;51;56
+26;4;245;57;62
+26;4;248;63;68
+26;4;249;69;74
+26;4;251;75;80
+26;4;252;81;86
+26;4;253;87;92
+26;4;254;93;98
+26;4;256;99;104
+26;4;257;105;110
+26;4;258;111;115
+26;5;260;0;5
+26;5;261;6;16
+26;5;262;17;22
+26;5;263;23;28
+26;5;264;29;34
+26;5;265;35;40
+26;5;266;41;46
+26;5;267;47;52
+26;5;268;53;70
+26;5;270;71;76
+26;5;271;77;81
+26;5;272;82;87
+26;5;273;88;93
+26;5;274;94;104
+26;5;275;105;110
+26;5;276;111;116
+26;6;277;0;5
+26;6;279;6;11
+26;6;280;12;17
+26;6;281;18;23
+26;6;282;24;29
+26;6;283;30;35
+26;6;286;36;41
+26;6;287;42;50
+26;6;288;51;56
+26;6;291;57;65
+26;6;292;66;71
+26;6;294;72;89
+26;6;296;90;95
+27;0;96;0;5
+27;0;97;6;11
+27;0;105;12;17
+27;0;106;18;23
+27;0;109;24;29
+27;0;115;30;35
+27;0;121;36;41
+27;0;122;42;47
+27;0;123;48;53
+27;0;124;54;62
+27;0;125;63;71
+27;0;128;72;77
+27;0;129;78;83
+27;0;130;84;89
+27;0;131;90;95
+27;0;132;96;101
+27;0;133;102;107
+27;0;134;108;112
+27;0;135;113;118
+27;1;136;0;5
+27;1;137;6;11
+27;1;138;12;17
+27;1;139;18;22
+27;1;144;23;27
+27;1;147;28;33
+27;1;148;34;39
+27;1;149;40;47
+27;1;150;48;53
+27;1;152;54;58
+27;1;154;59;64
+27;1;155;65;70
+27;1;157;71;76
+27;1;158;77;82
+27;1;159;83;88
+27;1;161;89;93
+27;1;164;94;99
+27;1;165;100;105
+27;1;168;106;111
+27;1;169;112;117
+27;2;170;0;5
+27;2;172;6;10
+27;2;176;11;16
+27;2;178;17;22
+27;2;181;23;28
+27;2;182;29;34
+27;2;183;35;40
+27;2;185;41;46
+27;2;186;47;52
+27;2;187;53;58
+27;2;188;59;64
+27;2;189;65;69
+27;2;191;70;75
+27;2;193;76;81
+27;2;194;82;87
+27;2;195;88;93
+27;2;196;94;99
+27;2;198;100;104
+27;2;199;105;110
+27;2;200;111;115
+27;3;201;0;5
+27;3;202;6;10
+27;3;204;11;15
+27;3;206;16;21
+27;3;207;22;27
+27;3;209;28;32
+27;3;210;33;38
+27;3;211;39;44
+27;3;212;45;49
+27;3;213;50;55
+27;3;214;56;61
+27;3;216;62;67
+27;3;218;68;73
+27;3;221;74;79
+27;3;223;80;85
+27;3;224;86;90
+27;3;225;91;96
+27;3;229;97;102
+27;3;230;103;108
+27;3;232;109;114
+27;3;233;115;119
+27;4;234;0;5
+27;4;236;6;11
+27;4;237;12;16
+27;4;238;17;22
+27;4;241;23;28
+27;4;242;29;33
+27;4;243;34;39
+27;4;244;40;45
+27;4;245;46;51
+27;4;248;52;57
+27;4;249;58;63
+27;4;251;64;69
+27;4;252;70;75
+27;4;253;76;81
+27;4;254;82;87
+27;4;256;88;93
+27;4;257;94;99
+27;4;258;100;104
+27;4;260;105;110
+27;5;261;0;10
+27;4;262;111;116
+27;5;263;11;16
+27;5;264;17;22
+27;5;266;23;28
+27;5;267;29;34
+27;5;270;35;40
+27;5;271;41;45
+27;5;272;46;51
+27;5;273;52;57
+27;5;274;58;68
+27;5;275;69;74
+27;5;276;75;80
+27;5;277;81;86
+27;5;279;87;92
+27;5;280;93;98
+27;5;281;99;104
+27;5;282;105;110
+27;5;283;111;116
+27;6;286;0;5
+27;6;288;6;11
+27;6;291;12;20
+27;6;292;21;26
+27;6;294;27;44
+27;6;295;45;62
+27;6;296;63;68
+27;6;297;69;74
+27;6;299;75;81
+27;6;301;82;87
+27;6;302;88;93
+27;2;326;116;119
+28;0;97;0;5
+28;0;106;6;11
+28;0;109;12;17
+28;0;121;18;23
+28;0;122;24;29
+28;0;123;30;35
+28;0;124;36;44
+28;0;125;45;53
+28;0;128;54;59
+28;0;129;60;65
+28;0;130;66;71
+28;0;131;72;77
+28;0;132;78;83
+28;0;133;84;89
+28;0;134;90;94
+28;0;135;95;100
+28;0;136;101;106
+28;0;137;107;112
+28;0;138;113;118
+28;1;139;0;4
+28;1;144;5;9
+28;1;147;10;15
+28;1;148;16;21
+28;1;149;22;29
+28;1;150;30;35
+28;1;152;36;40
+28;1;154;41;46
+28;1;155;47;52
+28;1;157;53;58
+28;1;158;59;64
+28;1;159;65;70
+28;1;161;71;75
+28;1;164;76;81
+28;1;165;82;87
+28;1;168;88;93
+28;1;169;94;99
+28;1;170;100;105
+28;1;172;106;110
+28;1;176;111;116
+28;2;178;0;5
+28;2;181;6;11
+28;2;182;12;17
+28;2;183;18;23
+28;2;185;24;29
+28;2;186;30;35
+28;2;187;36;41
+28;2;188;42;47
+28;2;189;48;52
+28;2;191;53;58
+28;2;193;59;64
+28;2;194;65;70
+28;2;195;71;76
+28;2;196;77;82
+28;2;198;83;87
+28;2;199;88;93
+28;2;200;94;98
+28;2;201;99;104
+28;2;202;105;109
+28;2;204;110;114
+28;3;206;0;5
+28;3;207;6;11
+28;2;209;115;119
+28;3;210;12;17
+28;3;211;18;23
+28;3;212;24;28
+28;3;213;29;34
+28;3;214;35;40
+28;3;216;41;46
+28;3;218;47;52
+28;3;221;53;58
+28;3;223;59;64
+28;3;224;65;69
+28;3;225;70;75
+28;3;229;76;81
+28;3;230;82;87
+28;3;232;88;93
+28;3;233;94;98
+28;3;234;99;104
+28;3;236;105;110
+28;3;237;111;115
+28;4;238;0;5
+28;4;241;6;11
+28;4;242;12;16
+28;4;243;17;22
+28;4;244;23;28
+28;4;245;29;34
+28;4;248;35;40
+28;4;249;41;46
+28;4;251;47;52
+28;4;252;53;58
+28;4;253;59;64
+28;4;254;65;70
+28;4;256;71;76
+28;4;257;77;82
+28;4;258;83;87
+28;4;260;88;93
+28;4;261;94;104
+28;4;262;105;110
+28;4;263;111;116
+28;5;264;0;5
+28;5;266;6;11
+28;5;267;12;17
+28;5;270;18;23
+28;5;271;24;28
+28;5;272;29;34
+28;5;273;35;40
+28;5;274;41;51
+28;5;275;52;57
+28;5;277;58;63
+28;5;279;64;69
+28;5;280;70;75
+28;5;281;76;81
+28;5;282;82;87
+28;5;283;88;93
+28;5;286;94;99
+28;5;288;100;105
+28;5;291;106;114
+28;6;292;0;5
+28;6;294;6;23
+28;6;295;24;41
+28;6;296;42;47
+28;6;297;48;53
+28;6;299;54;60
+28;6;301;61;66
+28;6;302;67;72
+28;6;304;73;81
+28;6;305;82;87
+28;6;306;88;93
+28;6;307;94;99
+28;3;326;116;119
+29;0;106;0;5
+29;0;121;6;11
+29;0;122;12;17
+29;0;123;18;23
+29;0;124;24;32
+29;0;125;33;41
+29;0;128;42;47
+29;0;129;48;53
+29;0;130;54;59
+29;0;131;60;65
+29;0;132;66;71
+29;0;133;72;77
+29;0;135;78;83
+29;0;136;84;89
+29;0;137;90;95
+29;0;144;96;100
+29;0;147;101;106
+29;0;148;107;112
+29;1;149;0;7
+29;0;150;113;118
+29;1;152;8;12
+29;1;154;13;18
+29;1;155;19;24
+29;1;157;25;30
+29;1;158;31;36
+29;1;159;37;42
+29;1;164;43;48
+29;1;168;49;54
+29;1;169;55;60
+29;1;170;61;66
+29;1;172;67;71
+29;1;176;72;77
+29;1;178;78;83
+29;1;181;84;89
+29;1;182;90;95
+29;1;183;96;101
+29;1;185;102;107
+29;1;186;108;113
+29;1;187;114;119
+29;2;188;0;5
+29;2;189;6;10
+29;2;191;11;16
+29;2;193;17;22
+29;2;194;23;28
+29;2;195;29;34
+29;2;196;35;40
+29;2;198;41;45
+29;2;199;46;51
+29;2;200;52;56
+29;2;201;57;62
+29;2;202;63;67
+29;2;204;68;72
+29;2;206;73;78
+29;2;207;79;84
+29;2;209;85;89
+29;2;210;90;95
+29;2;211;96;101
+29;2;212;102;106
+29;2;213;107;112
+29;2;214;113;118
+29;3;216;0;5
+29;3;218;6;11
+29;3;221;12;17
+29;3;223;18;23
+29;3;224;24;28
+29;3;225;29;34
+29;3;229;35;40
+29;3;230;41;46
+29;3;232;47;52
+29;3;233;53;57
+29;3;234;58;63
+29;3;236;64;69
+29;3;237;70;74
+29;3;238;75;80
+29;3;241;81;86
+29;3;242;87;91
+29;3;243;92;97
+29;3;244;98;103
+29;3;245;104;109
+29;3;248;110;115
+29;4;249;0;5
+29;4;251;6;11
+29;4;252;12;17
+29;4;253;18;23
+29;4;254;24;29
+29;4;256;30;35
+29;4;257;36;41
+29;4;258;42;46
+29;4;260;47;52
+29;4;261;53;63
+29;4;262;64;69
+29;4;263;70;75
+29;4;264;76;81
+29;4;266;82;87
+29;4;267;88;93
+29;4;270;94;99
+29;4;271;100;104
+29;4;272;105;110
+29;4;273;111;116
+29;5;274;0;10
+29;5;275;11;16
+29;5;277;17;22
+29;5;279;23;28
+29;5;280;29;34
+29;5;281;35;40
+29;5;282;41;46
+29;5;283;47;52
+29;5;286;53;58
+29;5;288;59;64
+29;5;291;65;73
+29;5;292;74;79
+29;5;295;80;97
+29;5;296;98;103
+29;5;297;104;109
+29;6;298;0;17
+29;5;299;110;116
+29;6;301;18;23
+29;6;302;24;29
+29;6;303;30;47
+29;6;305;48;53
+29;6;306;54;59
+29;6;307;60;65
+29;6;308;66;70
+29;6;309;71;76
+29;6;310;77;83
+29;6;311;84;89
+29;6;312;90;94
+29;3;326;116;119
+30;0;106;0;5
+30;0;121;6;11
+30;0;122;12;17
+30;0;123;18;23
+30;0;124;24;32
+30;0;125;33;41
+30;0;128;42;47
+30;0;129;48;53
+30;0;130;54;59
+30;0;131;60;65
+30;0;132;66;71
+30;0;133;72;77
+30;0;135;78;83
+30;0;136;84;89
+30;0;137;90;95
+30;0;147;96;101
+30;0;148;102;107
+30;0;150;108;113
+30;0;152;114;118
+30;1;154;0;5
+30;1;155;6;11
+30;1;157;12;17
+30;1;158;18;23
+30;1;159;24;29
+30;1;164;30;35
+30;1;168;36;41
+30;1;169;42;47
+30;1;170;48;53
+30;1;172;54;58
+30;1;176;59;64
+30;1;178;65;70
+30;1;181;71;76
+30;1;182;77;82
+30;1;183;83;88
+30;1;185;89;94
+30;1;186;95;100
+30;1;187;101;106
+30;1;188;107;112
+30;1;189;113;117
+30;2;193;0;5
+30;2;194;6;11
+30;2;195;12;17
+30;2;196;18;23
+30;2;198;24;28
+30;2;199;29;34
+30;2;200;35;39
+30;2;202;40;44
+30;2;204;45;49
+30;2;206;50;55
+30;2;207;56;61
+30;2;209;62;66
+30;2;210;67;72
+30;2;211;73;78
+30;2;212;79;83
+30;2;213;84;89
+30;2;214;90;95
+30;2;216;96;101
+30;2;218;102;107
+30;2;221;108;113
+30;2;223;114;119
+30;3;224;0;4
+30;3;225;5;10
+30;3;229;11;16
+30;3;230;17;22
+30;3;232;23;28
+30;3;233;29;33
+30;3;234;34;39
+30;3;236;40;45
+30;3;237;46;50
+30;3;238;51;56
+30;3;241;57;62
+30;3;242;63;67
+30;3;243;68;73
+30;3;244;74;79
+30;3;245;80;85
+30;3;248;86;91
+30;3;249;92;97
+30;3;251;98;103
+30;3;252;104;109
+30;3;253;110;115
+30;4;254;0;5
+30;4;256;6;11
+30;4;257;12;17
+30;4;258;18;22
+30;4;260;23;28
+30;4;261;29;39
+30;4;262;40;45
+30;4;263;46;51
+30;4;264;52;57
+30;4;266;58;63
+30;4;267;64;69
+30;4;270;70;75
+30;4;271;76;80
+30;4;272;81;86
+30;4;273;87;92
+30;4;274;93;103
+30;4;275;104;109
+30;4;277;110;115
+30;5;279;0;5
+30;5;280;6;11
+30;5;281;12;17
+30;5;282;18;23
+30;5;283;24;29
+30;5;286;30;35
+30;5;288;36;41
+30;5;292;42;47
+30;5;296;48;53
+30;5;297;54;59
+30;5;298;60;77
+30;5;299;78;84
+30;5;301;85;90
+30;5;302;91;96
+30;5;303;97;114
+30;6;305;0;5
+30;6;306;6;11
+30;6;307;12;17
+30;5;308;115;119
+30;6;309;18;23
+30;6;310;24;30
+30;6;311;31;36
+30;6;312;37;41
+30;6;314;42;50
+30;6;315;51;56
+30;6;317;57;62
+30;6;319;63;71
+30;6;321;72;77
+30;6;322;78;83
+30;6;323;84;89
+30;3;326;116;119
+31;0;121;0;5
+31;0;122;6;11
+31;0;123;12;17
+31;0;124;18;26
+31;0;125;27;35
+31;0;128;36;41
+31;0;129;42;47
+31;0;130;48;53
+31;0;131;54;59
+31;0;132;60;65
+31;0;133;66;71
+31;0;135;72;77
+31;0;136;78;83
+31;0;137;84;89
+31;0;147;90;95
+31;0;148;96;101
+31;0;150;102;107
+31;0;157;108;113
+31;0;158;114;119
+31;1;159;0;5
+31;1;164;6;11
+31;1;168;12;17
+31;1;169;18;23
+31;1;170;24;29
+31;1;172;30;34
+31;1;176;35;40
+31;1;178;41;46
+31;1;181;47;52
+31;1;182;53;58
+31;1;183;59;64
+31;1;186;65;70
+31;1;187;71;76
+31;1;189;77;81
+31;1;193;82;87
+31;1;194;88;93
+31;1;195;94;99
+31;1;196;100;105
+31;1;198;106;110
+31;1;199;111;116
+31;2;200;0;4
+31;2;202;5;9
+31;2;204;10;14
+31;2;206;15;20
+31;2;207;21;26
+31;2;209;27;31
+31;2;210;32;37
+31;2;211;38;43
+31;2;212;44;48
+31;2;213;49;54
+31;2;214;55;60
+31;2;216;61;66
+31;2;218;67;72
+31;2;221;73;78
+31;2;223;79;84
+31;2;224;85;89
+31;2;225;90;95
+31;2;229;96;101
+31;2;230;102;107
+31;2;232;108;113
+31;2;233;114;118
+31;3;234;0;5
+31;3;236;6;11
+31;3;237;12;16
+31;3;238;17;22
+31;3;241;23;28
+31;3;242;29;33
+31;3;243;34;39
+31;3;244;40;45
+31;3;245;46;51
+31;3;248;52;57
+31;3;249;58;63
+31;3;251;64;69
+31;3;252;70;75
+31;3;253;76;81
+31;3;254;82;87
+31;3;256;88;93
+31;3;257;94;99
+31;3;258;100;104
+31;3;260;105;110
+31;4;261;0;10
+31;3;262;111;116
+31;4;263;11;16
+31;4;264;17;22
+31;4;266;23;28
+31;4;267;29;34
+31;4;270;35;40
+31;4;271;41;45
+31;4;272;46;51
+31;4;273;52;57
+31;4;274;58;68
+31;4;275;69;74
+31;4;277;75;80
+31;4;279;81;86
+31;4;280;87;92
+31;4;281;93;98
+31;4;282;99;104
+31;4;283;105;110
+31;4;286;111;116
+31;5;288;0;5
+31;5;292;6;11
+31;5;296;12;17
+31;5;297;18;23
+31;5;298;24;41
+31;5;299;42;48
+31;5;301;49;54
+31;5;302;55;60
+31;5;303;61;78
+31;5;305;79;84
+31;5;306;85;90
+31;5;307;91;96
+31;5;308;97;101
+31;5;309;102;107
+31;5;311;108;113
+31;5;312;114;118
+31;6;314;0;8
+31;6;315;9;14
+31;6;317;15;20
+31;6;318;21;38
+31;6;321;39;44
+31;6;322;45;50
+31;6;323;51;56
+31;6;324;57;62
+31;6;326;63;66
+31;6;327;67;74
+31;6;330;75;83
+31;6;331;84;89
+31;6;334;90;94
+32;0;121;0;5
+32;0;122;6;11
+32;0;123;12;17
+32;0;124;18;26
+32;0;125;27;35
+32;0;128;36;41
+32;0;129;42;47
+32;0;130;48;53
+32;0;131;54;59
+32;0;132;60;65
+32;0;133;66;71
+32;0;135;72;77
+32;0;136;78;83
+32;0;137;84;89
+32;0;147;90;95
+32;0;148;96;101
+32;0;150;102;107
+32;0;157;108;113
+32;0;158;114;119
+32;1;159;0;5
+32;1;164;6;11
+32;1;168;12;17
+32;1;169;18;23
+32;1;170;24;29
+32;1;172;30;34
+32;1;176;35;40
+32;1;178;41;46
+32;1;181;47;52
+32;1;182;53;58
+32;1;186;59;64
+32;1;193;65;70
+32;1;194;71;76
+32;1;195;77;82
+32;1;196;83;88
+32;1;198;89;93
+32;1;199;94;99
+32;1;200;100;104
+32;1;202;105;109
+32;1;204;110;114
+32;2;206;0;5
+32;2;207;6;11
+32;1;209;115;119
+32;2;210;12;17
+32;2;211;18;23
+32;2;212;24;28
+32;2;213;29;34
+32;2;214;35;40
+32;2;216;41;46
+32;2;218;47;52
+32;2;221;53;58
+32;2;223;59;64
+32;2;224;65;69
+32;2;225;70;75
+32;2;229;76;81
+32;2;230;82;87
+32;2;232;88;93
+32;2;233;94;98
+32;2;234;99;104
+32;2;236;105;110
+32;2;237;111;115
+32;3;238;0;5
+32;3;241;6;11
+32;3;242;12;16
+32;3;243;17;22
+32;3;244;23;28
+32;3;245;29;34
+32;3;248;35;40
+32;3;249;41;46
+32;3;251;47;52
+32;3;252;53;58
+32;3;253;59;64
+32;3;254;65;70
+32;3;256;71;76
+32;3;257;77;82
+32;3;258;83;87
+32;3;260;88;93
+32;3;261;94;104
+32;3;262;105;110
+32;3;263;111;116
+32;4;264;0;5
+32;4;266;6;11
+32;4;267;12;17
+32;4;270;18;23
+32;4;271;24;28
+32;4;272;29;34
+32;4;273;35;40
+32;4;274;41;51
+32;4;275;52;57
+32;4;277;58;63
+32;4;279;64;69
+32;4;280;70;75
+32;4;281;76;81
+32;4;282;82;87
+32;4;283;88;93
+32;4;286;94;99
+32;4;288;100;105
+32;4;292;106;111
+32;4;296;112;117
+32;5;297;0;5
+32;5;299;6;12
+32;5;301;13;18
+32;5;302;19;24
+32;5;305;25;30
+32;5;306;31;36
+32;5;307;37;42
+32;5;308;43;47
+32;5;309;48;53
+32;5;311;54;59
+32;5;312;60;64
+32;5;314;65;73
+32;5;315;74;79
+32;5;317;80;85
+32;5;318;86;103
+32;5;321;104;109
+32;5;322;110;115
+32;6;323;0;5
+32;6;324;6;11
+32;2;326;116;119
+32;6;327;12;19
+32;6;329;20;37
+32;6;330;38;46
+32;6;331;47;52
+32;6;334;53;57
+32;6;335;58;66
+32;6;336;67;72
+32;6;337;73;78
+32;6;338;79;84
+32;6;339;85;90
+33;0;121;0;5
+33;0;122;6;11
+33;0;123;12;17
+33;0;124;18;26
+33;0;125;27;35
+33;0;128;36;41
+33;0;129;42;47
+33;0;130;48;53
+33;0;131;54;59
+33;0;132;60;65
+33;0;133;66;71
+33;0;135;72;77
+33;0;136;78;83
+33;0;137;84;89
+33;0;147;90;95
+33;0;148;96;101
+33;0;150;102;107
+33;0;157;108;113
+33;0;158;114;119
+33;1;159;0;5
+33;1;164;6;11
+33;1;168;12;17
+33;1;169;18;23
+33;1;170;24;29
+33;1;172;30;34
+33;1;176;35;40
+33;1;178;41;46
+33;1;181;47;52
+33;1;182;53;58
+33;1;186;59;64
+33;1;193;65;70
+33;1;194;71;76
+33;1;195;77;82
+33;1;196;83;88
+33;1;198;89;93
+33;1;199;94;99
+33;1;200;100;104
+33;1;202;105;109
+33;1;204;110;114
+33;2;206;0;5
+33;2;207;6;11
+33;1;209;115;119
+33;2;210;12;17
+33;2;211;18;23
+33;2;212;24;28
+33;2;213;29;34
+33;2;214;35;40
+33;2;216;41;46
+33;2;218;47;52
+33;2;221;53;58
+33;2;223;59;64
+33;2;224;65;69
+33;2;225;70;75
+33;2;229;76;81
+33;2;230;82;87
+33;2;232;88;93
+33;2;233;94;98
+33;2;234;99;104
+33;2;236;105;110
+33;2;237;111;115
+33;3;238;0;5
+33;3;241;6;11
+33;3;242;12;16
+33;3;243;17;22
+33;3;244;23;28
+33;3;248;29;34
+33;3;249;35;40
+33;3;251;41;46
+33;3;252;47;52
+33;3;253;53;58
+33;3;254;59;64
+33;3;256;65;70
+33;3;257;71;76
+33;3;258;77;81
+33;3;260;82;87
+33;3;261;88;98
+33;3;262;99;104
+33;3;263;105;110
+33;3;264;111;116
+33;4;266;0;5
+33;4;267;6;11
+33;4;270;12;17
+33;4;271;18;22
+33;4;272;23;28
+33;4;273;29;34
+33;4;274;35;45
+33;4;275;46;51
+33;4;277;52;57
+33;4;279;58;63
+33;4;280;64;69
+33;4;281;70;75
+33;4;282;76;81
+33;4;283;82;87
+33;4;286;88;93
+33;4;288;94;99
+33;4;292;100;105
+33;4;296;106;111
+33;4;297;112;117
+33;5;299;0;6
+33;5;301;7;12
+33;5;302;13;18
+33;5;306;19;24
+33;5;307;25;30
+33;5;308;31;35
+33;5;309;36;41
+33;5;311;42;47
+33;5;312;48;52
+33;5;314;53;61
+33;5;315;62;67
+33;5;317;68;73
+33;5;318;74;91
+33;5;321;92;97
+33;5;322;98;103
+33;5;323;104;109
+33;5;324;110;115
+33;2;326;116;119
+33;6;327;0;7
+33;6;329;8;25
+33;6;330;26;34
+33;6;331;35;40
+33;6;334;41;45
+33;6;335;46;54
+33;6;336;55;60
+33;6;337;61;66
+33;6;338;67;72
+33;6;339;73;78
+33;6;340;79;84
+33;6;343;85;89
+34;0;121;0;5
+34;0;122;6;11
+34;0;123;12;17
+34;0;124;18;26
+34;0;125;27;35
+34;0;130;36;41
+34;0;132;42;47
+34;0;133;48;53
+34;0;135;54;59
+34;0;136;60;65
+34;0;147;66;71
+34;0;148;72;77
+34;0;150;78;83
+34;0;157;84;89
+34;0;158;90;95
+34;0;159;96;101
+34;0;168;102;107
+34;0;169;108;113
+34;0;170;114;119
+34;1;172;0;4
+34;1;176;5;10
+34;1;178;11;16
+34;1;181;17;22
+34;1;182;23;28
+34;1;186;29;34
+34;1;193;35;40
+34;1;194;41;46
+34;1;195;47;52
+34;1;196;53;58
+34;1;198;59;63
+34;1;199;64;69
+34;1;200;70;74
+34;1;202;75;79
+34;1;204;80;84
+34;1;206;85;90
+34;1;207;91;96
+34;1;209;97;101
+34;1;210;102;107
+34;1;211;108;113
+34;1;212;114;118
+34;2;213;0;5
+34;2;214;6;11
+34;2;216;12;17
+34;2;218;18;23
+34;2;221;24;29
+34;2;223;30;35
+34;2;225;36;41
+34;2;229;42;47
+34;2;230;48;53
+34;2;232;54;59
+34;2;233;60;64
+34;2;234;65;70
+34;2;236;71;76
+34;2;237;77;81
+34;2;238;82;87
+34;2;241;88;93
+34;2;242;94;98
+34;2;243;99;104
+34;2;244;105;110
+34;2;248;111;116
+34;3;249;0;5
+34;3;251;6;11
+34;3;252;12;17
+34;3;253;18;23
+34;3;254;24;29
+34;3;256;30;35
+34;3;257;36;41
+34;3;258;42;46
+34;3;260;47;52
+34;3;261;53;63
+34;3;262;64;69
+34;3;263;70;75
+34;3;264;76;81
+34;3;266;82;87
+34;3;267;88;93
+34;3;270;94;99
+34;3;271;100;104
+34;3;272;105;110
+34;3;273;111;116
+34;4;274;0;10
+34;4;275;11;16
+34;4;277;17;22
+34;4;279;23;28
+34;4;280;29;34
+34;4;281;35;40
+34;4;282;41;46
+34;4;283;47;52
+34;4;286;53;58
+34;4;288;59;64
+34;4;292;65;70
+34;4;296;71;76
+34;4;297;77;82
+34;4;299;83;89
+34;4;301;90;95
+34;4;302;96;101
+34;4;306;102;107
+34;4;307;108;113
+34;4;308;114;118
+34;5;309;0;5
+34;5;311;6;11
+34;5;312;12;16
+34;5;315;17;22
+34;5;317;23;28
+34;5;318;29;46
+34;5;321;47;52
+34;5;322;53;58
+34;5;323;59;64
+34;5;324;65;70
+34;5;326;71;74
+34;5;327;75;82
+34;5;329;83;100
+34;5;331;101;106
+34;5;334;107;111
+34;6;335;0;8
+34;5;336;112;117
+34;6;337;9;14
+34;6;338;15;20
+34;6;339;21;26
+34;6;340;27;32
+34;6;342;33;50
+34;6;343;51;55
+34;6;344;56;61
+35;0;125;0;8
+35;0;130;9;14
+35;0;132;15;20
+35;0;133;21;26
+35;0;135;27;32
+35;0;136;33;38
+35;0;147;39;44
+35;0;148;45;50
+35;0;150;51;56
+35;0;157;57;62
+35;0;158;63;68
+35;0;159;69;74
+35;0;168;75;80
+35;0;169;81;86
+35;0;170;87;92
+35;0;172;93;97
+35;0;176;98;103
+35;0;178;104;109
+35;0;181;110;115
+35;1;182;0;5
+35;1;186;6;11
+35;1;193;12;17
+35;1;195;18;23
+35;1;196;24;29
+35;1;199;30;35
+35;1;200;36;40
+35;1;202;41;45
+35;1;204;46;50
+35;1;206;51;56
+35;1;207;57;62
+35;1;209;63;67
+35;1;210;68;73
+35;1;211;74;79
+35;1;212;80;84
+35;1;213;85;90
+35;1;214;91;96
+35;1;216;97;102
+35;1;218;103;108
+35;1;221;109;114
+35;2;223;0;5
+35;2;225;6;11
+35;2;229;12;17
+35;2;230;18;23
+35;2;232;24;29
+35;1;233;115;119
+35;2;234;30;35
+35;2;236;36;41
+35;2;237;42;46
+35;2;238;47;52
+35;2;241;53;58
+35;2;242;59;63
+35;2;243;64;69
+35;2;244;70;75
+35;2;248;76;81
+35;2;249;82;87
+35;2;251;88;93
+35;2;252;94;99
+35;2;253;100;105
+35;2;254;106;111
+35;2;256;112;117
+35;3;257;0;5
+35;3;258;6;10
+35;3;260;11;16
+35;3;261;17;27
+35;3;262;28;33
+35;3;263;34;39
+35;3;264;40;45
+35;3;266;46;51
+35;3;267;52;57
+35;3;270;58;63
+35;3;271;64;68
+35;3;272;69;74
+35;3;273;75;80
+35;3;274;81;91
+35;3;275;92;97
+35;3;277;98;103
+35;3;279;104;109
+35;3;280;110;115
+35;4;281;0;5
+35;4;282;6;11
+35;4;283;12;17
+35;4;286;18;23
+35;4;288;24;29
+35;4;292;30;35
+35;4;296;36;41
+35;4;297;42;47
+35;4;299;48;54
+35;4;301;55;60
+35;4;302;61;66
+35;4;306;67;72
+35;4;307;73;78
+35;4;308;79;83
+35;4;309;84;89
+35;4;311;90;95
+35;4;312;96;100
+35;4;315;101;106
+35;4;317;107;112
+35;5;318;0;17
+35;4;322;113;118
+35;5;323;18;23
+35;5;324;24;29
+35;0;326;116;119
+35;5;327;30;37
+35;5;331;38;43
+35;5;334;44;48
+35;5;335;49;57
+35;5;336;58;63
+35;5;337;64;69
+35;5;338;70;75
+35;5;339;76;81
+35;5;340;82;87
+35;5;342;88;105
+35;5;343;106;110
+35;5;344;111;116
+36;0;130;0;5
+36;0;132;6;11
+36;0;133;12;17
+36;0;135;18;23
+36;0;136;24;29
+36;0;147;30;35
+36;0;148;36;41
+36;0;150;42;47
+36;0;157;48;53
+36;0;158;54;59
+36;0;159;60;65
+36;0;168;66;71
+36;0;169;72;77
+36;0;170;78;83
+36;0;172;84;88
+36;0;176;89;94
+36;0;178;95;100
+36;0;181;101;106
+36;0;182;107;112
+36;0;186;113;118
+36;1;193;0;5
+36;1;195;6;11
+36;1;196;12;17
+36;1;199;18;23
+36;1;202;24;28
+36;1;204;29;33
+36;1;206;34;39
+36;1;207;40;45
+36;1;209;46;50
+36;1;210;51;56
+36;1;211;57;62
+36;1;212;63;67
+36;1;213;68;73
+36;1;214;74;79
+36;1;216;80;85
+36;1;218;86;91
+36;1;221;92;97
+36;1;223;98;103
+36;1;225;104;109
+36;1;229;110;115
+36;2;230;0;5
+36;2;232;6;11
+36;2;233;12;16
+36;2;234;17;22
+36;2;236;23;28
+36;2;237;29;33
+36;2;238;34;39
+36;2;241;40;45
+36;2;242;46;50
+36;2;243;51;56
+36;2;244;57;62
+36;2;248;63;68
+36;2;249;69;74
+36;2;251;75;80
+36;2;252;81;86
+36;2;253;87;92
+36;2;254;93;98
+36;2;256;99;104
+36;2;257;105;110
+36;2;258;111;115
+36;3;260;0;5
+36;3;261;6;16
+36;3;262;17;22
+36;3;263;23;28
+36;3;264;29;34
+36;3;266;35;40
+36;3;267;41;46
+36;3;270;47;52
+36;3;271;53;57
+36;3;272;58;63
+36;3;273;64;69
+36;3;274;70;80
+36;3;275;81;86
+36;3;277;87;92
+36;3;279;93;98
+36;3;280;99;104
+36;3;281;105;110
+36;3;282;111;116
+36;4;283;0;5
+36;4;286;6;11
+36;4;288;12;17
+36;4;292;18;23
+36;4;296;24;29
+36;4;297;30;35
+36;4;299;36;42
+36;4;301;43;48
+36;4;302;49;54
+36;4;306;55;60
+36;4;307;61;66
+36;4;308;67;71
+36;4;309;72;77
+36;4;311;78;83
+36;4;312;84;88
+36;4;315;89;94
+36;4;317;95;100
+36;4;322;101;106
+36;4;323;107;112
+36;4;324;113;118
+36;1;326;116;119
+36;5;327;0;7
+36;5;331;8;13
+36;5;334;14;18
+36;5;335;19;27
+36;5;336;28;33
+36;5;337;34;39
+36;5;338;40;45
+36;5;339;46;51
+36;5;340;52;57
+36;5;342;58;75
+36;5;343;76;80
+36;5;344;81;86
+37;0;132;0;5
+37;0;147;6;11
+37;0;148;12;17
+37;0;150;18;23
+37;0;157;24;29
+37;0;158;30;35
+37;0;159;36;41
+37;0;168;42;47
+37;0;169;48;53
+37;0;170;54;59
+37;0;176;60;65
+37;0;178;66;71
+37;0;181;72;77
+37;0;182;78;83
+37;0;186;84;89
+37;0;193;90;95
+37;0;195;96;101
+37;0;196;102;107
+37;0;199;108;113
+37;0;202;114;118
+37;1;206;0;5
+37;1;209;6;10
+37;1;210;11;16
+37;1;211;17;22
+37;1;212;23;27
+37;1;213;28;33
+37;1;214;34;39
+37;1;216;40;45
+37;1;218;46;51
+37;1;221;52;57
+37;1;223;58;63
+37;1;229;64;69
+37;1;230;70;75
+37;1;232;76;81
+37;1;233;82;86
+37;1;234;87;92
+37;1;236;93;98
+37;1;237;99;103
+37;1;238;104;109
+37;1;241;110;115
+37;2;242;0;4
+37;2;243;5;10
+37;2;249;11;16
+37;2;251;17;22
+37;2;252;23;28
+37;2;253;29;34
+37;2;254;35;40
+37;2;256;41;46
+37;2;257;47;52
+37;2;258;53;57
+37;2;260;58;63
+37;2;261;64;74
+37;2;263;75;80
+37;2;264;81;86
+37;2;266;87;92
+37;2;267;93;98
+37;2;271;99;103
+37;2;272;104;109
+37;2;273;110;115
+37;3;274;0;10
+37;3;275;11;16
+37;3;277;17;22
+37;3;279;23;28
+37;3;280;29;34
+37;3;281;35;40
+37;3;282;41;46
+37;3;283;47;52
+37;3;286;53;58
+37;3;288;59;64
+37;3;292;65;70
+37;3;296;71;76
+37;3;297;77;82
+37;3;299;83;89
+37;3;301;90;95
+37;3;302;96;101
+37;3;306;102;107
+37;3;307;108;113
+37;3;308;114;118
+37;4;309;0;5
+37;4;311;6;11
+37;4;312;12;16
+37;4;315;17;22
+37;4;317;23;28
+37;4;322;29;34
+37;4;323;35;40
+37;4;324;41;46
+37;1;326;116;119
+37;4;327;47;54
+37;4;331;55;60
+37;4;334;61;65
+37;4;335;66;74
+37;4;336;75;80
+37;4;337;81;86
+37;4;338;87;92
+37;4;339;93;98
+37;4;340;99;104
+37;4;343;105;109
+37;4;344;110;115
+38;0;132;0;5
+38;0;147;6;11
+38;0;157;12;17
+38;0;158;18;23
+38;0;159;24;29
+38;0;168;30;35
+38;0;169;36;41
+38;0;178;42;47
+38;0;181;48;53
+38;0;186;54;59
+38;0;193;60;65
+38;0;195;66;71
+38;0;196;72;77
+38;0;199;78;83
+38;0;206;84;89
+38;0;209;90;94
+38;0;210;95;100
+38;0;211;101;106
+38;0;212;107;111
+38;0;213;112;117
+38;1;214;0;5
+38;1;216;6;11
+38;1;218;12;17
+38;1;221;18;23
+38;1;223;24;29
+38;1;229;30;35
+38;1;232;36;41
+38;1;233;42;46
+38;1;234;47;52
+38;1;236;53;58
+38;1;237;59;63
+38;1;238;64;69
+38;1;241;70;75
+38;1;242;76;80
+38;1;243;81;86
+38;1;251;87;92
+38;1;252;93;98
+38;1;253;99;104
+38;1;254;105;110
+38;1;256;111;116
+38;2;257;0;5
+38;2;258;6;10
+38;2;260;11;16
+38;2;261;17;27
+38;2;263;28;33
+38;2;264;34;39
+38;2;266;40;45
+38;2;267;46;51
+38;2;271;52;56
+38;2;272;57;62
+38;2;273;63;68
+38;2;274;69;79
+38;2;277;80;85
+38;2;279;86;91
+38;2;280;92;97
+38;2;281;98;103
+38;2;282;104;109
+38;2;283;110;115
+38;3;286;0;5
+38;3;288;6;11
+38;3;292;12;17
+38;3;296;18;23
+38;3;297;24;29
+38;3;299;30;36
+38;3;301;37;42
+38;3;302;43;48
+38;3;306;49;54
+38;3;307;55;60
+38;3;308;61;65
+38;3;309;66;71
+38;3;311;72;77
+38;3;312;78;82
+38;3;315;83;88
+38;3;317;89;94
+38;3;322;95;100
+38;3;323;101;106
+38;3;324;107;112
+38;2;326;116;119
+38;4;327;0;7
+38;3;331;113;118
+38;4;334;8;12
+38;4;335;13;21
+38;4;336;22;27
+38;4;337;28;33
+38;4;338;34;39
+38;4;339;40;45
+38;4;340;46;51
+38;4;343;52;56
+38;4;344;57;62
+39;0;132;0;5
+39;0;147;6;11
+39;0;168;12;17
+39;0;169;18;23
+39;0;178;24;29
+39;0;181;30;35
+39;0;186;36;41
+39;0;193;42;47
+39;0;195;48;53
+39;0;196;54;59
+39;0;199;60;65
+39;0;206;66;71
+39;0;209;72;76
+39;0;210;77;82
+39;0;211;83;88
+39;0;212;89;93
+39;0;213;94;99
+39;0;214;100;105
+39;0;216;106;111
+39;0;218;112;117
+39;1;223;0;5
+39;1;229;6;11
+39;1;232;12;17
+39;1;233;18;22
+39;1;234;23;28
+39;1;237;29;33
+39;1;238;34;39
+39;1;241;40;45
+39;1;242;46;50
+39;1;243;51;56
+39;1;251;57;62
+39;1;252;63;68
+39;1;253;69;74
+39;1;254;75;80
+39;1;256;81;86
+39;1;257;87;92
+39;1;258;93;97
+39;1;260;98;103
+39;1;261;104;114
+39;2;263;0;5
+39;2;264;6;11
+39;2;266;12;17
+39;2;267;18;23
+39;1;271;115;119
+39;2;272;24;29
+39;2;273;30;35
+39;2;279;36;41
+39;2;280;42;47
+39;2;281;48;53
+39;2;282;54;59
+39;2;283;60;65
+39;2;286;66;71
+39;2;288;72;77
+39;2;292;78;83
+39;2;296;84;89
+39;2;297;90;95
+39;2;299;96;102
+39;2;301;103;108
+39;2;302;109;114
+39;3;306;0;5
+39;3;307;6;11
+39;2;308;115;119
+39;3;309;12;17
+39;3;311;18;23
+39;3;312;24;28
+39;3;315;29;34
+39;3;317;35;40
+39;3;322;41;46
+39;3;323;47;52
+39;3;324;53;58
+39;3;326;59;62
+39;3;331;63;68
+39;3;334;69;73
+39;3;336;74;79
+39;3;337;80;85
+39;3;338;86;91
+39;3;339;92;97
+39;3;340;98;103
+39;3;343;104;108
+39;3;344;109;114
+40;0;132;0;5
+40;0;169;6;11
+40;0;178;12;17
+40;0;181;18;23
+40;0;186;24;29
+40;0;193;30;35
+40;0;195;36;41
+40;0;196;42;47
+40;0;199;48;53
+40;0;206;54;59
+40;0;209;60;64
+40;0;210;65;70
+40;0;211;71;76
+40;0;212;77;81
+40;0;213;82;87
+40;0;214;88;93
+40;0;216;94;99
+40;0;218;100;105
+40;0;229;106;111
+40;0;232;112;117
+40;1;233;0;4
+40;1;234;5;10
+40;1;237;11;15
+40;1;238;16;21
+40;1;241;22;27
+40;1;242;28;32
+40;1;243;33;38
+40;1;251;39;44
+40;1;252;45;50
+40;1;253;51;56
+40;1;254;57;62
+40;1;257;63;68
+40;1;258;69;73
+40;1;260;74;79
+40;1;261;80;90
+40;1;263;91;96
+40;1;264;97;102
+40;1;266;103;108
+40;1;267;109;114
+40;1;271;115;119
+40;2;272;0;5
+40;2;273;6;11
+40;2;279;12;17
+40;2;280;18;23
+40;2;281;24;29
+40;2;282;30;35
+40;2;283;36;41
+40;2;286;42;47
+40;2;288;48;53
+40;2;292;54;59
+40;2;296;60;65
+40;2;297;66;71
+40;2;299;72;78
+40;2;301;79;84
+40;2;302;85;90
+40;2;306;91;96
+40;2;307;97;102
+40;2;308;103;107
+40;2;309;108;113
+40;2;311;114;119
+40;3;312;0;4
+40;3;315;5;10
+40;3;317;11;16
+40;3;322;17;22
+40;3;323;23;28
+40;3;324;29;34
+40;3;326;35;38
+40;3;331;39;44
+40;3;334;45;49
+40;3;336;50;55
+40;3;337;56;61
+40;3;338;62;67
+40;3;339;68;73
+40;3;340;74;79
+40;3;343;80;84
+40;3;344;85;90
+41;0;132;0;5
+41;0;178;6;11
+41;0;181;12;17
+41;0;186;18;23
+41;0;193;24;29
+41;0;195;30;35
+41;0;196;36;41
+41;0;199;42;47
+41;0;206;48;53
+41;0;209;54;58
+41;0;210;59;64
+41;0;211;65;70
+41;0;212;71;75
+41;0;213;76;81
+41;0;214;82;87
+41;0;216;88;93
+41;0;218;94;99
+41;0;229;100;105
+41;0;232;106;111
+41;0;233;112;116
+41;1;234;0;5
+41;1;237;6;10
+41;1;238;11;16
+41;1;241;17;22
+41;1;242;23;27
+41;1;243;28;33
+41;1;251;34;39
+41;1;252;40;45
+41;1;253;46;51
+41;1;254;52;57
+41;1;257;58;63
+41;1;258;64;68
+41;1;260;69;74
+41;1;263;75;80
+41;1;264;81;86
+41;1;266;87;92
+41;1;267;93;98
+41;1;271;99;103
+41;1;273;104;109
+41;1;279;110;115
+41;2;280;0;5
+41;2;281;6;11
+41;2;282;12;17
+41;2;283;18;23
+41;2;286;24;29
+41;2;288;30;35
+41;2;292;36;41
+41;2;296;42;47
+41;2;297;48;53
+41;2;299;54;60
+41;2;301;61;66
+41;2;302;67;72
+41;2;306;73;78
+41;2;307;79;84
+41;2;308;85;89
+41;2;309;90;95
+41;2;311;96;101
+41;2;312;102;106
+41;2;315;107;112
+41;2;317;113;118
+41;3;322;0;5
+41;3;323;6;11
+41;3;324;12;17
+41;1;326;116;119
+41;3;331;18;23
+41;3;334;24;28
+41;3;336;29;34
+41;3;337;35;40
+41;3;338;41;46
+41;3;339;47;52
+41;3;340;53;58
+41;3;343;59;63
+41;3;344;64;69
+42;0;178;0;5
+42;0;186;6;11
+42;0;193;12;17
+42;0;195;18;23
+42;0;196;24;29
+42;0;199;30;35
+42;0;209;36;40
+42;0;210;41;46
+42;0;211;47;52
+42;0;212;53;57
+42;0;213;58;63
+42;0;214;64;69
+42;0;216;70;75
+42;0;218;76;81
+42;0;229;82;87
+42;0;232;88;93
+42;0;233;94;98
+42;0;234;99;104
+42;0;237;105;109
+42;0;238;110;115
+42;1;241;0;5
+42;1;242;6;10
+42;1;243;11;16
+42;1;251;17;22
+42;1;252;23;28
+42;1;253;29;34
+42;1;254;35;40
+42;1;257;41;46
+42;1;258;47;51
+42;1;260;52;57
+42;1;263;58;63
+42;1;266;64;69
+42;1;267;70;75
+42;1;271;76;80
+42;1;279;81;86
+42;1;280;87;92
+42;1;281;93;98
+42;1;282;99;104
+42;1;283;105;110
+42;1;286;111;116
+42;2;288;0;5
+42;2;292;6;11
+42;2;296;12;17
+42;2;297;18;23
+42;2;299;24;30
+42;2;301;31;36
+42;2;302;37;42
+42;2;306;43;48
+42;2;307;49;54
+42;2;308;55;59
+42;2;309;60;65
+42;2;311;66;71
+42;2;312;72;76
+42;2;315;77;82
+42;2;317;83;88
+42;2;322;89;94
+42;2;323;95;100
+42;2;324;101;106
+42;0;326;116;119
+42;2;331;107;112
+42;2;334;113;117
+42;3;336;0;5
+42;3;337;6;11
+42;3;338;12;17
+42;3;339;18;23
+42;3;340;24;29
+42;3;343;30;34
+42;3;344;35;40
+43;0;178;0;5
+43;0;186;6;11
+43;0;193;12;17
+43;0;195;18;23
+43;0;196;24;29
+43;0;199;30;35
+43;0;209;36;40
+43;0;210;41;46
+43;0;211;47;52
+43;0;212;53;57
+43;0;213;58;63
+43;0;214;64;69
+43;0;216;70;75
+43;0;218;76;81
+43;0;229;82;87
+43;0;232;88;93
+43;0;233;94;98
+43;0;234;99;104
+43;0;237;105;109
+43;0;238;110;115
+43;1;242;0;4
+43;1;251;5;10
+43;1;252;11;16
+43;1;253;17;22
+43;1;254;23;28
+43;1;257;29;34
+43;1;258;35;39
+43;1;260;40;45
+43;1;263;46;51
+43;1;266;52;57
+43;1;267;58;63
+43;1;271;64;68
+43;1;279;69;74
+43;1;280;75;80
+43;1;281;81;86
+43;1;282;87;92
+43;1;283;93;98
+43;1;286;99;104
+43;1;288;105;110
+43;1;292;111;116
+43;2;296;0;5
+43;2;297;6;11
+43;2;299;12;18
+43;2;301;19;24
+43;2;302;25;30
+43;2;306;31;36
+43;2;307;37;42
+43;2;308;43;47
+43;2;309;48;53
+43;2;311;54;59
+43;2;312;60;64
+43;2;315;65;70
+43;2;317;71;76
+43;2;322;77;82
+43;2;323;83;88
+43;2;324;89;94
+43;0;326;116;119
+43;2;331;95;100
+43;2;334;101;105
+43;2;336;106;111
+43;2;337;112;117
+43;3;338;0;5
+43;3;339;6;11
+43;3;340;12;17
+43;3;343;18;22
+43;3;344;23;28
+44;0;178;0;5
+44;0;193;6;11
+44;0;196;12;17
+44;0;209;18;22
+44;0;210;23;28
+44;0;211;29;34
+44;0;212;35;39
+44;0;213;40;45
+44;0;214;46;51
+44;0;216;52;57
+44;0;229;58;63
+44;0;232;64;69
+44;0;233;70;74
+44;0;234;75;80
+44;0;237;81;85
+44;0;238;86;91
+44;0;242;92;96
+44;0;251;97;102
+44;0;252;103;108
+44;0;253;109;114
+44;1;254;0;5
+44;1;257;6;11
+44;0;258;115;119
+44;1;260;12;17
+44;1;263;18;23
+44;1;266;24;29
+44;1;267;30;35
+44;1;271;36;40
+44;1;279;41;46
+44;1;280;47;52
+44;1;281;53;58
+44;1;282;59;64
+44;1;283;65;70
+44;1;286;71;76
+44;1;288;77;82
+44;1;292;83;88
+44;1;296;89;94
+44;1;297;95;100
+44;1;299;101;107
+44;1;301;108;113
+44;1;302;114;119
+44;2;306;0;5
+44;2;307;6;11
+44;2;308;12;16
+44;2;309;17;22
+44;2;311;23;28
+44;2;312;29;33
+44;2;315;34;39
+44;2;317;40;45
+44;2;322;46;51
+44;2;323;52;57
+44;2;324;58;63
+44;2;326;64;67
+44;2;331;68;73
+44;2;334;74;78
+44;2;336;79;84
+44;2;337;85;90
+44;2;338;91;96
+44;2;339;97;102
+44;2;340;103;108
+44;2;343;109;113
+44;2;344;114;119
+45;0;178;0;5
+45;0;196;6;11
+45;0;212;12;16
+45;0;214;17;22
+45;0;216;23;28
+45;0;232;29;34
+45;0;233;35;39
+45;0;234;40;45
+45;0;237;46;50
+45;0;242;51;55
+45;0;251;56;61
+45;0;252;62;67
+45;0;253;68;73
+45;0;254;74;79
+45;0;257;80;85
+45;0;258;86;90
+45;0;260;91;96
+45;0;263;97;102
+45;0;266;103;108
+45;0;267;109;114
+45;0;271;115;119
+45;1;279;0;5
+45;1;280;6;11
+45;1;281;12;17
+45;1;282;18;23
+45;1;283;24;29
+45;1;286;30;35
+45;1;288;36;41
+45;1;292;42;47
+45;1;296;48;53
+45;1;297;54;59
+45;1;299;60;66
+45;1;301;67;72
+45;1;302;73;78
+45;1;306;79;84
+45;1;307;85;90
+45;1;308;91;95
+45;1;309;96;101
+45;1;311;102;107
+45;1;312;108;112
+45;1;315;113;118
+45;2;317;0;5
+45;2;323;6;11
+45;2;324;12;17
+45;2;326;18;21
+45;2;331;22;27
+45;2;334;28;32
+45;2;336;33;38
+45;2;337;39;44
+45;2;338;45;50
+45;2;339;51;56
+45;2;340;57;62
+45;2;343;63;67
+45;2;344;68;73
+46;0;178;0;5
+46;0;196;6;11
+46;0;212;12;16
+46;0;216;17;22
+46;0;232;23;28
+46;0;233;29;33
+46;0;234;34;39
+46;0;237;40;44
+46;0;242;45;49
+46;0;251;50;55
+46;0;252;56;61
+46;0;253;62;67
+46;0;254;68;73
+46;0;257;74;79
+46;0;260;80;85
+46;0;263;86;91
+46;0;266;92;97
+46;0;267;98;103
+46;0;279;104;109
+46;0;280;110;115
+46;1;281;0;5
+46;1;282;6;11
+46;1;283;12;17
+46;1;286;18;23
+46;1;288;24;29
+46;1;292;30;35
+46;1;296;36;41
+46;1;297;42;47
+46;1;299;48;54
+46;1;301;55;60
+46;1;302;61;66
+46;1;306;67;72
+46;1;307;73;78
+46;1;308;79;83
+46;1;309;84;89
+46;1;311;90;95
+46;1;312;96;100
+46;1;315;101;106
+46;1;317;107;112
+46;1;323;113;118
+46;2;324;0;5
+46;0;326;116;119
+46;2;331;6;11
+46;2;334;12;16
+46;2;336;17;22
+46;2;337;23;28
+46;2;338;29;34
+46;2;339;35;40
+46;2;340;41;46
+46;2;343;47;51
+46;2;344;52;57
+47;0;178;0;5
+47;0;196;6;11
+47;0;232;12;17
+47;0;233;18;22
+47;0;234;23;28
+47;0;237;29;33
+47;0;242;34;38
+47;0;251;39;44
+47;0;252;45;50
+47;0;253;51;56
+47;0;254;57;62
+47;0;257;63;68
+47;0;260;69;74
+47;0;263;75;80
+47;0;266;81;86
+47;0;279;87;92
+47;0;280;93;98
+47;0;281;99;104
+47;0;282;105;110
+47;0;283;111;116
+47;1;286;0;5
+47;1;288;6;11
+47;1;292;12;17
+47;1;296;18;23
+47;1;297;24;29
+47;1;299;30;36
+47;1;301;37;42
+47;1;302;43;48
+47;1;306;49;54
+47;1;307;55;60
+47;1;308;61;65
+47;1;309;66;71
+47;1;311;72;77
+47;1;312;78;82
+47;1;315;83;88
+47;1;317;89;94
+47;1;323;95;100
+47;1;324;101;106
+47;1;326;107;110
+47;1;331;111;116
+47;2;334;0;4
+47;2;336;5;10
+47;2;337;11;16
+47;2;338;17;22
+47;2;339;23;28
+47;2;340;29;34
+47;2;343;35;39
+47;2;344;40;45
+48;0;196;0;5
+48;0;232;6;11
+48;0;233;12;16
+48;0;234;17;22
+48;0;237;23;27
+48;0;251;28;33
+48;0;252;34;39
+48;0;253;40;45
+48;0;254;46;51
+48;0;257;52;57
+48;0;260;58;63
+48;0;263;64;69
+48;0;266;70;75
+48;0;279;76;81
+48;0;280;82;87
+48;0;281;88;93
+48;0;282;94;99
+48;0;283;100;105
+48;0;286;106;111
+48;0;288;112;117
+48;1;292;0;5
+48;1;296;6;11
+48;1;297;12;17
+48;1;299;18;24
+48;1;301;25;30
+48;1;302;31;36
+48;1;306;37;42
+48;1;307;43;48
+48;1;308;49;53
+48;1;309;54;59
+48;1;311;60;65
+48;1;312;66;70
+48;1;315;71;76
+48;1;317;77;82
+48;1;323;83;88
+48;1;324;89;94
+48;1;326;95;98
+48;1;331;99;104
+48;1;334;105;109
+48;1;336;110;115
+48;2;337;0;5
+48;2;338;6;11
+48;2;339;12;17
+48;2;340;18;23
+48;2;343;24;28
+48;2;344;29;34
+49;0;196;0;5
+49;0;232;6;11
+49;0;234;12;17
+49;0;237;18;22
+49;0;251;23;28
+49;0;252;29;34
+49;0;253;35;40
+49;0;254;41;46
+49;0;257;47;52
+49;0;260;53;58
+49;0;263;59;64
+49;0;266;65;70
+49;0;279;71;76
+49;0;280;77;82
+49;0;281;83;88
+49;0;282;89;94
+49;0;283;95;100
+49;0;288;101;106
+49;0;292;107;112
+49;0;296;113;118
+49;1;297;0;5
+49;1;299;6;12
+49;1;301;13;18
+49;1;302;19;24
+49;1;306;25;30
+49;1;307;31;36
+49;1;308;37;41
+49;1;309;42;47
+49;1;311;48;53
+49;1;312;54;58
+49;1;315;59;64
+49;1;317;65;70
+49;1;323;71;76
+49;1;324;77;82
+49;1;326;83;86
+49;1;331;87;92
+49;1;334;93;97
+49;1;336;98;103
+49;1;337;104;109
+49;1;338;110;115
+49;2;339;0;5
+49;2;340;6;11
+49;2;343;12;16
+49;2;344;17;22
+50;0;232;0;5
+50;0;237;6;10
+50;0;251;11;16
+50;0;252;17;22
+50;0;253;23;28
+50;0;254;29;34
+50;0;257;35;40
+50;0;260;41;46
+50;0;263;47;52
+50;0;266;53;58
+50;0;279;59;64
+50;0;280;65;70
+50;0;281;71;76
+50;0;282;77;82
+50;0;283;83;88
+50;0;292;89;94
+50;0;296;95;100
+50;0;297;101;106
+50;0;299;107;113
+50;0;301;114;119
+50;1;302;0;5
+50;1;306;6;11
+50;1;307;12;17
+50;1;308;18;22
+50;1;309;23;28
+50;1;311;29;34
+50;1;312;35;39
+50;1;315;40;45
+50;1;317;46;51
+50;1;323;52;57
+50;1;326;58;61
+50;1;331;62;67
+50;1;334;68;72
+50;1;336;73;78
+50;1;337;79;84
+50;1;338;85;90
+50;1;339;91;96
+50;1;340;97;102
+50;1;343;103;107
+50;1;344;108;113
+51;0;232;0;5
+51;0;237;6;10
+51;0;251;11;16
+51;0;252;17;22
+51;0;253;23;28
+51;0;254;29;34
+51;0;257;35;40
+51;0;263;41;46
+51;0;279;47;52
+51;0;280;53;58
+51;0;281;59;64
+51;0;282;65;70
+51;0;283;71;76
+51;0;292;77;82
+51;0;296;83;88
+51;0;297;89;94
+51;0;299;95;101
+51;0;301;102;107
+51;0;302;108;113
+51;0;306;114;119
+51;1;307;0;5
+51;1;308;6;10
+51;1;309;11;16
+51;1;311;17;22
+51;1;312;23;27
+51;1;315;28;33
+51;1;317;34;39
+51;1;323;40;45
+51;1;326;46;49
+51;1;331;50;55
+51;1;334;56;60
+51;1;336;61;66
+51;1;337;67;72
+51;1;339;73;78
+51;1;340;79;84
+51;1;343;85;89
+51;1;344;90;95
+52;0;232;0;5
+52;0;237;6;10
+52;0;254;11;16
+52;0;257;17;22
+52;0;279;23;28
+52;0;280;29;34
+52;0;281;35;40
+52;0;282;41;46
+52;0;283;47;52
+52;0;292;53;58
+52;0;296;59;64
+52;0;302;65;70
+52;0;306;71;76
+52;0;307;77;82
+52;0;308;83;87
+52;0;309;88;93
+52;0;311;94;99
+52;0;312;100;104
+52;0;315;105;110
+52;0;317;111;116
+52;1;323;0;5
+52;1;326;6;9
+52;1;331;10;15
+52;1;334;16;20
+52;1;336;21;26
+52;1;339;27;32
+52;1;340;33;38
+52;1;343;39;43
+52;1;344;44;49
+53;0;232;0;5
+53;0;237;6;10
+53;0;254;11;16
+53;0;257;17;22
+53;0;279;23;28
+53;0;280;29;34
+53;0;281;35;40
+53;0;282;41;46
+53;0;283;47;52
+53;0;292;53;58
+53;0;296;59;64
+53;0;302;65;70
+53;0;306;71;76
+53;0;307;77;82
+53;0;308;83;87
+53;0;309;88;93
+53;0;311;94;99
+53;0;312;100;104
+53;0;315;105;110
+53;0;317;111;116
+53;1;323;0;5
+53;1;326;6;9
+53;1;331;10;15
+53;1;334;16;20
+53;1;336;21;26
+53;1;339;27;32
+53;1;340;33;38
+53;1;343;39;43
+53;1;344;44;49
+54;0;232;0;5
+54;0;237;6;10
+54;0;254;11;16
+54;0;280;17;22
+54;0;281;23;28
+54;0;282;29;34
+54;0;292;35;40
+54;0;296;41;46
+54;0;302;47;52
+54;0;306;53;58
+54;0;307;59;64
+54;0;308;65;69
+54;0;309;70;75
+54;0;311;76;81
+54;0;312;82;86
+54;0;315;87;92
+54;0;317;93;98
+54;0;323;99;104
+54;0;326;105;108
+54;0;331;109;114
+54;0;334;115;119
+54;1;336;0;5
+54;1;339;6;11
+54;1;340;12;17
+54;1;343;18;22
+54;1;344;23;28
+55;0;232;0;5
+55;0;237;6;10
+55;0;280;11;16
+55;0;281;17;22
+55;0;282;23;28
+55;0;292;29;34
+55;0;296;35;40
+55;0;302;41;46
+55;0;306;47;52
+55;0;307;53;58
+55;0;308;59;63
+55;0;309;64;69
+55;0;311;70;75
+55;0;312;76;80
+55;0;315;81;86
+55;0;317;87;92
+55;0;323;93;98
+55;0;326;99;102
+55;0;331;103;108
+55;0;334;109;113
+55;0;336;114;119
+55;1;339;0;5
+55;1;340;6;11
+55;1;343;12;16
+55;1;344;17;22
+56;0;232;0;5
+56;0;237;6;10
+56;0;280;11;16
+56;0;281;17;22
+56;0;282;23;28
+56;0;292;29;34
+56;0;296;35;40
+56;0;302;41;46
+56;0;306;47;52
+56;0;307;53;58
+56;0;308;59;63
+56;0;309;64;69
+56;0;311;70;75
+56;0;312;76;80
+56;0;315;81;86
+56;0;317;87;92
+56;0;323;93;98
+56;0;326;99;102
+56;0;331;103;108
+56;0;334;109;113
+56;0;336;114;119
+56;1;339;0;5
+56;1;340;6;11
+56;1;343;12;16
+56;1;344;17;22
+57;0;232;0;5
+57;0;237;6;10
+57;0;292;11;16
+57;0;296;17;22
+57;0;302;23;28
+57;0;306;29;34
+57;0;307;35;40
+57;0;308;41;45
+57;0;309;46;51
+57;0;311;52;57
+57;0;312;58;62
+57;0;317;63;68
+57;0;323;69;74
+57;0;331;75;80
+57;0;334;81;85
+57;0;340;86;91
+57;0;343;92;96
+57;0;344;97;102
+58;0;232;0;5
+58;0;237;6;10
+58;0;292;11;16
+58;0;296;17;22
+58;0;302;23;28
+58;0;306;29;34
+58;0;307;35;40
+58;0;308;41;45
+58;0;309;46;51
+58;0;311;52;57
+58;0;312;58;62
+58;0;323;63;68
+58;0;331;69;74
+58;0;334;75;79
+58;0;344;80;85
+59;0;232;0;5
+59;0;237;6;10
+59;0;302;11;16
+59;0;306;17;22
+59;0;307;23;28
+59;0;309;29;34
+59;0;311;35;40
+59;0;323;41;46
+59;0;331;47;52
+59;0;334;53;57
+60;0;232;0;5
+60;0;237;6;10
+60;0;306;11;16
+60;0;307;17;22
+60;0;309;23;28
+60;0;311;29;34
+60;0;331;35;40
+60;0;334;41;45
+61;0;309;0;5
+61;0;311;6;11
+61;0;331;12;17
+61;0;334;18;22
+62;0;311;0;5
+62;0;331;6;11
+62;0;334;12;16
+63;0;311;0;5
+63;0;331;6;11
+63;0;334;12;16
+64;0;334;0;4
+65;0;334;0;4

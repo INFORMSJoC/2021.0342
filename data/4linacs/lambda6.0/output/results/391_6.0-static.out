@@ -1,0 +1,65 @@
+{
+    "arrivalrate": 6.0,
+    "ins_name": 391,
+    "ins_path": "/home/tusan/projects/def-roussea5/tusan/exp/2021_Oct/4linacs/lambda6.0/data",
+    "lNoNewPatients": [
+        180,
+        2,
+        76,
+        56,
+        46
+    ],
+    "lNoPatients": [
+        347,
+        2,
+        84,
+        161,
+        100
+    ],
+    "lNoSections": [
+        2257,
+        11,
+        232,
+        1179,
+        835
+    ],
+    "mipgap": 0.01478945942320261,
+    "noLinacs": 4,
+    "noSlotsPerDay": 120,
+    "planningHorizon": 80,
+    "runresult": {
+        "feasibility": true,
+        "lAvgLateDayByPriority": [
+            10.55,
+            1.5,
+            0.05263157894736842,
+            25.357142857142858,
+            10.26086956521739
+        ],
+        "lAvgWaitDayByPriority": [
+            22.272222222222222,
+            1.5,
+            1.6578947368421053,
+            39.357142857142854,
+            36.43478260869565
+        ],
+        "lLateDayByPriority": [
+            1899,
+            3,
+            4,
+            1420,
+            472
+        ],
+        "lWaitDayByPriority": [
+            4009,
+            3,
+            126,
+            2204,
+            1676
+        ],
+        "objval": 20344.54151683556
+    },
+    "runtime": 3565.945073366165,
+    "simdays": 30,
+    "solver": "static"
+}
