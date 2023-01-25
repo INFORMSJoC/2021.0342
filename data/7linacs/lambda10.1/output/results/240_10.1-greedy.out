@@ -1,0 +1,65 @@
+{
+    "arrivalrate": 10.1,
+    "ins_name": 240,
+    "ins_path": null,
+    "lNoNewPatients": [
+        308,
+        1,
+        117,
+        113,
+        77
+    ],
+    "lNoPatients": [
+        544,
+        1,
+        129,
+        251,
+        163
+    ],
+    "lNoSections": [
+        4185,
+        2,
+        352,
+        2345,
+        1486
+    ],
+    "mipgap": 1.0,
+    "noLinacs": 7,
+    "noSlotsPerDay": 120,
+    "planningHorizon": 80,
+    "runresult": {
+        "feasibility": true,
+        "lAvgLateDayByPriority": [
+            12.185064935064934,
+            22.0,
+            12.811965811965813,
+            16.539823008849556,
+            4.714285714285714
+        ],
+        "lAvgWaitDayByPriority": [
+            24.678571428571427,
+            22.0,
+            15.222222222222221,
+            29.893805309734514,
+            31.428571428571427
+        ],
+        "lLateDayByPriority": [
+            3753,
+            22,
+            1499,
+            1869,
+            363
+        ],
+        "lWaitDayByPriority": [
+            7601,
+            22,
+            1781,
+            3378,
+            2420
+        ],
+        "objval": 2689.6106734956293
+    },
+    "runtime": 2.140333890914917,
+    "simdays": 30,
+    "solver": "greedy"
+}
