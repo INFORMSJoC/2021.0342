@@ -26,7 +26,7 @@ Below is the BibTex for citing this software.
   publisher =     {INFORMS Journal on Computing},
   title =         {A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment},
   year =          {2023},
-  doi =           {588879725}
+  doi =           {}
   url =           {https://github.com/INFORMSJoc/
 }  
 ```
