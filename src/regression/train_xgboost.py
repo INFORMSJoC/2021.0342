@@ -151,10 +151,10 @@ def plot_shap_beeswarm(modelfile, train_file, img_folder = None):
     l_indices = [100, 5000]#10, 100, 1000, 5000, 7000, 12000]
     for idx in l_indices:                       
         plt.figure(figsize=(6,6))
-        waterfall = shap.plots.waterfall(exp[idx], max_display=14, show=True)
+        waterfall = shap.plots.waterfall(exp[idx], max_display=14, show=False)
         waterfall = f'{img_folder}waterfall_{idx}.png'
         plt.tight_layout()
-        plt.savefig(waterfall)
+        plt.savefig(waterfall, bbox_inches='tight')
         plt.clf()
         print('saved figure to ', waterfall)
 
