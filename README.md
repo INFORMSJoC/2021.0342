@@ -27,7 +27,7 @@ Below is the BibTex for citing this software.
   title =         {A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment},
   year =          {2023},
   doi =           {10.5281/zenodo.7569112}
-  url =           {https://github.com/INFORMSJoc/
+  url =           {https://github.com/INFORMSJoc/2021.0342
 }  
 ```
 ## Description
