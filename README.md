@@ -16,7 +16,9 @@ The approach also supports explainability in decision-making.
 
 ## Cite
 
-To cite this software, please cite the [TO BE UPDATED - DOI is not avaialble yet]() using its DOI.
+[![DOI](https://zenodo.org/badge/588879725.svg)](https://zenodo.org/badge/latestdoi/588879725)
+
+Below is the BibTex for citing this software.
 
 ```
 @article{Pham23,
