@@ -22,13 +22,13 @@ Below is the BibTex for citing this software.
 
 ```
 @article{Pham23,
-  author =        {Pham, T. S., Legrain, A., De Causmaecker, P., & Rousseau, L. M. },
+  author =        {Pham, Tu-San and Antoine, Antoine and De Causmaecker, Patrick and Rousseau, Louis-Martin}, 
   publisher =     {INFORMS Journal on Computing},
   title =         {A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment},
   year =          {2023},
-  doi =           {10.5281/zenodo.7579533}
-  url =           {https://github.com/INFORMSJoc/2021.0342
-}  
+  doi =           {10.5281/zenodo.7579533},
+  note =           {available for download at \url{https://github.com/INFORMSJoc/2021.0342}}
+}
 ```
 ## Description
 
