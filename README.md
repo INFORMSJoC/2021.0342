@@ -1,11 +1,11 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment
+# [A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment](https://doi.org/10.1287/ijoc.2023.1289)
 
 This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
 The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper 
-"A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment". 
+["A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment"](https://doi.org/10.1287/ijoc.2023.1289). 
 The snapshot is based on 
 [this SHA](https://github.com/ge660/2021.0342/commit/4a3c4dd0250a9d85357be851560a776e5b3aad76)
 in the development repository.
