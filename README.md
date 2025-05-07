@@ -16,7 +16,7 @@ The approach also supports explainability in decision-making.
 
 ## Cite
 
-[![DOI](https://zenodo.org/badge/588879725.svg)](https://zenodo.org/badge/latestdoi/588879725)
+Cite this repository using its DOI: [https://doi.org/10.1287/ijoc.2023.1289.cd](https://doi.org/10.1287/ijoc.2023.1289.cd)
 
 Below is the BibTex for citing this software.
 
@@ -26,8 +26,8 @@ Below is the BibTex for citing this software.
   publisher =     {INFORMS Journal on Computing},
   title =         {A prediction-based approach for online dynamic appointment scheduling: a case study in radiotherapy treatment},
   year =          {2023},
-  doi =           {10.5281/zenodo.7579533},
-  note =           {available for download at \url{https://github.com/INFORMSJoc/2021.0342}}
+  doi =           {10.1287/ijoc.2023.1289.cd},
+  note =          {available for download at \url{https://github.com/INFORMSJoc/2021.0342}}
 }
 ```
 ## Description
